@@ -1,3 +1,5 @@
+Name this Claude chat: Longtail Travel (Thailand)
+
 Build a travel website for Thailand in this repo, from scratch.
 
 Brand:
