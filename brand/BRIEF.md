@@ -1,3 +1,5 @@
+> **Brand name changed to Longtail Travel** (was Longtail). The owner chose travel-company names. Use Longtail Travel everywhere; the build prompt is brand/PROMPT.md.
+
 # Brand brief: Longtail (Thailand)
 
 Slug and repo: `thailand`. Country: Thailand (TH). Brand type: country. Brief v1, 2026-10-26. Facts below were checked on that date. Anything marked *verify* needs an official source before launch.
