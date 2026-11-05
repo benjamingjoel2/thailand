@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "slug": "which-coast-which-month",
+      "title": "Which coast in which month",
+      "date": "2026-10-20",
+      "minutes": 4,
+      "img": "coast-gulf",
+      "alt": "A calm beach on the Gulf of Thailand",
+      "excerpt": "Thailand has two coasts and two monsoons. Here is how we choose between them, month by month.",
+      "metaDescription": "How to choose between Thailand's Andaman coast and the Gulf of Thailand for your travel month, and why October is the awkward one.",
+      "body": [
+        { "type": "p", "text": "The most common question we're asked is a simple one: where should we go to the beach? The honest answer always starts with another question. When?" },
+        { "type": "h", "text": "Two monsoons" },
+        { "type": "p", "text": "Thailand's west coast faces the Andaman Sea and the Indian Ocean. From about May to October the southwest monsoon blows in from that side, bringing rain, wind and swell to Krabi, Koh Lanta and Phuket. The east coast faces the Gulf of Thailand. It is sheltered from the southwest monsoon by the mountains of the peninsula, and gets its heaviest rain later in the year, from about October to December, when the northeast monsoon arrives." },
+        { "type": "p", "text": "So the coasts take turns. Broadly, go west from November to April and east from February to August. In February, March and much of April, both sides are good." },
+        { "type": "h", "text": "The awkward months" },
+        { "type": "p", "text": "October and November are the hard ones. Early October can still be fine in the Gulf, while the Andaman is wet; by November the Andaman is drying out and the Gulf has its wettest weeks. We plan these months carefully and sometimes suggest the north instead, where the cool season begins in November." },
+        { "type": "h", "text": "Koh Kood, the exception" },
+        { "type": "p", "text": "Koh Kood sits in the Gulf but far to the east, and it takes the southwest monsoon more like the Andaman side. Treat it as a November-to-April island." },
+        { "type": "p", "text": "These are patterns, not promises. Every year is different, and a wet month can bring days of sun. Our two-coasts picker shows each month at a glance." }
+      ]
+    },
+    {
+      "slug": "a-morning-on-the-khlongs",
+      "title": "A morning on the khlongs",
+      "date": "2026-09-14",
+      "minutes": 3,
+      "img": "khlong-2",
+      "alt": "A longtail boat on a Bangkok canal",
+      "excerpt": "Why we start every Bangkok visit on the water, before six, and what you see in the first two hours.",
+      "metaDescription": "Why we start Bangkok on the water at first light: a private longtail through the khlongs of Thonburi, from Tha Tien pier to Khlong Bang Luang.",
+      "body": [
+        { "type": "p", "text": "Bangkok at midday is hot, loud and full. Bangkok at six in the morning, on the water, is a different city." },
+        { "type": "p", "text": "We meet at Tha Tien pier, below Wat Pho, while the river is still grey. The boatman has already lowered the engine and checked the propeller shaft. The boat crosses the Chao Phraya in a few minutes and turns into Khlong Bangkok Yai, and the noise of the city falls away behind it." },
+        { "type": "h", "text": "Life on the canal" },
+        { "type": "p", "text": "On both sides are wooden houses on stilts, many with a small shrine at the landing. Someone is cooking rice. A monk is being rowed between houses. A dog watches from a step. The longtail slows down here, because the wake slaps against the houses and the boatmen are courteous about it." },
+        { "type": "p", "text": "At Khlong Bang Luang we stop at an old wooden house where artists work, and drink coffee on the landing. Then on, under low bridges, past temples whose steps run down into the water." },
+        { "type": "h", "text": "Back before the heat" },
+        { "type": "p", "text": "By nine we are back at the river, and the day is still cool. That is the point. The rest of the day is for the shade, a long lunch and a rest; the evening is for food." }
+      ]
+    },
+    {
+      "slug": "the-green-season",
+      "title": "The green season, honestly",
+      "date": "2026-08-02",
+      "minutes": 3,
+      "img": "journal-2",
+      "alt": "Monsoon clouds gathering over the sea",
+      "excerpt": "What the rains are really like in Thailand, where they matter and where they don't.",
+      "metaDescription": "What Thailand's rainy season is really like: afternoon storms, green hills and quiet temples, and where rough seas matter for island holidays.",
+      "body": [
+        { "type": "p", "text": "The Thai travel trade calls the rainy months the green season. It is a kind name, and mostly a fair one." },
+        { "type": "h", "text": "Inland, it is often lovely" },
+        { "type": "p", "text": "In Bangkok and the north, a typical rainy-season day is hot and bright in the morning, with a heavy storm in the afternoon that clears the air. The rice fields are bright green, the hills are full of water and the temples are quiet. September is usually the wettest month, and Bangkok can flood in its lowest streets after heavy downpours." },
+        { "type": "h", "text": "On the exposed coast, it matters" },
+        { "type": "p", "text": "The sea is a different story. On the Andaman side from May to October, swell and wind can make west-facing beaches unsafe for swimming for weeks, boat trips are cancelled and some islands nearly close. On the Gulf side, the same is true from about October to December." },
+        { "type": "p", "text": "Koh Lanta in September is green, quiet and often rough. We'd send you to Samui, or come back in January." },
+        { "type": "h", "text": "How we plan for it" },
+        { "type": "p", "text": "We plan boat days early in the morning, keep the afternoons flexible and choose the coast that is drier in your month. And we tell you plainly when a place is not worth it." }
+      ]
+    }
+  ]
+}

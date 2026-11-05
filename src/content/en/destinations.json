@@ -1,0 +1,403 @@
+{
+  "index": {
+    "title": "Destinations",
+    "metaTitle": "Destinations in Thailand by water and season",
+    "metaDescription": "Eleven places in Thailand we plan around rivers, canals and coasts: Bangkok, Ayutthaya, the north, Khao Sok and the islands of the Andaman and the Gulf.",
+    "eyebrow": "Eleven places",
+    "heading": "Where the water goes.",
+    "intro": "We plan Thailand along its water. The Chao Phraya carries you from Bangkok to the old capitals. Rivers and reservoirs run through the hills of the north. Then you choose a coast, and the month decides which one.",
+    "filterAll": "All"
+  },
+  "items": [
+    {
+      "slug": "bangkok",
+      "code": "TH-01",
+      "name": "Bangkok",
+      "region": "central",
+      "tagline": "The city from its canals, not its skytrain.",
+      "metaDescription": "Bangkok by longtail: the Thonburi khlongs at first light, the Chao Phraya, markets with a chef-guide and quiet riverside houses. Planned by Longtail Travel.",
+      "heroImage": "khlong-1",
+      "heroAlt": "Wooden houses on stilts along a canal in Thonburi, Bangkok",
+      "gallery": [
+        { "img": "bangkok-1", "alt": "Wat Arun seen across the Chao Phraya river" },
+        { "img": "khlong-2", "alt": "A longtail boat on a Bangkok canal" }
+      ],
+      "ratings": [3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 3, 3],
+      "bestText": "November to February",
+      "nights": "3–4",
+      "gettingThere": "Most long-haul flights land at Suvarnabhumi (BKK); some regional flights use Don Mueang (DMK). The river and the canals start a short drive from either.",
+      "goodFor": ["First mornings in Thailand", "Food with a chef-guide", "Families who like boats"],
+      "overview": [
+        "Bangkok began on the water. Before roads, the khlongs of Thonburi on the west bank were its streets, and many are still lived on: houses on stilts, a shrine at every landing, children jumping off the steps after school.",
+        "We start your visit on the river, before the heat. A private longtail leaves a pier near the Grand Palace at first light and turns into the smaller canals while the city is still waking. The afternoon is for rest. The evening is for food."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "The Chao Phraya Express boats run up and down the river all day, and the cross-river ferries cost a few baht. We book a private longtail for the khlongs, with a boatman who knows when the water is high enough to pass under the low bridges.",
+      "experiences": [
+        { "title": "The khlongs at first light", "text": "Two to three hours on Khlong Bangkok Yai and Khlong Bang Luang by private longtail, with a stop for coffee and Thai doughnuts on a landing." },
+        { "title": "Markets with a chef-guide", "text": "A morning walk through a fresh market and a flower market, then lunch at counters that have cooked one dish for decades." },
+        { "title": "Temples by the river", "text": "Wat Arun and Wat Pho before the tour groups, crossing by ferry between them." },
+        { "title": "An evening on the river", "text": "A small boat at dusk, when the lights come on along both banks." }
+      ],
+      "stays": [
+        { "name": "Riverside Teak House", "kind": "Small hotel on the Thonburi bank", "text": "A restored wooden house with a private pier, so the boat can collect you at the door.", "img": "stays-3" },
+        { "name": "The Old Customs Rooms", "kind": "Heritage rooms near the river", "text": "High ceilings, shuttered windows and the express-boat pier a few minutes' walk away.", "img": "bangkok-2" }
+      ],
+      "note": ""
+    },
+    {
+      "slug": "ayutthaya",
+      "code": "TH-02",
+      "name": "Ayutthaya",
+      "region": "central",
+      "tagline": "The old capital on its river island.",
+      "metaDescription": "Ayutthaya by bicycle at dawn and by boat at sunset: the ruined capital of Siam on an island ringed by three rivers, an easy trip north of Bangkok.",
+      "heroImage": "ayutthaya-1",
+      "heroAlt": "The prang of Wat Chaiwatthanaram in Ayutthaya beside the river",
+      "gallery": [
+        { "img": "ayutthaya-2", "alt": "Brick chedis in the Ayutthaya Historical Park" },
+        { "img": "journey-4", "alt": "A Thai market stall with fruit and flowers" }
+      ],
+      "ratings": [3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 3, 3],
+      "bestText": "November to February",
+      "nights": "1–2",
+      "gettingThere": "About 80 km north of Bangkok: around 90 minutes by car, by train from Bangkok, or by river boat on selected days.",
+      "goodFor": ["History without the crowds", "Cycling", "A slow way north"],
+      "overview": [
+        "For four centuries Ayutthaya was the capital of Siam, until it was sacked in 1767. Its temples stand on an island where the Chao Phraya, the Pa Sak and the Lopburi rivers meet, and the ruins are a UNESCO World Heritage Site.",
+        "Most visitors come for a hot afternoon on a coach. We suggest one night instead: bicycles at seven, before the heat and the groups, a long lunch, then a boat around the island as the brick turns orange."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "A boat circles the island in the late afternoon and passes Wat Chaiwatthanaram from the river side, which is how it was meant to be seen. On some days you can arrive from Bangkok by boat, a long and lovely day on the Chao Phraya.",
+      "experiences": [
+        { "title": "Ruins by bicycle at dawn", "text": "Flat lanes between the temples with a local guide, finished before ten." },
+        { "title": "The island by boat at sunset", "text": "An hour around the rivers, with Wat Chaiwatthanaram at the end." },
+        { "title": "River prawns for lunch", "text": "Grilled at a riverside restaurant where the boats tie up." },
+        { "title": "On to the north", "text": "Ayutthaya sits on the railway north, so it fits neatly before Sukhothai or Chiang Mai." }
+      ],
+      "stays": [
+        { "name": "The Island Guest House", "kind": "Small riverside guest house", "text": "A handful of rooms facing the water, a short ride from the historical park.", "img": "ayutthaya-2" }
+      ],
+      "note": ""
+    },
+    {
+      "slug": "chiang-mai",
+      "code": "TH-03",
+      "name": "Chiang Mai",
+      "region": "north",
+      "tagline": "Lanna houses, cool mornings and makers.",
+      "metaDescription": "Chiang Mai in the cool season: Lanna temples inside the old moat, craft with makers, Doi Suthep and an observation-only elephant sanctuary.",
+      "heroImage": "chiangmai-1",
+      "heroAlt": "A golden chedi at a Chiang Mai temple",
+      "gallery": [
+        { "img": "chiangmai-2", "alt": "Green hills and terraces near Chiang Mai" },
+        { "img": "stays-1", "alt": "A traditional wooden Thai house with a steep roof" }
+      ],
+      "ratings": [3, 2, 1, 1, 2, 2, 2, 2, 1, 2, 3, 3],
+      "bestText": "November to January",
+      "nights": "3–4",
+      "gettingThere": "About 70 minutes by air from Bangkok, or an overnight train of around 11 to 13 hours with sleeper berths.",
+      "goodFor": ["Craft and food", "Cool-season walking", "Ethical elephant visits"],
+      "overview": [
+        "Chiang Mai was founded in 1296 as the capital of the Lanna kingdom, and the square moat still frames the old city. There are more than a hundred temples inside and around it, many of teak, and mornings in December can be cool enough for a jumper.",
+        "We base you in a Lanna-style house with a verandah and plan the days around makers: silver on Wualai Road, weaving and lacquer in the villages to the east, and a cooking class that starts at the market."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "The Ping River runs through the city. A slow boat or a bamboo raft upriver is a calm hour, and in November the city floats its lanterns and krathongs on the water for Yi Peng and Loy Krathong.",
+      "experiences": [
+        { "title": "Doi Suthep before the crowds", "text": "The temple on the mountain above the city, reached early by road, with the forest trail for walkers." },
+        { "title": "Makers of the Lanna crafts", "text": "Silver, lacquer and weaving with the families who still work by hand." },
+        { "title": "An observation-only sanctuary", "text": "A day watching elephants from a distance at a sanctuary we have checked. No riding, no bathing." },
+        { "title": "Doi Inthanon", "text": "A day to Thailand's highest mountain, with Karen villages and rice terraces on the way." }
+      ],
+      "stays": [
+        { "name": "Lanna Verandah House", "kind": "Teak house hotel near the old city", "text": "Wooden rooms around a garden, with breakfast on the verandah.", "img": "stays-1" },
+        { "name": "The River Ping Rooms", "kind": "Small riverside hotel", "text": "Quiet rooms on the east bank, a short walk from the night market.", "img": "chiangmai-2" }
+      ],
+      "note": "From about February to April, smoke from agricultural burning can bring heavy haze to the north. We plan the north for November to January."
+    },
+    {
+      "slug": "chiang-rai",
+      "code": "TH-04",
+      "name": "Chiang Rai and the Golden Triangle",
+      "region": "north",
+      "tagline": "White temples and the Mekong at three borders.",
+      "metaDescription": "Chiang Rai and the Golden Triangle: Wat Rong Khun, tea hills, the old walled town of Chiang Saen and a longtail on the Mekong where Thailand, Laos and Myanmar meet.",
+      "heroImage": "chiangrai-1",
+      "heroAlt": "Wat Rong Khun, the white temple of Chiang Rai",
+      "gallery": [
+        { "img": "chiangrai-2", "alt": "The Mekong river at the Golden Triangle" },
+        { "img": "north-hilltribe", "alt": "A village among fields in the hills of northern Thailand" }
+      ],
+      "ratings": [3, 2, 1, 1, 2, 2, 2, 2, 1, 2, 3, 3],
+      "bestText": "November to January",
+      "nights": "2–3",
+      "gettingThere": "About 80 minutes by air from Bangkok, or around three hours by road from Chiang Mai.",
+      "goodFor": ["The Mekong by boat", "Contemporary Thai art", "Tea hills"],
+      "overview": [
+        "Chiang Rai is smaller and slower than Chiang Mai, and it has become a city of artists. Wat Rong Khun, the white temple, was begun by the painter Chalermchai Kositpipat in the 1990s and is still being built. Baan Dam, the black house of Thawan Duchanee, sits north of town.",
+        "An hour further north, the Ruak river meets the Mekong at Sop Ruak. This is the Golden Triangle, where Thailand, Laos and Myanmar face each other across the water."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "A longtail on the Mekong from Chiang Saen is the way to see the three borders: wide brown water, sandbanks, and fishing boats from both banks. We keep to the Thai side of the river.",
+      "experiences": [
+        { "title": "The white temple at opening time", "text": "Wat Rong Khun at eight, before the coaches, then Baan Dam." },
+        { "title": "The Mekong by longtail", "text": "From the old walled town of Chiang Saen to Sop Ruak and back." },
+        { "title": "Tea in the hills", "text": "Oolong estates and a quiet lunch in the hills above Mae Salong." },
+        { "title": "The Hall of Opium", "text": "A thoughtful museum on the history of the region and its trade." }
+      ],
+      "stays": [
+        { "name": "The Mekong Terraces", "kind": "Lodge above the river", "text": "Rooms looking over the water towards Laos.", "img": "chiangrai-2" }
+      ],
+      "note": "Check the latest government travel advice for areas close to the Myanmar border before you travel."
+    },
+    {
+      "slug": "mae-hong-son",
+      "code": "TH-05",
+      "name": "Mae Hong Son",
+      "region": "north",
+      "tagline": "Mist, mountain lakes and Shan temples.",
+      "metaDescription": "Mae Hong Son: a mountain province of misty valleys, Shan temples reflected in a lake, bamboo bridges over rice fields and the slow road through Pai.",
+      "heroImage": "maehongson-1",
+      "heroAlt": "Misty hills and water in Mae Hong Son province",
+      "gallery": [
+        { "img": "maehongson-2", "alt": "A misty valley in Mae Hong Son province" },
+        { "img": "north-hilltribe", "alt": "A hill village surrounded by fields in northern Thailand" }
+      ],
+      "ratings": [3, 2, 1, 1, 2, 2, 2, 2, 1, 2, 3, 3],
+      "bestText": "November to January",
+      "nights": "3",
+      "gettingThere": "A short flight from Chiang Mai on some days, or a long, winding mountain road through Pai.",
+      "goodFor": ["Slow travel", "Walking", "Shan culture"],
+      "overview": [
+        "Mae Hong Son is Thailand's most mountainous province, pressed against the Myanmar border, and for a long time it was reached mainly by air. The town wraps around a small lake, and the Shan-style temples of Wat Chong Kham and Wat Chong Klang are reflected in it at dawn.",
+        "Outside town the valleys fill with mist in the cool season. We plan short walks, a morning at the reservoir of Pang Ung, the bamboo bridge of Su Tong Pae across the rice fields, and nights in small lodges."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "Pang Ung is a reservoir ringed by pines, still and silver in the early morning. In Tham Lod cave, near Soppong, bamboo rafts carry you through the chambers by lantern light.",
+      "experiences": [
+        { "title": "Pang Ung at dawn", "text": "Mist on the reservoir and a breakfast of tea and rice soup." },
+        { "title": "Su Tong Pae bridge", "text": "A long bamboo bridge over the rice fields, built for the monks' morning walk." },
+        { "title": "Tham Lod by raft", "text": "Through the cave with a local guide and a lantern." },
+        { "title": "The road through Pai", "text": "Viewpoints and hot springs, with a driver who knows the curves." }
+      ],
+      "stays": [
+        { "name": "The Valley Lodge", "kind": "Small lodge outside town", "text": "Wooden cottages above the rice fields.", "img": "maehongson-2" }
+      ],
+      "note": "We do not book visits to villages where Kayan women are presented as an attraction. See our page on visiting hill-tribe villages."
+    },
+    {
+      "slug": "sukhothai",
+      "code": "TH-06",
+      "name": "Sukhothai",
+      "region": "central",
+      "tagline": "The first capital, among lotus ponds.",
+      "metaDescription": "Sukhothai: the first capital of Siam, its temples among lotus ponds and moats, explored by bicycle in the quiet of the early morning.",
+      "heroImage": "sukhothai-1",
+      "heroAlt": "Wat Mahathat in the Sukhothai Historical Park",
+      "gallery": [
+        { "img": "sukhothai-2", "alt": "A temple on an island in a pond at Sukhothai" },
+        { "img": "journal-3", "alt": "Lights floating on water at night" }
+      ],
+      "ratings": [3, 3, 2, 1, 2, 2, 2, 2, 1, 1, 3, 3],
+      "bestText": "November to February",
+      "nights": "2",
+      "gettingThere": "A short flight from Bangkok, around five hours by road from Chiang Mai, or by train to Phitsanulok and an hour by car.",
+      "goodFor": ["Cycling", "Quiet history", "Loy Krathong"],
+      "overview": [
+        "Sukhothai was the first capital of a Thai kingdom, in the 13th century, and its historical park is calmer and greener than Ayutthaya. Temples stand on islands in ponds and moats, and the old city walls frame a park of lawns and lotus.",
+        "We send you out on bicycles at first light. By nine you have seen the great seated Buddha of Wat Si Chum and the lines of columns at Wat Mahathat with only the gardeners for company."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "Water was the city's engine: reservoirs, moats and channels kept it alive through the dry season. Wat Sa Si stands on an island, reached by a footbridge across a lotus pond.",
+      "experiences": [
+        { "title": "The park by bicycle", "text": "Two to three hours on flat paths with a guide, before the heat." },
+        { "title": "Si Satchanalai", "text": "The sister city to the north, even quieter, among teak trees by the Yom river." },
+        { "title": "Loy Krathong", "text": "In November, when the town floats candles and flowers on the water under the full moon." },
+        { "title": "Sangkhalok ceramics", "text": "The old kilns and a small museum of the glazed ware once traded across Asia." }
+      ],
+      "stays": [
+        { "name": "The Lotus Pond Rooms", "kind": "Garden hotel near the park", "text": "Low wooden rooms around a pond, ten minutes by bicycle from the old city.", "img": "sukhothai-2" }
+      ],
+      "note": ""
+    },
+    {
+      "slug": "khao-sok",
+      "code": "TH-07",
+      "name": "Khao Sok",
+      "region": "south",
+      "tagline": "A night on Cheow Lan Lake, with no road in.",
+      "metaDescription": "Khao Sok National Park: limestone karsts rising from Cheow Lan Lake, a floating raft house reached by longtail, rainforest walks and gibbons at dawn.",
+      "heroImage": "khaosok-1",
+      "heroAlt": "Limestone karsts rising from Cheow Lan Lake in Khao Sok",
+      "gallery": [
+        { "img": "khaosok-2", "alt": "Rainforest and water in Khao Sok National Park" },
+        { "img": "stays-2", "alt": "Simple wooden bungalows by the water" }
+      ],
+      "ratings": [3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 2, 3],
+      "bestText": "December to April",
+      "nights": "2–3",
+      "gettingThere": "Around two and a half to three hours by road from Krabi, Phuket or Surat Thani, then a longtail across the lake.",
+      "goodFor": ["Families", "Wildlife", "Between two beaches"],
+      "overview": [
+        "Khao Sok is a national park of rainforest and limestone between the two coasts. At its heart is Cheow Lan Lake, a reservoir made when the Ratchaprapha Dam was built in the 1980s, with karst towers rising straight out of green water.",
+        "The raft house has no road. You arrive by longtail and the lake is the bath. Evenings are quiet, and at dawn you hear gibbons calling across the water."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "Everything on the lake happens by boat: the crossing to the raft house, a kayak at dawn, and a longtail to the start of a jungle walk or to a cave.",
+      "experiences": [
+        { "title": "A night on a raft house", "text": "Simple floating rooms, or a more comfortable tented raft. Both are quiet after dark." },
+        { "title": "Kayak at first light", "text": "Mist, hornbills overhead and gibbons calling." },
+        { "title": "A rainforest walk", "text": "With a park guide, on trails that change with the season." },
+        { "title": "Between two coasts", "text": "Khao Sok fits neatly between Bangkok or the north and a beach on either side." }
+      ],
+      "stays": [
+        { "name": "The Floating Camp", "kind": "Tented raft house on the lake", "text": "Canvas rooms on floating decks, with kayaks at the door.", "img": "khaosok-2" },
+        { "name": "The Riverside Treehouses", "kind": "Lodge near the park entrance", "text": "Raised wooden rooms in the forest beside the Sok river.", "img": "stays-2" }
+      ],
+      "note": "Some trails and caves close after heavy rain. We check with the park before every trip."
+    },
+    {
+      "slug": "krabi-koh-yao-noi",
+      "code": "TH-08",
+      "name": "Krabi and Koh Yao Noi",
+      "region": "andaman",
+      "tagline": "Into the hong at low water.",
+      "metaDescription": "Krabi and Koh Yao Noi: Railay's limestone cliffs, Phang Nga Bay by sea canoe on the right tide, and a quiet island of fishing villages and rice fields.",
+      "heroImage": "krabi-1",
+      "heroAlt": "Longtail boats beneath limestone cliffs at Railay, Krabi",
+      "gallery": [
+        { "img": "krabi-2", "alt": "Koh Yao Noi with the karst islands of Phang Nga Bay" },
+        { "img": "krabi-3", "alt": "Limestone islands in Phang Nga Bay" }
+      ],
+      "ratings": [3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 3],
+      "bestText": "December to March",
+      "nights": "4–5",
+      "gettingThere": "Fly to Krabi (KBV) or Phuket (HKT). Koh Yao Noi is a speedboat ride from piers on either side of the bay.",
+      "goodFor": ["Sea canoeing", "Families", "Quiet island life"],
+      "overview": [
+        "The limestone of Phang Nga Bay rises in hundreds of islands from shallow green water. Inside some of them are hongs, roofless caves and lagoons that you can paddle into only when the tide is right. Leave too late and the entrance closes with water.",
+        "Koh Yao Noi sits in the middle of the bay. It is a Muslim island of fishing villages, rubber trees and rice fields, with a few good places to stay and no crowds. Railay, on the Krabi side, is reached only by boat."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "Longtails are the taxis here. We book sea canoes into the hongs with a guide who paddles, timed to the tide tables, and a private longtail for the islands of the bay.",
+      "experiences": [
+        { "title": "Sea canoe into a hong", "text": "With a guide paddling, timed to the tide." },
+        { "title": "Railay by longtail", "text": "Phra Nang beach and its cave early, before the day boats." },
+        { "title": "Cycle Koh Yao Noi", "text": "Rubber plantations, rice paddies and a village lunch." },
+        { "title": "Islands of the bay", "text": "A private longtail to sandbars that appear at low tide." }
+      ],
+      "stays": [
+        { "name": "The Bay Pool Villas", "kind": "Villas on Koh Yao Noi", "text": "Wooden villas facing the karsts of the bay.", "img": "krabi-2" },
+        { "name": "The Railay Cliff Rooms", "kind": "Beach hotel, reached by boat", "text": "Rooms in a garden between the cliffs and the sand.", "img": "krabi-1" }
+      ],
+      "note": "Koh Yao Noi is a conservative Muslim island. Cover shoulders and knees away from the beach."
+    },
+    {
+      "slug": "koh-lanta",
+      "code": "TH-09",
+      "name": "Koh Lanta",
+      "region": "andaman",
+      "tagline": "A long, slow island for the dry months.",
+      "metaDescription": "Koh Lanta in the dry season: long west-coast beaches, the stilt houses of Lanta Old Town and boat days to the islands of Mu Ko Lanta National Park.",
+      "heroImage": "lanta-1",
+      "heroAlt": "A beach on Koh Lanta",
+      "gallery": [
+        { "img": "lanta-2", "alt": "Old wooden houses at Koh Lanta" },
+        { "img": "coast-andaman", "alt": "A beach on the Andaman coast" }
+      ],
+      "ratings": [3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 3],
+      "bestText": "December to March",
+      "nights": "3–4",
+      "gettingThere": "About two hours by road from Krabi airport, including a short vehicle ferry, or by boat from Krabi in the dry season.",
+      "goodFor": ["Long beaches", "Families", "Snorkelling days"],
+      "overview": [
+        "Koh Lanta is long and flat, with a string of beaches down its west coast and mangroves on the east. Lanta Old Town, on the east side, is a row of wooden shophouses on stilts over the water, home to Chinese, Muslim and Urak Lawoi sea-people families.",
+        "Koh Lanta in September is green, quiet and often rough. Many places close. We'd send you to Samui, or ask you to come back in January."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "From the dry season, boats run to the islands of Mu Ko Lanta National Park, including Koh Rok, for snorkelling over clear reef. At the southern tip of the island the park has a lighthouse and a short forest trail.",
+      "experiences": [
+        { "title": "Koh Rok by boat", "text": "A full day of snorkelling in the national park, in season." },
+        { "title": "Lanta Old Town", "text": "Breakfast over the water and a walk along the old shophouses." },
+        { "title": "Mangroves by kayak", "text": "On the quiet east coast, at high tide." },
+        { "title": "The southern tip", "text": "The national park lighthouse at the end of the island." }
+      ],
+      "stays": [
+        { "name": "The Lanta Beach Houses", "kind": "Small beach hotel on the west coast", "text": "Wooden houses under the palms, with sunsets over the sea.", "img": "lanta-1" }
+      ],
+      "note": "From May to October many beach businesses close and the sea can be rough. National park islands may close in the monsoon."
+    },
+    {
+      "slug": "koh-samui-koh-phangan",
+      "code": "TH-10",
+      "name": "Koh Samui and Koh Phangan",
+      "region": "gulf",
+      "tagline": "The Gulf in summer.",
+      "metaDescription": "Koh Samui and Koh Phangan, the Gulf islands for the months when the Andaman is wet: quiet bays, Ang Thong Marine Park by boat and kayak.",
+      "heroImage": "samui-1",
+      "heroAlt": "A beach and coastline on Koh Samui",
+      "gallery": [
+        { "img": "samui-2", "alt": "The islands of Ang Thong National Marine Park from a viewpoint" },
+        { "img": "phangan-1", "alt": "A quiet bay on Koh Phangan" }
+      ],
+      "ratings": [2, 3, 3, 3, 3, 3, 3, 3, 2, 1, 1, 1],
+      "bestText": "February to August",
+      "nights": "4–6",
+      "gettingThere": "Fly direct to Samui from Bangkok, or fly to Surat Thani and take the ferry. Koh Phangan is a short boat ride from Samui.",
+      "goodFor": ["July and August", "Families", "Boat days"],
+      "overview": [
+        "Thailand has two coasts and they do not share a monsoon. When the Andaman is wet, from May to October, the Gulf islands are mostly dry. That makes Samui and Phangan the beach for a summer holiday.",
+        "Samui has the flights and the bigger hotels. Phangan, across the water, is quieter in its north and east, where some bays are easiest to reach by boat."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "A day in Ang Thong National Marine Park, a group of more than forty islands west of Samui, by boat and kayak, with a steep climb to a viewpoint over the lagoon.",
+      "experiences": [
+        { "title": "Ang Thong by boat and kayak", "text": "A long day among the islands of the marine park." },
+        { "title": "Phangan's northern bays", "text": "Beaches that are quietest when reached by longtail." },
+        { "title": "Samui's fishing villages", "text": "A Friday walk through Bophut's old wooden shophouses." },
+        { "title": "Cooking on the coast", "text": "A southern Thai class with a local cook." }
+      ],
+      "stays": [
+        { "name": "The Gulf House", "kind": "Beach hotel on Samui", "text": "Quiet rooms on a calm north-coast bay.", "img": "samui-1" },
+        { "name": "The Northern Bay Bungalows", "kind": "Bungalows on Koh Phangan", "text": "Wooden bungalows above a sandy bay, reached by longtail.", "img": "phangan-1" }
+      ],
+      "note": "From October to December the northeast monsoon brings the Gulf's heaviest rain, and boat trips can be cancelled."
+    },
+    {
+      "slug": "koh-kood",
+      "code": "TH-11",
+      "name": "Koh Kood",
+      "region": "gulf",
+      "tagline": "The quiet island at the end of the eastern Gulf.",
+      "metaDescription": "Koh Kood: a forested island in the eastern Gulf with clear water, mangrove canals by kayak, waterfalls and stilt-house fishing villages.",
+      "heroImage": "kood-1",
+      "heroAlt": "Clear water and a beach on Koh Kood",
+      "gallery": [
+        { "img": "kood-2", "alt": "Forest and water on Koh Kood" },
+        { "img": "coast-gulf", "alt": "A beach on the Gulf of Thailand" }
+      ],
+      "ratings": [3, 3, 3, 3, 2, 1, 1, 1, 1, 2, 3, 3],
+      "bestText": "November to April",
+      "nights": "3–4",
+      "gettingThere": "By road or a short flight from Bangkok to Trat, then a speedboat from the mainland piers.",
+      "goodFor": ["Doing very little", "Kayaking", "Clear water"],
+      "overview": [
+        "Koh Kood is the second largest island of the Trat group, near the end of Thailand's eastern coast. Most of it is forest. The west coast has clear water and white sand; the villages on the east are built on stilts over the water.",
+        "Koh Kood does not follow the Samui pattern. The southwest monsoon reaches it, so May to October is wet and many boats cut their schedules. Go between November and April."
+      ],
+      "byWaterTitle": "By water",
+      "byWater": "Kayak up Khlong Chao through the mangroves to the waterfall, and take a longtail to Ao Salad and the stilt village of Ao Yai for lunch.",
+      "experiences": [
+        { "title": "Khlong Chao by kayak", "text": "Up the mangrove canal at high tide to the waterfall." },
+        { "title": "The stilt villages", "text": "Ao Salad and Ao Yai by longtail, with seafood lunch." },
+        { "title": "Snorkelling the small islands", "text": "A boat day to the islets off the south coast." },
+        { "title": "Nothing at all", "text": "Koh Kood is for long mornings and early nights." }
+      ],
+      "stays": [
+        { "name": "The Mangrove Villas", "kind": "Small hotel on the west coast", "text": "Wooden villas between the forest and the sea.", "img": "kood-2" }
+      ],
+      "note": "Government advice currently warns against travel within 20 km of the Thailand–Cambodia land border. Koh Kood lies offshore, but we check the mainland transfer route against the latest advice before booking."
+    }
+  ]
+}

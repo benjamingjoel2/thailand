@@ -1,0 +1,125 @@
+{
+  "index": {
+    "metaTitle": "Voyages types en Thaïlande",
+    "metaDescription": "Cinq voyages types en Thaïlande, chacun pensé autour d'une saison : du fleuve au récif, le Nord à la fraîche, l'Andaman, le golfe en été et Koh Kood.",
+    "eyebrow": "Voyages types",
+    "title": "Des itinéraires de saison.",
+    "intro": "Cinq itinéraires que nous aimons, chacun construit autour des mois où il fonctionne le mieux. Prenez-les comme point de départ : chaque voyage que nous vous proposons est conçu sur mesure pour vos dates.",
+    "heroImg": "journey-1",
+    "heroAlt": "Îles calcaires de la mer d'Andaman dans la lumière dorée du soir"
+  },
+  "dayLabel": "Jours",
+  "itineraryTitle": "Jour après jour",
+  "includedTitle": "Ce que nous organisons",
+  "notIncludedTitle": "Ce que nous vous laissons",
+  "alsoTitle": "À découvrir aussi.",
+  "alsoText": "D'autres itinéraires pour d'autres mois.",
+  "included": [
+    "Tous les hébergements du parcours",
+    "Transferts privés, vols intérieurs et bateaux",
+    "Guides et bateliers privés quand nous les recommandons",
+    "Notre travail de conception, et un contact en Thaïlande pendant votre voyage"
+  ],
+  "notIncluded": [
+    "Les vols internationaux",
+    "L'assurance voyage, à souscrire avant le départ",
+    "Les frais de visa ou d'entrée, si votre passeport y est soumis",
+    "La plupart des repas, pour que vous mangiez où bon vous semble"
+  ],
+  "items": [
+    {
+      "slug": "river-to-reef",
+      "name": "Du fleuve au récif",
+      "nights": 15,
+      "months": "De novembre à avril",
+      "route": ["bangkok", "ayutthaya", "chiang-mai", "khao-sok", "krabi-koh-yao-noi"],
+      "summary": "Des khlongs de Bangkok à l'ancienne capitale en remontant le fleuve, puis Chiang Mai à la saison fraîche, le lac Cheow Lan et enfin l'Andaman.",
+      "metaDescription": "Un voyage de 15 nuits en Thaïlande, des canaux de Bangkok à Ayutthaya, Chiang Mai, Khao Sok et Koh Yao Noi, de novembre à avril.",
+      "img": "krabi-3",
+      "alt": "Îles calcaires dans la baie de Phang Nga",
+      "gallery": ["khlong-1", "chiangmai-1", "khaosok-1"],
+      "galleryAlt": ["Un canal de Thonburi", "Un temple à Chiang Mai", "Pitons karstiques sur le lac Cheow Lan"],
+      "days": [
+        { "days": "1–3", "place": "Bangkok", "text": "Les khlongs en longtail au petit jour, une matinée au marché avec un chef-guide et une soirée sur le fleuve." },
+        { "days": "4", "place": "Ayutthaya", "text": "Cap au nord par la route, les ruines à vélo et le tour de l'île en bateau au couchant." },
+        { "days": "5–8", "place": "Chiang Mai", "text": "Une maison lanna, des ateliers d'artisans, Doi Suthep et un sanctuaire d'éléphants sans contact." },
+        { "days": "9–10", "place": "Khao Sok", "text": "Vol vers le sud, puis la traversée du lac Cheow Lan en longtail jusqu'à une maison flottante." },
+        { "days": "11–15", "place": "Koh Yao Noi", "text": "Les hongs en canoë de mer à la bonne marée, puis de longues journées sur une île tranquille." }
+      ]
+    },
+    {
+      "slug": "the-cool-north",
+      "name": "Le Nord à la fraîche",
+      "nights": 12,
+      "months": "De novembre à février",
+      "route": ["bangkok", "sukhothai", "chiang-mai", "mae-hong-son", "chiang-rai"],
+      "summary": "Anciennes capitales et provinces de montagne pendant les mois frais et clairs : Sukhothai à vélo, les artisans de Chiang Mai, les brumes de Mae Hong Son et le Mékong.",
+      "metaDescription": "Un voyage de 12 nuits dans le nord de la Thaïlande : Bangkok, Sukhothai, Chiang Mai, Mae Hong Son et Chiang Rai, de novembre à février.",
+      "img": "maehongson-1",
+      "alt": "La brume sur les collines et l'eau à Mae Hong Son",
+      "gallery": ["sukhothai-1", "chiangrai-1", "chiangmai-2"],
+      "galleryAlt": ["Le Wat Mahathat à Sukhothai", "Le temple blanc de Chiang Rai", "Collines près de Chiang Mai"],
+      "days": [
+        { "days": "1–2", "place": "Bangkok", "text": "Arrivée, repos et une première matinée sur les khlongs." },
+        { "days": "3–4", "place": "Sukhothai", "text": "Vol vers le nord. Le parc historique à vélo et une journée à Si Satchanalai." },
+        { "days": "5–7", "place": "Chiang Mai", "text": "La vieille ville, l'artisanat et Doi Inthanon." },
+        { "days": "8–10", "place": "Mae Hong Son", "text": "La route de montagne, Pang Ung à l'aube et le pont de bambou." },
+        { "days": "11–12", "place": "Chiang Rai", "text": "Le temple blanc et un longtail sur le Mékong au Triangle d'or." }
+      ]
+    },
+    {
+      "slug": "andaman-slowly",
+      "name": "L'Andaman, sans se presser",
+      "nights": 10,
+      "months": "De décembre à mars",
+      "route": ["krabi-koh-yao-noi", "khao-sok", "koh-lanta"],
+      "summary": "L'Andaman en saison sèche, en canoë de mer et en longtail : la baie de Phang Nga, une nuit sur le lac Cheow Lan et les longues plages de Koh Lanta.",
+      "metaDescription": "Un voyage de 10 nuits sur l'Andaman : Koh Yao Noi et la baie de Phang Nga, le lac Cheow Lan à Khao Sok et Koh Lanta, de décembre à mars.",
+      "img": "krabi-1",
+      "alt": "Bateaux longtail au pied des falaises de Railay",
+      "gallery": ["krabi-2", "khaosok-2", "lanta-1"],
+      "galleryAlt": ["Koh Yao Noi et la baie", "Forêt tropicale à Khao Sok", "Une plage de Koh Lanta"],
+      "days": [
+        { "days": "1–4", "place": "Koh Yao Noi", "text": "Arrivée en bateau rapide. Les hongs en canoë de mer, le vélo et des déjeuners au village." },
+        { "days": "5–6", "place": "Khao Sok", "text": "Cap à l'intérieur des terres jusqu'au lac et une nuit en maison flottante." },
+        { "days": "7–10", "place": "Koh Lanta", "text": "Longues plages, la vieille ville et une journée en bateau jusqu'à Koh Rok." }
+      ]
+    },
+    {
+      "slug": "gulf-in-summer",
+      "name": "Le golfe en été",
+      "nights": 10,
+      "months": "De juin à août",
+      "route": ["bangkok", "ayutthaya", "koh-samui-koh-phangan"],
+      "summary": "Pour les vacances scolaires, quand l'Andaman est sous la pluie : les canaux de Bangkok et l'ancienne capitale, puis les îles plus sèches du golfe.",
+      "metaDescription": "Un voyage d'été de 10 nuits en Thaïlande : les khlongs de Bangkok, Ayutthaya, Koh Samui et Koh Phangan, de juin à août.",
+      "img": "samui-2",
+      "alt": "Les îles du parc marin d'Ang Thong",
+      "gallery": ["khlong-2", "ayutthaya-1", "phangan-1"],
+      "galleryAlt": ["Un longtail à Bangkok", "Le Wat Chaiwatthanaram", "Une baie sur Koh Phangan"],
+      "days": [
+        { "days": "1–3", "place": "Bangkok", "text": "Khlongs, marchés et un cours de cuisine pour toute la famille." },
+        { "days": "4", "place": "Ayutthaya", "text": "Une journée dans les ruines à vélo, retour en bateau." },
+        { "days": "5–7", "place": "Koh Samui", "text": "Une baie tranquille et une journée dans le parc marin d'Ang Thong." },
+        { "days": "8–10", "place": "Koh Phangan", "text": "Une baie du nord que l'on rejoint en longtail." }
+      ]
+    },
+    {
+      "slug": "east-to-koh-kood",
+      "name": "Cap à l'est, vers Koh Kood",
+      "nights": 8,
+      "months": "De novembre à avril",
+      "route": ["bangkok", "koh-kood"],
+      "summary": "Un voyage court et paisible : trois jours sur l'eau à Bangkok, puis cap à l'est vers l'île boisée au bout du golfe.",
+      "metaDescription": "Un voyage de 8 nuits en Thaïlande : les khlongs de Bangkok et l'île tranquille de Koh Kood, de novembre à avril.",
+      "img": "kood-1",
+      "alt": "Eau limpide à Koh Kood",
+      "gallery": ["bangkok-1", "kood-2", "coast-gulf"],
+      "galleryAlt": ["Le Wat Arun depuis le fleuve", "Forêt et eau sur Koh Kood", "Une plage du golfe"],
+      "days": [
+        { "days": "1–3", "place": "Bangkok", "text": "Les khlongs en longtail, le fleuve et les marchés." },
+        { "days": "4–8", "place": "Koh Kood", "text": "Vol ou route jusqu'à Trat, puis bateau rapide. Les mangroves en kayak et les villages sur pilotis." }
+      ]
+    }
+  ]
+}

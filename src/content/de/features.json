@@ -1,0 +1,137 @@
+{
+  "twoCoasts": {
+    "metaTitle": "Zwei Küsten: Welche Seite Thailands in Ihrem Monat?",
+    "metaDescription": "Wählen Sie Ihren Monat und sehen Sie, ob an der Andamanenküste oder am Golf von Thailand das bessere Wetter herrscht, mit unseren Inseltipps für beide Seiten.",
+    "eyebrow": "Die Zwei-Küsten-Übersicht",
+    "title": "Wählen Sie Ihren Monat.",
+    "intro": "Thailands zwei Küsten haben unterschiedliche Monsune. Der Südwestmonsun durchnässt die Andamanenseite etwa von Mai bis Oktober, der Nordostmonsun bringt dem Golf von Oktober bis Dezember die stärksten Regenfälle. Wählen Sie einen Monat, und wir zeigen Ihnen, in welche Richtung es geht.",
+    "heroImg": "coast-andaman",
+    "heroAlt": "Ein Strand an Thailands Andamanenküste",
+    "pickerLabel": "Reisemonat",
+    "andaman": "Andamanenküste",
+    "andamanSub": "Krabi, Railay, Koh Yao Noi, Koh Lanta, Phuket",
+    "gulf": "Golf von Thailand",
+    "gulfSub": "Koh Samui, Koh Phangan, Koh Kood",
+    "north": "Und der Norden",
+    "better": "Besser in diesem Monat",
+    "picks": "Inseltipps",
+    "sea": "Meer",
+    "verdicts": {
+      "andaman": "Nach Westen, an die Andamanensee.",
+      "gulf": "Nach Osten, an den Golf.",
+      "both": "Beide Küsten sind gut.",
+      "split": "Ein geteilter Monat."
+    },
+    "months": [
+      { "verdict": "andaman", "summary": "Die Andamanensee ist in ihrer besten Zeit: trocken, ruhig und klar. Am Golf trocknet es nach dem Regen ab, zu Monatsbeginn sind noch Schauer möglich.", "andaman": "Trocken und sonnig, ruhige See. Hochsaison, also früh buchen.", "gulf": "Meist trocken, in den ersten Wochen sind Schauer möglich.", "north": "Kühle, klare Morgen. Der beste Monat für den Norden.", "andamanSea": "Ruhig", "gulfSea": "Beruhigt sich", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "both", "summary": "Beide Küsten sind gut. Die Andamanensee ist trocken und ruhig, am Golf hat die lange Trockenzeit begonnen.", "andaman": "Trocken, heiß und ruhig. Ideal fürs Seekanu.", "gulf": "Die Trockenzeit beginnt. Gut für Samui und Phangan.", "north": "Warme Tage, kühle Nächte. Gegen Monatsende kann Dunst aufkommen.", "andamanSea": "Ruhig", "gulfSea": "Ruhig", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "both", "summary": "Beide Küsten sind trocken und heiß. Ein guter Monat für die eine oder die andere Seite, oder für beide.", "andaman": "Heiß und trocken, klares Wasser.", "gulf": "Heiß und trocken, ruhiges Wasser.", "north": "Heiß und oft dunstig durch Brandrodung.", "andamanSea": "Ruhig", "gulfSea": "Ruhig", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "Der heißeste Monat. Am Golf ist es trocken und ruhig, an der Andamanensee noch gut, doch gegen Monatsende können die ersten Gewitter kommen.", "andaman": "Heiß. Meist trocken, erste Gewitter möglich.", "gulf": "Heiß, trocken und ruhig.", "north": "Der heißeste und dunstigste Monat. Wir würden ihn meiden.", "andamanSea": "Meist ruhig", "gulfSea": "Ruhig", "picks": { "andaman": ["krabi-koh-yao-noi"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "Der Südwestmonsun erreicht die Andamanenküste. Am Golf bleibt es meist trocken.", "andaman": "Der Regen beginnt. Rauere See an den nach Westen offenen Stränden.", "gulf": "Meist trocken und warm.", "north": "Die ersten Regenfälle klären die Luft und machen die Hügel grün.", "andamanSea": "Wird rauer", "gulfSea": "Ruhig", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Die Andamanensee ist in ihrer grünen Saison, mit rauer See an offenen Stränden. Im Juni ist der Golf das Strandziel.", "andaman": "Nass und windig. Manche Boote und Hotels schließen.", "gulf": "Meist trocken, einige kurze Schauer.", "north": "Grün, mit Schauern und stillen Tempeln.", "andamanSea": "Rau", "gulfSea": "Ruhig", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Sommerferien: Fahren Sie an den Golf. Die Andamanensee ist grün, ruhig und oft rau.", "andaman": "Nass, mit rauer See an offenen Küsten.", "gulf": "Gut: meist trocken mit gelegentlichen Schauern.", "north": "Grüne Saison. Kurze, kräftige Schauer.", "andamanSea": "Rau", "gulfSea": "Ruhig", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Weiterhin der Golf. Auf der Andamanenseite gibt es starken Regen und Dünung.", "andaman": "Nass, mit Dünung an den nach Westen offenen Stränden.", "gulf": "Gut: meist trocken mit gelegentlichen Schauern.", "north": "Grün, nasse Nachmittage.", "andamanSea": "Rau", "gulfSea": "Ruhig", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Der nasseste Monat auf der Andamanenseite. Der Golf ist noch die bessere Wahl, auch wenn der Regen nicht mehr weit ist.", "andaman": "Oft der nasseste Monat des Jahres.", "gulf": "Wechselhaft, gegen Monatsende mehr Schauer.", "north": "Auch im Norden der nasseste Monat.", "andamanSea": "Rau", "gulfSea": "Meist ruhig", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "split", "summary": "Der schwierige Monat. Anfang Oktober ist es am Golf noch trockener; Ende Oktober trocknet die Andamanensee ab, und am Golf hat der Regen begonnen.", "andaman": "Noch nass, gegen Monatsende besser.", "gulf": "Anfangs schön, dann kommt der Nordostmonsun.", "north": "Der Regen lässt nach. Grün, frisch und ruhig.", "andamanSea": "Beruhigt sich", "gulfSea": "Wird rauer", "picks": { "andaman": ["koh-lanta"], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "andaman", "summary": "Nach Westen. Die Andamanensee trocknet ab, am Golf sind es die nassesten Wochen.", "andaman": "Es trocknet ab, die Saison beginnt wieder.", "gulf": "Der nasseste Monat auf Samui und Phangan.", "north": "Die kühle Jahreszeit beginnt. Hervorragend.", "andamanSea": "Beruhigt sich", "gulfSea": "Rau", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "andaman", "summary": "Die Andamanensee ist trocken und ruhig. Am Golf regnet es noch.", "andaman": "Trocken, ruhig und klar.", "gulf": "Regen wahrscheinlich, vor allem zu Monatsbeginn.", "north": "Kühl und klar. Hervorragend.", "andamanSea": "Ruhig", "gulfSea": "Unbeständig", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } }
+    ],
+    "koodNote": "Koh Kood ganz im Osten des Golfs folgt eher dem Muster der Andamanensee als dem von Samui: Am besten ist es dort von November bis April.",
+    "tableTitle": "Das Jahr im Überblick",
+    "tableNote": "Auf Basis langjähriger Muster. Das Wetter schwankt von Jahr zu Jahr; dies ist keine Vorhersage.",
+    "planButton": "Diesen Monat planen",
+    "sources": "Vor jeder Saison gleichen wir diese Muster mit den Klimadaten des Thailändischen Meteorologischen Dienstes ab."
+  },
+  "khlongs": {
+    "metaTitle": "Khlong-Karte Bangkok: Thonburis Kanäle im Longtail-Boot",
+    "metaDescription": "Eine lebendige Karte der Kanäle Bangkoks: zwei Longtail-Routen durch die Khlongs von Thonburi, mit Stopps, Uhrzeiten und Gezeiten.",
+    "eyebrow": "Die Khlong-Karte",
+    "title": "Bangkok vom Khlong aus.",
+    "intro": "Bevor es Straßen gab, waren Bangkoks Straßen aus Wasser. Am Ufer von Thonburi wird an den Khlongs bis heute gelebt. Das sind die zwei Routen, die wir am häufigsten fahren, gezeichnet so, wie das Wasser fließt.",
+    "heroImg": "khlong-1",
+    "heroAlt": "Holzhäuser auf Stelzen an einem Kanal in Thonburi",
+    "mapTitle": "Die Wasserkarte",
+    "mapLabel": "Schematische Karte des Chao Phraya und der Kanäle von Thonburi mit zwei Longtail-Routen",
+    "routeLabel": "Route wählen",
+    "river": "Chao Phraya",
+    "westBank": "Thonburi",
+    "eastBank": "Rattanakosin",
+    "north": "N",
+    "routes": [
+      { "id": "a", "name": "Route A: Die Morgenrunde", "time": "Etwa 2½ Stunden", "text": "Vom Anleger Tha Tien über den Fluss in den Khlong Bangkok Yai, durch den Khlong Bang Luang und am Wat Arun vorbei zurück. Unser üblicher erster Morgen in Bangkok." },
+      { "id": "b", "name": "Route B: Der lange Weg nach Norden", "time": "Etwa 3½ Stunden", "text": "Den Fluss hinauf zum Khlong Bangkok Noi und zu den Königlichen Barken, durch Obstgärten und ruhigere Kanäle nach Taling Chan und über den Khlong Bangkok Yai zurück." }
+    ],
+    "stops": [
+      { "id": "tatien", "name": "Anleger Tha Tien", "time": "6:10", "text": "Unser Treffpunkt. Wat Pho liegt hinter Ihnen, Wat Arun gegenüber am anderen Ufer.", "routes": "ab" },
+      { "id": "watarun", "name": "Wat Arun", "time": "6:20", "text": "Der Tempel der Morgenröte, vom Fluss aus gesehen, während das Licht kommt.", "routes": "a" },
+      { "id": "bangkokyai", "name": "Khlong Bangkok Yai", "time": "6:40", "text": "Der breite Kanal nach Thonburi hinein: Holzhäuser, Tempelstege und Morgenküche.", "routes": "ab" },
+      { "id": "bangluang", "name": "Khlong Bang Luang", "time": "7:30", "text": "Ein altes Holzhaus, in dem Künstler arbeiten und das Boot für einen Kaffee hält.", "routes": "a" },
+      { "id": "paknam", "name": "Wat Paknam Phasi Charoen", "time": "8:15", "text": "Eine große weiße Stupa über dem Kanal, schon von Weitem auf dem Wasser zu sehen.", "routes": "a" },
+      { "id": "barges", "name": "Museum der Königlichen Barken", "time": "7:00", "text": "Die langen, geschnitzten Barken für königliche Prozessionen auf dem Fluss.", "routes": "b" },
+      { "id": "bangkoknoi", "name": "Khlong Bangkok Noi", "time": "7:20", "text": "Ruhigeres Wasser, Tempel und Gärten, während die Stadt sich lichtet.", "routes": "b" },
+      { "id": "talingchan", "name": "Taling Chan", "time": "8:30", "text": "Obstgärten und am Wochenende ein schwimmender Markt, auf dem die Einheimischen einkaufen.", "routes": "b" }
+    ],
+    "tideTitle": "Ein Wort zu den Gezeiten",
+    "tide": "Die Khlongs steigen und fallen mit dem Fluss. Bei sehr hohem Wasser kommt man unter manchen niedrigen Brücken kaum hindurch, bei sehr niedrigem Wasser sind die kleineren Kanäle zu flach. Ihr Bootsführer liest das Wasser und passt die Route am Tag selbst an.",
+    "practicalTitle": "Praktisches",
+    "practical": [
+      { "title": "Wann", "text": "Früh am Morgen, das ganze Jahr. Von September bis November führt der Fluss viel Wasser; wir prüfen die Bedingungen täglich." },
+      { "title": "Das Boot", "text": "Ein privates Longtail-Boot mit lizenziertem Bootsführer und Rettungswesten für alle, auch in Kindergrößen." },
+      { "title": "Respekt", "text": "Hier wohnen Menschen. Winken Sie, halten Sie die Kamera nicht in Fenster und sprechen Sie in der Nähe der Tempel leise." }
+    ],
+    "button": "Bangkok-Tage planen"
+  },
+  "responsible": {
+    "metaTitle": "Elefanten und Bergvölker: verantwortungsvoll reisen",
+    "metaDescription": "Wie Sie ein seriöses Elefantenschutzzentrum finden und Bergdörfer respektvoll besuchen: was Longtail Travel bucht, was nicht, und warum.",
+    "eyebrow": "Elefanten und Bergvölker",
+    "title": "Beobachtet, nicht geritten.",
+    "intro": "Elefanten und Dörfer der Bergvölker gehören zu vielen Reisen in den Norden Thailands, und bei beidem kann man leicht etwas falsch machen. So wählen wir aus, und darum bitten wir unsere Gäste.",
+    "heroImg": "elephant-2",
+    "heroAlt": "Wilde Elefanten in einem thailändischen Nationalpark",
+    "elephantsTitle": "Elefanten.",
+    "elephantsText": "In Thailand leben Tausende Elefanten in Gefangenschaft, viele davon im Tourismus. Reiten, Baden, Shows und Malen beruhen alle auf Abrichtung und Kontrolle, die den Tieren schaden. Ein gutes Schutzzentrum lässt Elefanten Elefanten sein, und Sie schauen zu.",
+    "weBook": "Was wir buchen",
+    "weBookList": [
+      "Schutzzentren, in denen Sie aus der Distanz beobachten",
+      "Kleine Gruppen mit begrenzter Zeit in der Nähe der Tiere",
+      "Orte, die offen sagen, wie viele Elefanten sie halten und woher diese stammen",
+      "Wilde Elefanten in Nationalparks, mit einem Parkführer und vom Fahrzeug oder Beobachtungsstand aus"
+    ],
+    "weDont": "Was wir nicht buchen",
+    "weDontList": [
+      "Reiten, mit oder ohne Sattel",
+      "Elefanten baden oder waschen",
+      "Shows, Malen oder Kunststücke",
+      "Fütterungen als Unterhaltungsprogramm",
+      "Elefantenbabys, die Besucher anfassen dürfen"
+    ],
+    "checklistTitle": "So finden Sie ein gutes Schutzzentrum",
+    "checklistText": "Bevor wir ein Schutzzentrum aufnehmen, stellen wir diese Fragen. Sie können sie auch stellen.",
+    "checklist": [
+      { "title": "Können sich die Elefanten frei bewegen?", "text": "Achten Sie auf Platz, Wald und Weideflächen und auf Herden, die tagsüber selbst entscheiden, wohin sie gehen." },
+      { "title": "Gibt es Körperkontakt?", "text": "Wenn der Besuch Reiten, Baden oder Füttern aus nächster Nähe umfasst, ist es für uns kein Schutzzentrum." },
+      { "title": "Werden Haken oder Ketten verwendet?", "text": "Elefantenhaken und kurze Ketten sind Zeichen von Kontrolle, nicht von Fürsorge." },
+      { "title": "Wie viele Besucher?", "text": "Kleine Gruppen zu festen Zeiten und ruhige freie Tage für die Herde." },
+      { "title": "Gibt es einen Tierarzt?", "text": "Fragen Sie nach tierärztlicher Versorgung, Futter und der Herkunft der Elefanten." },
+      { "title": "Was sagen unabhängige Tierschutzorganisationen?", "text": "Wir folgen den Empfehlungen von Tierschutzorganisationen und suchen Orte, die sich gern prüfen lassen." }
+    ],
+    "tribesTitle": "Dörfer der Bergvölker.",
+    "tribesText": "In den Bergen des Nordens leben viele Völker, darunter Karen, Hmong, Akha, Lahu, Lisu und Mien. Ein Besuch kann echte Begegnung sein, oder sich anfühlen, als liefe man mit der Kamera durch fremde Wohnzimmer.",
+    "tribesList": [
+      { "title": "Mit jemandem aus der Gemeinschaft", "text": "Wir arbeiten mit Guides aus dem Dorf oder mit gemeindegeführten Projekten. So ist der Besuch erwünscht, und das Geld bleibt vor Ort." },
+      { "title": "Fragen Sie, bevor Sie fotografieren", "text": "Fragen Sie immer und akzeptieren Sie ein Nein. Fotografieren Sie nie ohne Erlaubnis in einem Haus oder bei einer Zeremonie." },
+      { "title": "Kleiden und verhalten Sie sich als Gast", "text": "Bedecken Sie Schultern und Knie, ziehen Sie die Schuhe aus, wo andere es tun, und berühren Sie keine Geistertore oder Schreine." },
+      { "title": "Direkt kaufen, fair bezahlen", "text": "Kaufen Sie Handwerk bei denen, die es herstellen. Verteilen Sie keine Süßigkeiten oder Geld an Kinder." },
+      { "title": "Keine Menschenzoos", "text": "Wir buchen keine Dörfer, in denen Kayan-Frauen mit Messing-Halsringen als Attraktion vorgeführt werden." }
+    ],
+    "faqTitle": "Fragen",
+    "faq": [
+      { "q": "Ist Elefantenbaden nicht sanft?", "a": "So wird es oft verkauft, doch es bedeutet engen Kontakt mit Tieren, die dafür kontrolliert werden müssen. Wir sehen Elefanten lieber zu, wie sie selbst baden." },
+      { "q": "Können wir wilde Elefanten sehen?", "a": "Ja, in einigen Nationalparks wie Khao Yai und Kui Buri, mit einem Parkführer. Garantiert sind Sichtungen nie." },
+      { "q": "Können wir Handwerk kaufen?", "a": "Ja, und wir ermutigen dazu, direkt bei den Menschen, die es herstellen." }
+    ],
+    "sourcesTitle": "Weiterlesen",
+    "sources": "Unabhängige Empfehlungen zum Wildtiertourismus finden Sie in den Veröffentlichungen von World Animal Protection."
+  }
+}

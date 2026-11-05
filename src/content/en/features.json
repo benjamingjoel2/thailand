@@ -1,0 +1,137 @@
+{
+  "twoCoasts": {
+    "metaTitle": "Two coasts: which side of Thailand for your month",
+    "metaDescription": "Choose your month and see whether the Andaman coast or the Gulf of Thailand has the better weather, with our island picks for each side.",
+    "eyebrow": "The two-coasts picker",
+    "title": "Choose your month.",
+    "intro": "Thailand's two coasts have different monsoons. The southwest monsoon soaks the Andaman side from about May to October; the northeast monsoon brings the Gulf's heaviest rain from October to December. Pick a month and we'll show you which way to go.",
+    "heroImg": "coast-andaman",
+    "heroAlt": "A beach on Thailand's Andaman coast",
+    "pickerLabel": "Month of travel",
+    "andaman": "Andaman coast",
+    "andamanSub": "Krabi, Railay, Koh Yao Noi, Koh Lanta, Phuket",
+    "gulf": "Gulf of Thailand",
+    "gulfSub": "Koh Samui, Koh Phangan, Koh Kood",
+    "north": "And the north",
+    "better": "Better this month",
+    "picks": "Island picks",
+    "sea": "Sea",
+    "verdicts": {
+      "andaman": "Go west, to the Andaman.",
+      "gulf": "Go east, to the Gulf.",
+      "both": "Both coasts are good.",
+      "split": "A split month."
+    },
+    "months": [
+      { "verdict": "andaman", "summary": "The Andaman is in its best season: dry, calm and clear. The Gulf is drying out after its rains, with showers still possible early in the month.", "andaman": "Dry and sunny, calm sea. Peak season, so book early.", "gulf": "Mostly dry, with showers possible in the first weeks.", "north": "Cool, clear mornings. The best month for the north.", "andamanSea": "Calm", "gulfSea": "Settling", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "both", "summary": "Both coasts are good. The Andaman is dry and calm; the Gulf has entered its long dry season.", "andaman": "Dry, hot and calm. Excellent for sea canoeing.", "gulf": "Dry season begins. Good for Samui and Phangan.", "north": "Warm days, cool nights. Haze can start late in the month.", "andamanSea": "Calm", "gulfSea": "Calm", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "both", "summary": "Both coasts are dry and hot. A good month for either side, or for both.", "andaman": "Hot and dry, clear water.", "gulf": "Hot and dry, calm water.", "north": "Hot, and often hazy from agricultural burning.", "andamanSea": "Calm", "gulfSea": "Calm", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "The hottest month. The Gulf is dry and calm; the Andaman is still good but the first storms can arrive late in the month.", "andaman": "Hot. Mostly dry, with the first storms possible.", "gulf": "Hot, dry and calm.", "north": "The hottest and haziest month. We'd avoid it.", "andamanSea": "Mostly calm", "gulfSea": "Calm", "picks": { "andaman": ["krabi-koh-yao-noi"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "The southwest monsoon reaches the Andaman coast. The Gulf stays mostly dry.", "andaman": "The rains begin. Rougher sea on west-facing beaches.", "gulf": "Mostly dry and warm.", "north": "The first rains clear the air and green the hills.", "andamanSea": "Getting rough", "gulfSea": "Calm", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "The Andaman is in its green season, with rough seas on exposed beaches. The Gulf is the beach for June.", "andaman": "Wet and windy. Some boats and hotels close.", "gulf": "Mostly dry, some short showers.", "north": "Green and showery, with quiet temples.", "andamanSea": "Rough", "gulfSea": "Calm", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Summer holidays: go to the Gulf. The Andaman is green, quiet and often rough.", "andaman": "Wet, with rough sea on exposed coasts.", "gulf": "Good: mostly dry with occasional showers.", "north": "Green season. Short heavy showers.", "andamanSea": "Rough", "gulfSea": "Calm", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Still the Gulf. The Andaman side has heavy rain and swells.", "andaman": "Wet, with swells on west-facing beaches.", "gulf": "Good: mostly dry with occasional showers.", "north": "Green, wet afternoons.", "andamanSea": "Rough", "gulfSea": "Calm", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "The wettest month on the Andaman side. The Gulf is still the better bet, though the rains are not far off.", "andaman": "Often the wettest month of the year.", "gulf": "Mixed, with more showers towards the end.", "north": "The wettest month in the north too.", "andamanSea": "Rough", "gulfSea": "Mostly calm", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "split", "summary": "The awkward month. Early October, the Gulf is still drier; by late October the Andaman is drying out and the Gulf rains have begun.", "andaman": "Still wet, improving towards the end.", "gulf": "Fine early in the month, then the northeast monsoon arrives.", "north": "The rains ease. Green, fresh and quiet.", "andamanSea": "Easing", "gulfSea": "Getting rough", "picks": { "andaman": ["koh-lanta"], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "andaman", "summary": "Go west. The Andaman is drying out and the Gulf has its wettest weeks.", "andaman": "Drying out; the season starts again.", "gulf": "The wettest month on Samui and Phangan.", "north": "The cool season begins. Excellent.", "andamanSea": "Settling", "gulfSea": "Rough", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "andaman", "summary": "The Andaman is dry and calm. The Gulf is still in its rains.", "andaman": "Dry, calm and clear.", "gulf": "Rain likely, especially early in the month.", "north": "Cool and clear. Excellent.", "andamanSea": "Calm", "gulfSea": "Unsettled", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } }
+    ],
+    "koodNote": "Koh Kood, in the far east of the Gulf, follows the Andaman's pattern more than Samui's: it is best from November to April.",
+    "tableTitle": "The year at a glance",
+    "tableNote": "Based on long-term patterns. Weather varies from year to year; this is not a forecast.",
+    "planButton": "Plan this month",
+    "sources": "We check these patterns against the Thai Meteorological Department's climate data before each season."
+  },
+  "khlongs": {
+    "metaTitle": "Bangkok khlong map: the canals of Thonburi by longtail",
+    "metaDescription": "A living map of Bangkok's canals: two longtail routes through the khlongs of Thonburi, with the stops, the times and the tide.",
+    "eyebrow": "The khlong map",
+    "title": "Bangkok from the khlong.",
+    "intro": "Before roads, Bangkok's streets were water. On the Thonburi bank the khlongs are still lived on. These are the two routes we use most, drawn as the water runs.",
+    "heroImg": "khlong-1",
+    "heroAlt": "Wooden houses on stilts along a Thonburi canal",
+    "mapTitle": "The water map",
+    "mapLabel": "Schematic map of the Chao Phraya river and the Thonburi canals, with two longtail routes",
+    "routeLabel": "Choose a route",
+    "river": "Chao Phraya",
+    "westBank": "Thonburi",
+    "eastBank": "Rattanakosin",
+    "north": "N",
+    "routes": [
+      { "id": "a", "name": "Route A: The morning loop", "time": "About 2½ hours", "text": "From Tha Tien pier across the river into Khlong Bangkok Yai, through Khlong Bang Luang and back by Wat Arun. Our usual first morning in Bangkok." },
+      { "id": "b", "name": "Route B: The long way north", "time": "About 3½ hours", "text": "Up the river to Khlong Bangkok Noi and the Royal Barges, through orchards and quieter canals to Taling Chan, and back down Khlong Bangkok Yai." }
+    ],
+    "stops": [
+      { "id": "tatien", "name": "Tha Tien pier", "time": "6:10", "text": "Where we meet. Wat Pho is behind you, Wat Arun across the water.", "routes": "ab" },
+      { "id": "watarun", "name": "Wat Arun", "time": "6:20", "text": "The Temple of Dawn, seen from the river as the light comes up.", "routes": "a" },
+      { "id": "bangkokyai", "name": "Khlong Bangkok Yai", "time": "6:40", "text": "The wide canal into Thonburi: wooden houses, temple landings and morning cooking.", "routes": "ab" },
+      { "id": "bangluang", "name": "Khlong Bang Luang", "time": "7:30", "text": "An old wooden house where artists work and the boat stops for coffee.", "routes": "a" },
+      { "id": "paknam", "name": "Wat Paknam Phasi Charoen", "time": "8:15", "text": "A great white stupa above the canal, visible from far along the water.", "routes": "a" },
+      { "id": "barges", "name": "Royal Barges Museum", "time": "7:00", "text": "The long carved barges used for royal processions on the river.", "routes": "b" },
+      { "id": "bangkoknoi", "name": "Khlong Bangkok Noi", "time": "7:20", "text": "Quieter water, temples and gardens as the city thins out.", "routes": "b" },
+      { "id": "talingchan", "name": "Taling Chan", "time": "8:30", "text": "Orchards and, at weekends, a floating market where the locals shop.", "routes": "b" }
+    ],
+    "tideTitle": "A note on the tide",
+    "tide": "The khlongs rise and fall with the river. At very high water some low bridges are hard to pass; at very low water the smaller canals are too shallow. Your boatman reads the water and adjusts the route on the day.",
+    "practicalTitle": "Practical",
+    "practical": [
+      { "title": "When", "text": "Early morning, all year. From September to November the river runs high; we check the conditions every day." },
+      { "title": "The boat", "text": "A private longtail with a licensed boatman and life jackets for everyone, children's sizes included." },
+      { "title": "Respect", "text": "These are people's homes. Wave, don't point the camera into windows, and keep voices low near the temples." }
+    ],
+    "button": "Plan your Bangkok days"
+  },
+  "responsible": {
+    "metaTitle": "Elephants and hill tribes: how we travel responsibly in Thailand",
+    "metaDescription": "How to choose an ethical elephant sanctuary in Thailand and visit hill-tribe villages respectfully: what Longtail Travel books, what it doesn't, and why.",
+    "eyebrow": "Elephants and hill tribes",
+    "title": "Watched, not ridden.",
+    "intro": "Elephants and hill-tribe villages are part of many trips to northern Thailand, and both are easy to get wrong. This is how we choose, and how we ask our travellers to behave.",
+    "heroImg": "elephant-2",
+    "heroAlt": "Wild elephants in a Thai national park",
+    "elephantsTitle": "Elephants.",
+    "elephantsText": "Thailand has thousands of captive elephants, many of them in tourism. Riding, bathing, shows and painting all depend on training and control that harm the animals. A good sanctuary lets elephants behave like elephants, and you watch.",
+    "weBook": "What we book",
+    "weBookList": [
+      "Observation-based sanctuaries, where you watch from a distance",
+      "Small groups, with time limits around the animals",
+      "Places that are open about how many elephants they keep and where they came from",
+      "Wild elephants in national parks, with a park guide and from a vehicle or hide"
+    ],
+    "weDont": "What we don't book",
+    "weDontList": [
+      "Riding, with or without a saddle",
+      "Bathing or washing elephants",
+      "Shows, painting or tricks",
+      "Feeding sessions run as entertainment",
+      "Baby elephants kept for visitors to handle"
+    ],
+    "checklistTitle": "How to choose a sanctuary",
+    "checklistText": "Before we add a sanctuary, we ask these questions. You can ask them too.",
+    "checklist": [
+      { "title": "Can the elephants roam?", "text": "Look for space, forest and grazing, and herds that choose where they go during the day." },
+      { "title": "Is there any contact?", "text": "If the visit includes riding, bathing or close feeding, it is not a sanctuary in our sense." },
+      { "title": "Are hooks or chains in use?", "text": "Bullhooks and short chains are signs of control, not care." },
+      { "title": "How many visitors?", "text": "Small, timed groups and quiet days off for the herd." },
+      { "title": "Is there a vet?", "text": "Ask about veterinary care, diet and the elephants' histories." },
+      { "title": "What do independent welfare groups say?", "text": "We follow the guidance of animal-welfare organisations and look for places that welcome scrutiny." }
+    ],
+    "tribesTitle": "Hill-tribe villages.",
+    "tribesText": "The hills of the north are home to many peoples, among them the Karen, Hmong, Akha, Lahu, Lisu and Mien. A visit can be a real exchange, or it can feel like walking through someone's home with a camera.",
+    "tribesList": [
+      { "title": "Go with someone from the community", "text": "We use guides from the village or community-run projects, so the visit is invited and the money stays there." },
+      { "title": "Ask before you photograph", "text": "Always ask, and accept a no. Never photograph inside a home or a ceremony without permission." },
+      { "title": "Dress and behave as a guest", "text": "Cover shoulders and knees, take shoes off where others do, and don't touch spirit gates or shrines." },
+      { "title": "Buy directly, pay fairly", "text": "Buy crafts from the makers. Don't hand out sweets or money to children." },
+      { "title": "No human zoos", "text": "We don't book villages where Kayan women with brass neck-rings are presented as an attraction." }
+    ],
+    "faqTitle": "Questions",
+    "faq": [
+      { "q": "Isn't bathing elephants gentle?", "a": "It is often sold that way, but it means close contact with animals that have to be controlled to allow it. We prefer to watch elephants bathe themselves." },
+      { "q": "Can we see wild elephants?", "a": "Yes, in some national parks, such as Khao Yai and Kui Buri, with a park guide. Sightings are never guaranteed." },
+      { "q": "Will we be able to buy crafts?", "a": "Yes, and we encourage it, directly from the people who make them." }
+    ],
+    "sourcesTitle": "Further reading",
+    "sources": "For independent guidance on wildlife tourism, see the advice published by World Animal Protection."
+  }
+}

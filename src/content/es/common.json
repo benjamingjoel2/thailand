@@ -1,0 +1,89 @@
+{
+  "langName": "Español",
+  "skip": "Saltar al contenido",
+  "menu": "Menú",
+  "close": "Cerrar",
+  "enquire": "Consultar",
+  "languageLabel": "Idioma",
+  "nav": {
+    "destinations": "Destinos",
+    "journeys": "Viajes",
+    "twoCoasts": "Dos costas",
+    "khlongs": "Mapa de los khlongs",
+    "responsible": "Elefantes y tribus de montaña",
+    "stays": "Alojamientos",
+    "about": "Quiénes somos",
+    "journal": "Cuaderno",
+    "enquire": "Consultar"
+  },
+  "menuIntro": "Tailandia planificada siguiendo el agua: los khlongs de Bangkok, los ríos del norte y la costa que está seca en tu mes.",
+  "menuDestinations": "Destinos",
+  "menuIdeas": "Ideas y herramientas",
+  "menuCompany": "Longtail Travel",
+  "regions": {
+    "central": "Llanura central",
+    "north": "El norte",
+    "andaman": "Costa de Andamán",
+    "gulf": "Golfo de Tailandia",
+    "south": "El sur"
+  },
+  "months": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+  "monthsShort": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+  "ratings": { "3": "Bueno", "2": "Variable", "1": "Lluvioso" },
+  "labels": {
+    "best": "Mejor época",
+    "bestMonths": "Mejores meses",
+    "nights": "noches",
+    "nightsSuggested": "Noches que recomendamos",
+    "gettingThere": "Cómo llegar",
+    "region": "Región",
+    "goodFor": "Ideal para",
+    "route": "Ruta",
+    "discover": "Descubre más",
+    "readMore": "Leer",
+    "viewAll": "Ver todo",
+    "allDestinations": "Todos los destinos",
+    "next": "Siguiente destino",
+    "minRead": "min de lectura",
+    "schematic": "Mapa esquemático, sin escala",
+    "placeholder": "Nombre provisional",
+    "planThis": "Planifica este viaje",
+    "enquireAbout": "Consultar sobre",
+    "price": "Precio",
+    "from": "Desde",
+    "priceOnRequest": "Precio según tus fechas, en una propuesta por escrito",
+    "backTo": "Volver a",
+    "onThisPage": "En esta página",
+    "updated": "Última revisión"
+  },
+  "footer": {
+    "bigLinks": ["Consultar", "Dos costas", "Mapa de los khlongs"],
+    "destinations": "Destinos",
+    "ideas": "Ideas",
+    "company": "Empresa",
+    "legal": "Legal",
+    "contact": "Escríbenos",
+    "address": "Dirección",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de reserva",
+    "cookies": "Política de cookies",
+    "credits": "Créditos fotográficos",
+    "note": "Longtail Travel organiza viajes privados por Tailandia. Respondemos a todas las consultas por correo electrónico, normalmente en un plazo de dos días laborables.",
+    "rights": "Todos los derechos reservados."
+  },
+  "cta": {
+    "eyebrow": "Empieza por el mes",
+    "title": "Dinos cuándo puedes viajar. Te diremos qué agua seguir.",
+    "text": "Envíanos tus fechas, quién viaja y qué te gusta. Te respondemos por correo con una primera ruta y la costa que mejor encaja con tu mes.",
+    "button": "Hacer una consulta"
+  },
+  "notFound": {
+    "title": "Este canal no tiene salida.",
+    "text": "La página que buscabas se ha movido o nunca existió. Da la vuelta a la barca y prueba por aquí.",
+    "home": "Volver a la página de inicio"
+  },
+  "meta": {
+    "defaultDescription": "Viajes privados por Tailandia siguiendo su agua y sus estaciones: los khlongs de Bangkok, el norte fresco y la costa adecuada para tu mes.",
+    "ogLocale": "es_ES"
+  }
+}

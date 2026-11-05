@@ -1,0 +1,76 @@
+{
+  "metaTitle": "Longtail Travel : la Thaïlande par l'eau et les saisons",
+  "metaDescription": "Voyages privés en Thaïlande au rythme de l'eau et des saisons : les khlongs de Bangkok, le Nord à la saison fraîche et la bonne côte pour votre mois.",
+  "hero": {
+    "figLeft": "Fig. 01 — Railay, Krabi, 7 h 10",
+    "figRight": "Côte d'Andaman : saison sèche, de novembre à avril",
+    "title": "La Thaïlande, par l'eau.",
+    "meta": ["Onze lieux", "Deux côtes, deux moussons", "Un bateau à la fois"],
+    "button": "Préparer un voyage",
+    "alt": "Un bateau longtail sur une eau claire, au pied des falaises calcaires de la côte d'Andaman"
+  },
+  "intro": {
+    "eyebrow": "Longtail Travel",
+    "title": "Nous construisons la Thaïlande au fil de l'eau, et nous commençons par le mois.",
+    "text": "Le longtail, ce bateau à longue queue, est une étroite embarcation en bois dont le moteur est fixé au bout d'un long arbre. On le croise sur les canaux de Bangkok, sur le Mékong dans le Nord et dans les eaux peu profondes de l'Andaman. Nous avons donné son nom à l'agence parce qu'il va là où la Thaïlande se vit vraiment. Ensuite, c'est la saison qui choisit la côte.",
+    "link": "Qui sommes-nous"
+  },
+  "regions": {
+    "title": "Lieux.",
+    "text": "Onze lieux, des khlongs de Bangkok jusqu'à l'extrémité tranquille du golfe oriental. Pour chacun, les mois où nous partirions et l'eau que nous suivrions.",
+    "link": "Les onze destinations"
+  },
+  "coasts": {
+    "title": "Deux côtes. Deux moussons.",
+    "meta": "Andaman, golfe et Nord, mois par mois",
+    "metaRight": "Tendances de long terme, pas une prévision",
+    "text": "La côte d'Andaman est sèche de novembre à avril environ. Le golfe est au plus sec de février à août. Choisissez votre mois, nous vous indiquons de quel côté partir.",
+    "button": "Choisir votre mois",
+    "rows": { "andaman": "Côte d'Andaman", "gulf": "Côte du golfe", "north": "Le Nord" },
+    "rowsSub": { "andaman": "Krabi, Koh Yao Noi, Koh Lanta", "gulf": "Samui, Phangan", "north": "Chiang Mai, Chiang Rai" }
+  },
+  "morning": {
+    "eyebrow": "Une matinée sur le khlong",
+    "right": "Thonburi, en longtail privé",
+    "steps": [
+      { "time": "6:10", "label": "01 / 04  À l'embarcadère", "title": "Le bateau attend déjà.", "text": "Votre batelier a relevé l'hélice hors de l'eau. Une guirlande de soucis orne la proue, encore fraîche.", "img": "khlong-2", "alt": "Un bateau longtail sur un canal de Bangkok" },
+      { "time": "6:40", "label": "02 / 04  Dans les canaux", "title": "La ville se tait.", "text": "On quitte le fleuve pour le Khlong Bangkok Yai. Maisons de bois sur pilotis, cloche d'un temple de l'autre côté de l'eau, riz qui cuit sur un ponton.", "img": "khlong-1", "alt": "Maisons sur pilotis le long d'un canal à Thonburi" },
+      { "time": "7:30", "label": "03 / 04  Khlong Bang Luang", "title": "Un café sur le ponton.", "text": "Halte dans une vieille maison de bois où travaillent des artistes, et où le café est servi avec des beignets thaïs.", "img": "stays-3", "alt": "Anciennes maisons-boutiques au bord du fleuve à Bangkok" },
+      { "time": "9:00", "label": "04 / 04  Retour au fleuve", "title": "Avant la chaleur.", "text": "Retour à l'embarcadère tandis que la ville se réchauffe. Le reste de la journée vous appartient.", "img": "bangkok-1", "alt": "Le Wat Arun vu depuis la Chao Phraya" }
+    ],
+    "button": "Voir la carte des khlongs"
+  },
+  "editorial": [
+    { "eyebrow": "Éléphants et peuples des collines", "title": "Observés, pas montés.", "text": "Nous ne réservons ni balades à dos d'éléphant ni baignades avec eux. Nous choisissons des lieux où l'on observe à distance, et nous visitons les villages en invités, avec un guide issu de la communauté.", "link": "Nos critères", "img": "elephant-1", "alt": "Des éléphants marchant librement dans une prairie en Thaïlande", "href": "responsible-travel" },
+    { "eyebrow": "Hébergements", "title": "Des maisons avec véranda.", "text": "Une maison lanna à Chiang Mai, une maison flottante loin de toute route, une villa en bois dans une baie tranquille.", "link": "Où nous logeons", "img": "stays-1", "alt": "Une maison thaïe traditionnelle en bois", "href": "stays" }
+  ],
+  "journeys": {
+    "title": "Voyages.",
+    "text": "Cinq itinéraires types, chacun pensé autour d'une saison. Chaque voyage que nous vous proposons est conçu sur mesure pour vos dates.",
+    "link": "Tous les voyages"
+  },
+  "journal": {
+    "title": "Journal",
+    "text": "Notes sur les saisons, l'eau et la cuisine, tirées de nos propres voyages.",
+    "link": "Lire le journal"
+  },
+  "faq": {
+    "title": "Questions avant d'embarquer.",
+    "text": "Encore un doute ? Écrivez-nous : une vraie personne vous répondra, en général sous deux jours ouvrés.",
+    "link": "Poser une question",
+    "items": [
+      { "q": "Quelle côte choisir pour mon mois de voyage ?", "a": "En gros, la côte d'Andaman (Krabi, Koh Yao Noi, Koh Lanta) est à privilégier de novembre à avril, et le golfe (Samui, Phangan) de février à août. Octobre et novembre sont les mois les plus délicats. Notre outil « Deux côtes » détaille chaque mois." },
+      { "q": "Ai-je besoin d'un visa ?", "a": "De nombreuses nationalités peuvent entrer en Thaïlande sans visa pour un séjour touristique de durée limitée, et cette durée a récemment changé. Vérifiez les consignes officielles pour votre passeport avant de réserver, et remplissez en ligne la Thailand Digital Arrival Card avant d'atterrir." },
+      { "q": "Que peut-on faire en deux semaines ?", "a": "Trois lieux, peut-être quatre. Bangkok, une région du Nord ou Khao Sok, et une côte. Au-delà, vous passez vos vacances dans les transports." },
+      { "q": "Proposez-vous des rencontres avec les éléphants ?", "a": "Uniquement dans des sanctuaires d'observation que nous avons vérifiés, où l'on regarde les éléphants à distance. Nous ne réservons ni balades, ni baignades, ni spectacles, ni séances de peinture." },
+      { "q": "Que signifie vraiment la saison des pluies ?", "a": "Le plus souvent, une forte averse l'après-midi et des paysages verts et paisibles. Sur la côte exposée, en revanche, la mer peut rester agitée pendant des semaines, et certains bateaux et hôtels ferment. Nous en tenons compte." },
+      { "q": "Comment réserver ?", "a": "Envoyez-nous une demande. Nous vous répondons par e-mail avec un premier itinéraire, puis une proposition écrite chiffrée pour vos dates. Rien n'est réservé tant que vous n'avez pas confirmé et versé l'acompte indiqué dans la proposition." }
+    ]
+  },
+  "closing": {
+    "img": "journey-1",
+    "alt": "Îles calcaires de la mer d'Andaman dans la lumière dorée du soir",
+    "left": "Écrivez-nous",
+    "right": "Nous répondons par e-mail sous deux jours ouvrés"
+  }
+}

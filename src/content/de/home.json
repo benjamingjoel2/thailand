@@ -1,0 +1,76 @@
+{
+  "metaTitle": "Longtail Travel: Thailand auf dem Wasser, nach Jahreszeit",
+  "metaDescription": "Private Reisen in Thailand, geplant entlang seiner Gewässer und Jahreszeiten: Bangkoks Khlongs, der kühle Norden und die richtige Küste für Ihren Monat.",
+  "hero": {
+    "figLeft": "Abb. 01 — Railay, Krabi, um 7:10 Uhr",
+    "figRight": "Andamanenküste: Trockenzeit, November bis April",
+    "title": "Thailand, auf dem Wasser.",
+    "meta": ["Elf Orte", "Zwei Küsten, zwei Monsune", "Ein Boot nach dem anderen"],
+    "button": "Reise planen",
+    "alt": "Ein Longtail-Boot auf klarem Wasser unter Kalksteinfelsen an Thailands Andamanenküste"
+  },
+  "intro": {
+    "eyebrow": "Longtail Travel",
+    "title": "Wir planen Thailand entlang seiner Gewässer, und wir beginnen mit dem Monat.",
+    "text": "Das Longtail-Boot ist ein schmales Holzboot, dessen Motor an einer langen Stange sitzt. Es fährt auf den Kanälen Bangkoks, auf dem Mekong im Norden und im flachen Wasser der Andamanensee. Wir haben unser Unternehmen danach benannt, weil es dorthin fährt, wo sich das Leben in Thailand tatsächlich abspielt. Und dann lassen wir die Jahreszeit die Küste wählen.",
+    "link": "Über uns"
+  },
+  "regions": {
+    "title": "Orte.",
+    "text": "Elf Orte, von den Khlongs in Bangkok bis zum ruhigen Ende des östlichen Golfs. Zu jedem nennen wir die Monate, in denen wir hinfahren würden, und das Wasser, dem wir folgen würden.",
+    "link": "Alle elf Reiseziele"
+  },
+  "coasts": {
+    "title": "Zwei Küsten. Zwei Monsune.",
+    "meta": "Andamanensee, Golf und Norden, Monat für Monat",
+    "metaRight": "Langjährige Muster, keine Vorhersage",
+    "text": "An der Andamanenküste ist es etwa von November bis April trocken, am Golf am trockensten von Februar bis August. Wählen Sie Ihren Monat, und wir zeigen Ihnen, in welche Richtung es geht.",
+    "button": "Monat wählen",
+    "rows": { "andaman": "Andamanenküste", "gulf": "Golfküste", "north": "Der Norden" },
+    "rowsSub": { "andaman": "Krabi, Koh Yao Noi, Koh Lanta", "gulf": "Samui, Phangan", "north": "Chiang Mai, Chiang Rai" }
+  },
+  "morning": {
+    "eyebrow": "Ein Morgen auf dem Khlong",
+    "right": "Thonburi, im privaten Longtail-Boot",
+    "steps": [
+      { "time": "6:10", "label": "01 / 04  Am Anleger", "title": "Das Boot wartet schon.", "text": "Ihr Bootsführer hat die Schraube aus dem Wasser gehoben. Am Bug hängt eine Girlande aus Tagetes, noch frisch.", "img": "khlong-2", "alt": "Ein Longtail-Boot auf einem Kanal in Bangkok" },
+      { "time": "6:40", "label": "02 / 04  In die Kanäle", "title": "Die Stadt wird still.", "text": "Vom Fluss in den Khlong Bangkok Yai. Holzhäuser auf Stelzen, eine Tempelglocke über dem Wasser, auf einem Steg wird Reis gekocht.", "img": "khlong-1", "alt": "Stelzenhäuser an einem Kanal in Thonburi" },
+      { "time": "7:30", "label": "03 / 04  Khlong Bang Luang", "title": "Kaffee am Steg.", "text": "Halt an einem alten Holzhaus, in dem Künstler arbeiten. Zum Kaffee gibt es thailändische Krapfen.", "img": "stays-3", "alt": "Alte Ladenhäuser am Fluss in Bangkok" },
+      { "time": "9:00", "label": "04 / 04  Zurück am Fluss", "title": "Vor der Hitze.", "text": "Zurück am Anleger, während die Stadt sich aufheizt. Der Rest des Tages gehört Ihnen.", "img": "bangkok-1", "alt": "Wat Arun vom Chao Phraya aus gesehen" }
+    ],
+    "button": "Zur Khlong-Karte"
+  },
+  "editorial": [
+    { "eyebrow": "Elefanten und Bergvölker", "title": "Beobachtet, nicht geritten.", "text": "Wir buchen weder Elefantenreiten noch Elefantenbaden. Wir buchen Orte, an denen Sie aus der Distanz beobachten, und wir besuchen Dörfer als Gäste, mit einem Guide aus der Gemeinschaft.", "link": "Wie wir auswählen", "img": "elephant-1", "alt": "Elefanten, die frei durch Grasland in Thailand ziehen", "href": "responsible-travel" },
+    { "eyebrow": "Unterkünfte", "title": "Häuser mit Veranda.", "text": "Ein Lanna-Haus in Chiang Mai, ein Floßhaus ohne Straßenanbindung, eine Holzvilla an einer ruhigen Bucht.", "link": "Wo wir wohnen", "img": "stays-1", "alt": "Ein traditionelles thailändisches Holzhaus", "href": "stays" }
+  ],
+  "journeys": {
+    "title": "Reisen.",
+    "text": "Fünf Beispielrouten, jede um eine Jahreszeit herum gebaut. Jede Reise, die wir Ihnen schicken, planen wir für Ihre Daten neu.",
+    "link": "Alle Reisen"
+  },
+  "journal": {
+    "title": "Journal",
+    "text": "Notizen zu Jahreszeiten, Wasser und Essen, von unseren eigenen Reisen.",
+    "link": "Zum Journal"
+  },
+  "faq": {
+    "title": "Fragen vor dem Ablegen.",
+    "text": "Noch unsicher? Schreiben Sie uns. Ein Mensch antwortet Ihnen, meist innerhalb von zwei Werktagen.",
+    "link": "Frage stellen",
+    "items": [
+      { "q": "Welche Küste passt zu meinem Reisemonat?", "a": "Grob gesagt ist die Andamanenküste (Krabi, Koh Yao Noi, Koh Lanta) von November bis April am besten, der Golf (Samui, Phangan) von Februar bis August. Oktober und November sind die schwierigsten Monate. Unsere Zwei-Küsten-Übersicht zeigt jeden Monat einzeln." },
+      { "q": "Brauche ich ein Visum?", "a": "Viele Staatsangehörige können für einen begrenzten Aufenthalt ohne Visum als Touristen nach Thailand einreisen; die erlaubte Dauer hat sich zuletzt geändert. Prüfen Sie vor der Buchung die offiziellen Hinweise für Ihren Pass und füllen Sie vor der Landung online die Thailand Digital Arrival Card aus." },
+      { "q": "Wie viel passt in zwei Wochen?", "a": "Drei Orte, vielleicht vier. Bangkok, eine Region im Norden oder Khao Sok und eine Küste. Mehr, und Sie verbringen den Urlaub unterwegs." },
+      { "q": "Buchen Sie Elefantenerlebnisse?", "a": "Nur in von uns geprüften Schutzzentren, in denen Sie die Elefanten aus der Distanz beobachten. Reiten, Baden, Shows und Malen buchen wir nicht." },
+      { "q": "Was bedeutet Regenzeit wirklich?", "a": "Meist einen kräftigen Schauer am Nachmittag und grüne, ruhige Landschaften. An der offenen Küste kann das Meer allerdings wochenlang rau sein, und manche Boote und Hotels schließen. Wir planen darum herum." },
+      { "q": "Wie buchen wir?", "a": "Schicken Sie uns eine Anfrage. Wir antworten per E-Mail mit einer ersten Route, danach folgt ein schriftliches Angebot mit Preisen für Ihre Daten. Gebucht wird erst, wenn Sie bestätigen und die im Angebot genannte Anzahlung leisten." }
+    ]
+  },
+  "closing": {
+    "img": "journey-1",
+    "alt": "Kalksteininseln in der Andamanensee im Abendlicht",
+    "left": "Schreiben Sie uns",
+    "right": "Wir antworten per E-Mail innerhalb von zwei Werktagen"
+  }
+}

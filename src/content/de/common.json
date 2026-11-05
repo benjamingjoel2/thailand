@@ -1,0 +1,89 @@
+{
+  "langName": "Deutsch",
+  "skip": "Zum Inhalt springen",
+  "menu": "Menü",
+  "close": "Schließen",
+  "enquire": "Anfragen",
+  "languageLabel": "Sprache",
+  "nav": {
+    "destinations": "Reiseziele",
+    "journeys": "Reisen",
+    "twoCoasts": "Zwei Küsten",
+    "khlongs": "Khlong-Karte",
+    "responsible": "Elefanten & Bergvölker",
+    "stays": "Unterkünfte",
+    "about": "Über uns",
+    "journal": "Journal",
+    "enquire": "Anfragen"
+  },
+  "menuIntro": "Thailand entlang seiner Gewässer geplant: die Khlongs von Bangkok, die Flüsse des Nordens und die Küste, die in Ihrem Reisemonat trocken ist.",
+  "menuDestinations": "Reiseziele",
+  "menuIdeas": "Ideen und Werkzeuge",
+  "menuCompany": "Longtail Travel",
+  "regions": {
+    "central": "Zentralebene",
+    "north": "Der Norden",
+    "andaman": "Andamanenküste",
+    "gulf": "Golf von Thailand",
+    "south": "Der Süden"
+  },
+  "months": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+  "monthsShort": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+  "ratings": { "3": "Gut", "2": "Wechselhaft", "1": "Nass" },
+  "labels": {
+    "best": "Beste Zeit",
+    "bestMonths": "Beste Monate",
+    "nights": "Nächte",
+    "nightsSuggested": "Empfohlene Nächte",
+    "gettingThere": "Anreise",
+    "region": "Region",
+    "goodFor": "Gut für",
+    "route": "Route",
+    "discover": "Mehr entdecken",
+    "readMore": "Lesen",
+    "viewAll": "Alle ansehen",
+    "allDestinations": "Alle Reiseziele",
+    "next": "Nächstes Reiseziel",
+    "minRead": "Min. Lesezeit",
+    "schematic": "Schematische Karte, nicht maßstabsgetreu",
+    "placeholder": "Platzhaltername",
+    "planThis": "Diese Reise planen",
+    "enquireAbout": "Anfrage zu",
+    "price": "Preis",
+    "from": "Ab",
+    "priceOnRequest": "Preis für Ihre Daten im schriftlichen Angebot",
+    "backTo": "Zurück zu",
+    "onThisPage": "Auf dieser Seite",
+    "updated": "Zuletzt geprüft"
+  },
+  "footer": {
+    "bigLinks": ["Anfragen", "Zwei Küsten", "Khlong-Karte"],
+    "destinations": "Reiseziele",
+    "ideas": "Ideen",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "contact": "Schreiben Sie uns",
+    "address": "Adresse",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Buchungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "credits": "Bildnachweise",
+    "note": "Longtail Travel plant private Reisen in Thailand. Wir beantworten jede Anfrage per E-Mail, meist innerhalb von zwei Werktagen.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "cta": {
+    "eyebrow": "Am Anfang steht der Monat",
+    "title": "Sagen Sie uns, wann Sie reisen können. Wir sagen Ihnen, welchem Wasser Sie folgen sollten.",
+    "text": "Nennen Sie uns Ihre Reisedaten, wer mitreist und was Ihnen Freude macht. Wir antworten per E-Mail mit einer ersten Route und der Küste, die zu Ihrem Monat passt.",
+    "button": "Anfrage starten"
+  },
+  "notFound": {
+    "title": "Dieser Kanal ist eine Sackgasse.",
+    "text": "Die gesuchte Seite wurde verschoben oder hat nie existiert. Wenden Sie das Boot und versuchen Sie es mit einer dieser Seiten.",
+    "home": "Zur Startseite"
+  },
+  "meta": {
+    "defaultDescription": "Private Reisen in Thailand, geplant entlang seiner Gewässer und Jahreszeiten: Bangkoks Khlongs, der kühle Norden und die richtige Küste für Ihren Monat.",
+    "ogLocale": "de_DE"
+  }
+}

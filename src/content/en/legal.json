@@ -1,0 +1,56 @@
+{
+  "updatedLabel": "Last updated",
+  "updated": "2026-11-05",
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "How {brand} collects, uses and protects personal data sent through this website and by email.",
+    "title": "Privacy Policy.",
+    "sections": [
+      { "h": "Who we are", "p": ["This Privacy Policy explains how {brand} (\"we\", \"us\") handles personal data. {brand} is the data controller for the personal data described here.", "Address: {address}. Email: {email}."] },
+      { "h": "What we collect", "p": ["When you send an enquiry through our form or by email, we collect what you choose to give us: your name, email address, preferred travel dates, the number of adults and children travelling, your interests and any message you write.", "When we prepare and book a journey for you, we may also need the full names, dates of birth, passport details, dietary or accessibility requirements and emergency contact details of each traveller.", "Our website does not use analytics, advertising or tracking tools, and does not set cookies. Our hosting provider records technical information such as IP addresses in server logs for security and to keep the site running."] },
+      { "h": "How we use your data", "p": ["We use your data to reply to your enquiry, to plan and book your journey, to send you travel documents and to look after you while you travel. We do not send marketing emails unless you ask us to, and we never sell your data."] },
+      { "h": "Legal bases", "p": ["We process your data to take steps at your request before entering into a contract and to perform that contract; to meet legal obligations, for example accounting records; on the basis of your consent, where you give it, for example when you tick the box on our enquiry form; and for our legitimate interest in running and securing our website."] },
+      { "h": "Who we share it with", "p": ["We share only what is needed with the hotels, guides, transport companies and other suppliers who provide the services you book.", "Our website is hosted by Vercel Inc. Messages sent through our enquiry form are forwarded to our email inbox by FormSubmit (formsubmit.co). Our email is provided by our email service provider. These providers process data on our behalf and may store it outside your country, including in the United States; where required, transfers are protected by standard contractual clauses or equivalent safeguards."] },
+      { "h": "How long we keep it", "p": ["If you enquire but do not travel with us, we delete your enquiry within 24 months of our last contact. If you travel with us, we keep booking records for as long as the law requires for accounting and tax purposes, and then delete them."] },
+      { "h": "Your rights", "p": ["Depending on where you live, including under the EU and UK GDPR and Thailand's Personal Data Protection Act B.E. 2562 (2019), you may have the right to access your data, correct it, delete it, restrict or object to its use, receive it in a portable format and withdraw consent at any time.", "To use any of these rights, email {email}. We will reply within one month. You may also complain to your local data protection authority; in Thailand this is the Personal Data Protection Committee."] },
+      { "h": "Security", "p": ["Our website is served only over HTTPS. We limit access to your data to the people who need it to plan your journey."] },
+      { "h": "Children", "p": ["We collect information about children only when a parent or guardian gives it to us as part of a family booking."] },
+      { "h": "Changes", "p": ["We may update this policy. The date at the top of this page shows the latest version."] }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Booking Terms",
+    "metaDescription": "The booking terms that apply to journeys in Thailand arranged by {brand}.",
+    "title": "Booking Terms.",
+    "sections": [
+      { "h": "1. About these terms", "p": ["These terms apply to every journey arranged by {brand}, {address} (\"we\", \"us\"). Please read them before you confirm a booking. Your written proposal and your confirmation together with these terms form the contract between us."] },
+      { "h": "2. Enquiries and proposals", "p": ["Enquiries and first routes are free and without obligation. When you are ready, we send a written proposal for your dates, listing the services included, the price and the payment schedule. Prices in a proposal are valid until the date stated on it, subject to availability."] },
+      { "h": "3. Confirming a booking", "p": ["Your booking is confirmed when you accept the proposal in writing and we have received the deposit stated in it. We then send a written confirmation. The person who makes the booking must be at least 18 years old and accepts these terms on behalf of everyone travelling."] },
+      { "h": "4. Payment", "p": ["The balance is due on the date stated in your proposal. If it is not paid on time, we may treat the booking as cancelled by you and apply the cancellation charges below. Payment instructions are included in the proposal; we never ask for card details by email."] },
+      { "h": "5. Prices", "p": ["Prices are quoted per journey or per person as stated in the proposal. Once your booking is confirmed, we will not change the price except where a change results from new government taxes or fees, or a fuel surcharge imposed by a carrier, and we will tell you of any such change at least 30 days before departure. If the increase is more than 8% of the total price, you may cancel and receive a full refund of what you have paid."] },
+      { "h": "6. If you change your booking", "p": ["We will try to make any change you ask for, but cannot guarantee it. Suppliers may charge for changes, and we pass those charges on at cost, together with any difference in price."] },
+      { "h": "7. If you cancel", "p": ["You may cancel at any time by writing to {email}. The cancellation charges are set out in your proposal and depend on how close to departure you cancel and on the charges our suppliers make to us. Deposits are not refundable unless your proposal says otherwise. We strongly recommend travel insurance that covers cancellation."] },
+      { "h": "8. If we change or cancel", "p": ["Occasionally we may have to change part of your journey, for example because of weather, the closure of a national park, a supplier's failure or government travel advice. We will offer a comparable alternative where we can. If we have to make a significant change or cancel before departure, you may choose the alternative or a full refund of what you have paid to us. We will not cancel after the balance is paid unless we are forced to by circumstances beyond our control."] },
+      { "h": "9. Weather, seasons and boats", "p": ["Much of what we arrange depends on water and weather. Boat trips, sea canoeing, island transfers and national park visits may be delayed, changed or cancelled by boat operators, park authorities or ourselves for safety. Where a service cannot run, we will offer an alternative or refund its unused cost where the supplier refunds us."] },
+      { "h": "10. Passports, visas and health", "p": ["You are responsible for having a valid passport, any visa or entry documents your nationality requires, and any vaccinations or health documents. Entry rules for Thailand change; check the official guidance for your passport before you travel. We cannot accept responsibility if you are refused boarding or entry because your documents are not in order."] },
+      { "h": "11. Insurance", "p": ["Travel insurance is a condition of booking. It must cover medical treatment, repatriation and the activities you plan, and we recommend it covers cancellation too."] },
+      { "h": "12. Our responsibility", "p": ["We will arrange the services described in your confirmation with reasonable care and skill, using suppliers we have chosen carefully. We are not responsible for losses caused by you or another member of your party, by a third party unconnected with the services, or by unusual and unforeseeable circumstances beyond our control. Our liability is limited as permitted by applicable law and by the international conventions that apply to air and sea carriers. Nothing in these terms limits liability for death or personal injury caused by negligence."] },
+      { "h": "13. Your behaviour", "p": ["Please respect local laws, customs and the people and places you visit. We or our suppliers may end the arrangements of anyone whose behaviour puts others at risk or causes serious offence, without refund."] },
+      { "h": "14. Complaints", "p": ["If something is wrong during your journey, tell your guide, the supplier or us straight away so we can try to put it right. If it is not resolved, write to {email} within 28 days of your return and we will reply within 28 days."] },
+      { "h": "15. Law", "p": ["These terms are governed by the laws of Thailand, without affecting any mandatory consumer rights you have under the law of the country where you live."] }
+    ]
+  },
+  "cookies": {
+    "metaTitle": "Cookie Policy",
+    "metaDescription": "{brand} does not use tracking cookies. How this website handles cookies and similar technologies.",
+    "title": "Cookie Policy.",
+    "sections": [
+      { "h": "Our approach", "p": ["{brand} does not use cookies for analytics, advertising or tracking on this website, so we do not show a cookie banner. This policy explains what that means in practice."] },
+      { "h": "What this website stores", "p": ["This website does not set any cookies. It does not use local storage to track you. Your language is chosen by the address of the page you visit (for example /fr/ for French), not by a cookie.", "Our fonts and images are served from our own domain, so no third-party font or image service sees your visit."] },
+      { "h": "The enquiry form", "p": ["When you send our enquiry form, your browser connects to FormSubmit (formsubmit.co), which forwards your message to us. FormSubmit may use strictly necessary cookies or similar technologies to protect the form against spam. See our Privacy Policy for how we handle the details you send."] },
+      { "h": "Hosting", "p": ["Our hosting provider, Vercel, may use strictly necessary technologies to deliver the site securely and protect it from abuse. These do not track you across other websites."] },
+      { "h": "Managing cookies", "p": ["You can block or delete cookies in your browser settings at any time. Because we do not rely on cookies, the site works the same if you block them."] },
+      { "h": "Contact", "p": ["Questions about this policy: {email}, or write to {address}."] }
+    ]
+  }
+}

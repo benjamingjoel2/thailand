@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "slug": "which-coast-which-month",
+      "title": "Qué costa en qué mes",
+      "date": "2026-10-20",
+      "minutes": 4,
+      "img": "coast-gulf",
+      "alt": "Una playa en calma en el golfo de Tailandia",
+      "excerpt": "Tailandia tiene dos costas y dos monzones. Así elegimos entre una y otra, mes a mes.",
+      "metaDescription": "Cómo elegir entre la costa de Andamán y el golfo de Tailandia según el mes de tu viaje, y por qué octubre es el mes complicado.",
+      "body": [
+        { "type": "p", "text": "La pregunta que más nos hacen es muy sencilla: ¿adónde vamos a la playa? La respuesta sincera siempre empieza con otra pregunta: ¿cuándo?" },
+        { "type": "h", "text": "Dos monzones" },
+        { "type": "p", "text": "La costa occidental de Tailandia da al mar de Andamán y al océano Índico. Más o menos de mayo a octubre, el monzón del suroeste sopla desde ese lado y trae lluvia, viento y mar de fondo a Krabi, Koh Lanta y Phuket. La costa oriental da al golfo de Tailandia. Las montañas de la península la protegen del monzón del suroeste, y sus lluvias más intensas llegan más tarde, aproximadamente de octubre a diciembre, con el monzón del noreste." },
+        { "type": "p", "text": "Así que las costas se turnan. En líneas generales, ve al oeste de noviembre a abril y al este de febrero a agosto. En febrero, marzo y buena parte de abril, los dos lados están bien." },
+        { "type": "h", "text": "Los meses complicados" },
+        { "type": "p", "text": "Octubre y noviembre son los difíciles. A principios de octubre todavía puede hacer buen tiempo en el golfo, mientras en el Andamán llueve; en noviembre el Andamán ya se está secando y el golfo vive sus semanas más lluviosas. Planificamos estos meses con cuidado y a veces proponemos el norte, donde la estación fresca empieza en noviembre." },
+        { "type": "h", "text": "Koh Kood, la excepción" },
+        { "type": "p", "text": "Koh Kood está en el golfo, pero muy al este, y recibe el monzón del suroeste más bien como el lado de Andamán. Piensa en ella como una isla de noviembre a abril." },
+        { "type": "p", "text": "Son patrones, no promesas. Cada año es distinto, y un mes lluvioso también puede traer días de sol. Nuestro selector de las dos costas muestra cada mes de un vistazo." }
+      ]
+    },
+    {
+      "slug": "a-morning-on-the-khlongs",
+      "title": "Una mañana en los khlongs",
+      "date": "2026-09-14",
+      "minutes": 3,
+      "img": "khlong-2",
+      "alt": "Una barca longtail en un canal de Bangkok",
+      "excerpt": "Por qué empezamos cada visita a Bangkok en el agua, antes de las seis, y qué se ve en las dos primeras horas.",
+      "metaDescription": "Por qué empezamos Bangkok en el agua al amanecer: una longtail privada por los khlongs de Thonburi, del embarcadero de Tha Tien al Khlong Bang Luang.",
+      "body": [
+        { "type": "p", "text": "Bangkok a mediodía es calurosa, ruidosa y está llena de gente. Bangkok a las seis de la mañana, desde el agua, es otra ciudad." },
+        { "type": "p", "text": "Quedamos en el embarcadero de Tha Tien, al pie de Wat Pho, cuando el río todavía está gris. El barquero ya ha bajado el motor y ha revisado el eje de la hélice. La barca cruza el Chao Phraya en pocos minutos y se mete en el Khlong Bangkok Yai, y el ruido de la ciudad se queda atrás." },
+        { "type": "h", "text": "La vida en el canal" },
+        { "type": "p", "text": "A los dos lados hay casas de madera sobre pilotes, muchas con un pequeño altar en el embarcadero. Alguien está cociendo arroz. A un monje lo llevan a remo de una casa a otra. Un perro mira desde un escalón. Aquí la longtail aminora, porque la estela golpea contra las casas y los barqueros son considerados con eso." },
+        { "type": "p", "text": "En el Khlong Bang Luang paramos en una vieja casa de madera donde trabajan artistas y tomamos café en el embarcadero. Luego seguimos, bajo puentes bajos, junto a templos cuyas escaleras bajan hasta el agua." },
+        { "type": "h", "text": "De vuelta antes del calor" },
+        { "type": "p", "text": "A las nueve estamos de nuevo en el río, y el día todavía es fresco. De eso se trata. El resto del día es para la sombra, una comida larga y un descanso; la noche, para comer." }
+      ]
+    },
+    {
+      "slug": "the-green-season",
+      "title": "La estación verde, sin rodeos",
+      "date": "2026-08-02",
+      "minutes": 3,
+      "img": "journal-2",
+      "alt": "Nubes de monzón acumulándose sobre el mar",
+      "excerpt": "Cómo son de verdad las lluvias en Tailandia, dónde importan y dónde no.",
+      "metaDescription": "Cómo es de verdad la estación de lluvias en Tailandia: tormentas por la tarde, colinas verdes y templos tranquilos, y dónde el mar revuelto afecta a las islas.",
+      "body": [
+        { "type": "p", "text": "El sector turístico tailandés llama a los meses de lluvia la estación verde. Es un nombre amable y, en general, bastante justo." },
+        { "type": "h", "text": "En el interior, a menudo es precioso" },
+        { "type": "p", "text": "En Bangkok y en el norte, un día típico de la estación de lluvias es caluroso y luminoso por la mañana, con una tormenta fuerte por la tarde que limpia el aire. Los arrozales están de un verde intenso, las colinas rebosan de agua y los templos están tranquilos. Septiembre suele ser el mes más lluvioso, y tras los aguaceros fuertes las calles más bajas de Bangkok pueden inundarse." },
+        { "type": "h", "text": "En la costa expuesta, sí importa" },
+        { "type": "p", "text": "El mar es otra historia. En el lado de Andamán, de mayo a octubre, el mar de fondo y el viento pueden hacer que bañarse en las playas orientadas al oeste no sea seguro durante semanas, se cancelan excursiones en barco y algunas islas prácticamente cierran. En el lado del golfo ocurre lo mismo aproximadamente de octubre a diciembre." },
+        { "type": "p", "text": "En septiembre, Koh Lanta está verde, tranquila y con el mar a menudo revuelto. Te mandaríamos a Samui, o te diríamos que volvieras en enero." },
+        { "type": "h", "text": "Cómo lo planificamos" },
+        { "type": "p", "text": "Programamos los días en barco a primera hora de la mañana, dejamos las tardes flexibles y elegimos la costa más seca en tu mes. Y te decimos claramente cuándo un lugar no merece la pena." }
+      ]
+    }
+  ]
+}

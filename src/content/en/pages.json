@@ -1,0 +1,110 @@
+{
+  "stays": {
+    "metaTitle": "Where we stay in Thailand",
+    "metaDescription": "The kinds of places we book in Thailand: riverside houses in Bangkok, Lanna houses in Chiang Mai, raft houses on Cheow Lan Lake and quiet island villas.",
+    "eyebrow": "Stays",
+    "title": "Houses with a verandah.",
+    "intro": "We prefer small places with a sense of where they are: a wooden house with a pier, a raft on a lake, a villa on a quiet bay. The names below are placeholders while we finalise our partners; the places and the style are what we book.",
+    "heroImg": "stays-2",
+    "heroAlt": "Wooden bungalows by the water in Thailand",
+    "groupNote": "Placeholder names. Photographs show the destination, not the property.",
+    "principlesTitle": "How we choose.",
+    "principles": [
+      { "title": "Small", "text": "Usually fewer than forty rooms, often far fewer." },
+      { "title": "Of the place", "text": "Local materials, local food, staff from nearby." },
+      { "title": "On the water", "text": "Where we can, a pier, a lake or a bay at the door." },
+      { "title": "Seen by us", "text": "We stay before we book." }
+    ]
+  },
+  "about": {
+    "metaTitle": "About Longtail Travel",
+    "metaDescription": "Longtail Travel plans private journeys in Thailand along its water and its seasons. Why we named the company after a boat, and how we work.",
+    "eyebrow": "About",
+    "title": "Named after a boat.",
+    "heroImg": "about-1",
+    "heroAlt": "The bow of a longtail boat decorated with coloured ribbons and garlands",
+    "story": [
+      "At six in the morning on Khlong Bang Luang, the water is the colour of jade tea. A longtail comes round the bend with its engine lifted, the propeller shaft held clear of the weeds, and the boatman steers by leaning on a pole as long as the boat. At the bow there are coloured ribbons and a marigold garland, still fresh, tied there for the spirit who keeps the boat safe.",
+      "We named the company after that boat because it goes where Thailand is actually lived: up the canals behind Wat Arun, across Cheow Lan Lake to a raft house in Khao Sok, between the limestone of Phang Nga Bay at the hour the tide lets you paddle into a hong.",
+      "Thailand has two coasts and they do not share a monsoon. We start every plan with the month. Then we choose the coast, the river and the north to match it. We book the Lanna house with a teak verandah, the cook who takes you to the market first, and the sanctuary where elephants are watched, not ridden. Then we leave the late afternoon open, when the light goes gold on the water."
+    ],
+    "howTitle": "How we work.",
+    "how": [
+      { "title": "You write to us", "text": "Tell us your dates, who is travelling and what you enjoy. There is no form you can get wrong." },
+      { "title": "We reply with a route", "text": "Within two working days, by email: a first route, the coast for your month and honest notes on the season." },
+      { "title": "We refine it together", "text": "Change anything. When it feels right, we send a written proposal with prices for your dates." },
+      { "title": "You travel", "text": "With every booking confirmed, documents in good time and a contact in Thailand while you're there." }
+    ],
+    "principlesTitle": "What we believe.",
+    "principles": [
+      { "title": "The month comes first", "text": "We'll tell you when a place is wrong for your dates, and suggest where to go instead." },
+      { "title": "Close to the surface", "text": "Small boats, small places, local guides. Fewer stops, more time in each." },
+      { "title": "Straight about ethics", "text": "No elephant riding or bathing, no human zoos, and respect for the places we visit." }
+    ],
+    "addressTitle": "Where to find us",
+    "addressText": "We work from Bangkok. Write to us first and we'll arrange a time to meet."
+  },
+  "journal": {
+    "metaTitle": "Journal: notes on Thailand's water and seasons",
+    "metaDescription": "Notes from Longtail Travel on Thailand's seasons, canals, rains and food: which coast in which month, a morning on the khlongs, and the green season.",
+    "eyebrow": "Journal",
+    "title": "Notes from the water.",
+    "intro": "Short pieces on the seasons, the canals and the food, written from our own trips.",
+    "heroImg": "journal-2",
+    "heroAlt": "Rain clouds over the sea in Thailand"
+  },
+  "enquire": {
+    "metaTitle": "Enquire: plan a journey in Thailand",
+    "metaDescription": "Tell Longtail Travel when you can travel and what you enjoy. We reply by email within two working days with a first route for your month.",
+    "eyebrow": "Enquire",
+    "title": "Start with the month.",
+    "intro": "Tell us when you can travel, who is coming and what you enjoy. We reply by email within two working days with a first route and the coast that suits your month.",
+    "form": {
+      "name": "Your name",
+      "email": "Email address",
+      "month": "When would you like to travel?",
+      "monthPlaceholder": "Choose a month",
+      "flexible": "Not sure yet",
+      "year": "Year",
+      "nights": "How many nights?",
+      "nightsOptions": ["Up to 7", "8–11", "12–15", "16 or more", "Not sure yet"],
+      "adults": "Adults",
+      "children": "Children",
+      "interests": "What would you like to do?",
+      "interestsOptions": ["Bangkok's khlongs", "The north in the cool season", "Islands and beaches", "Khao Sok and the lake", "Food and markets", "Ethical wildlife", "Temples and history", "Walking and cycling"],
+      "message": "Anything else we should know?",
+      "messageHint": "Special occasions, places you have already been, pace, accessibility needs.",
+      "consent": "I agree that Longtail Travel may use these details to reply to my enquiry, as described in the Privacy Policy.",
+      "submit": "Send enquiry",
+      "required": "Required",
+      "errors": {
+        "name": "Please tell us your name.",
+        "email": "Please enter a valid email address.",
+        "consent": "Please confirm you have read the Privacy Policy."
+      },
+      "sending": "Sending…",
+      "subject": "New enquiry from the Longtail Travel website"
+    },
+    "asideTitle": "Or write to us",
+    "asideText": "If you prefer, send us an email. We reply to every message ourselves.",
+    "addressTitle": "Address",
+    "thanks": {
+      "metaTitle": "Thank you for your enquiry",
+      "title": "Thank you. Your enquiry is on its way.",
+      "text": "We'll reply by email within two working days. If you don't hear from us, check your spam folder or write to us directly.",
+      "button": "Back to the home page"
+    }
+  },
+  "credits": {
+    "metaTitle": "Photo credits",
+    "metaDescription": "Credits and licences for the Creative Commons photographs used on the Longtail Travel website.",
+    "title": "Photo credits.",
+    "intro": "Some of the photographs on this site are published under Creative Commons licences or in the public domain. We credit them here, with thanks to the photographers.",
+    "photo": "Photograph",
+    "author": "Author",
+    "license": "Licence",
+    "source": "Source",
+    "usedOn": "Shows",
+    "none": "No Creative Commons photographs are in use."
+  }
+}

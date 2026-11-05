@@ -1,0 +1,28 @@
+{
+  "name": "longtail-travel",
+  "version": "1.0.0",
+  "description": "Longtail Travel: Thailand by water and by season. Static multilingual site.",
+  "scripts": {
+    "build": "node build.mjs",
+    "images": "node scripts/images.mjs",
+    "dev": "node build.mjs && npx --yes serve@14 dist -l 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamingjoel2/thailand.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamingjoel2/thailand/issues"
+  },
+  "homepage": "https://github.com/benjamingjoel2/thailand#readme",
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

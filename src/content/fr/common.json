@@ -1,0 +1,89 @@
+{
+  "langName": "Français",
+  "skip": "Aller au contenu",
+  "menu": "Menu",
+  "close": "Fermer",
+  "enquire": "Nous écrire",
+  "languageLabel": "Langue",
+  "nav": {
+    "destinations": "Destinations",
+    "journeys": "Voyages",
+    "twoCoasts": "Deux côtes",
+    "khlongs": "Carte des khlongs",
+    "responsible": "Éléphants et peuples des collines",
+    "stays": "Hébergements",
+    "about": "À propos",
+    "journal": "Journal",
+    "enquire": "Nous écrire"
+  },
+  "menuIntro": "La Thaïlande au fil de l'eau : les khlongs de Bangkok, les rivières du Nord et la côte qui sera sèche le mois de votre voyage.",
+  "menuDestinations": "Destinations",
+  "menuIdeas": "Idées et outils",
+  "menuCompany": "Longtail Travel",
+  "regions": {
+    "central": "Plaine centrale",
+    "north": "Le Nord",
+    "andaman": "Côte d'Andaman",
+    "gulf": "Golfe de Thaïlande",
+    "south": "Le Sud"
+  },
+  "months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+  "monthsShort": ["Janv", "Févr", "Mars", "Avr", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
+  "ratings": { "3": "Bon", "2": "Variable", "1": "Pluvieux" },
+  "labels": {
+    "best": "Idéal",
+    "bestMonths": "Meilleurs mois",
+    "nights": "nuits",
+    "nightsSuggested": "Nuits conseillées",
+    "gettingThere": "Y aller",
+    "region": "Région",
+    "goodFor": "Idéal pour",
+    "route": "Itinéraire",
+    "discover": "En savoir plus",
+    "readMore": "Lire",
+    "viewAll": "Tout voir",
+    "allDestinations": "Toutes les destinations",
+    "next": "Destination suivante",
+    "minRead": "min de lecture",
+    "schematic": "Carte schématique, pas à l'échelle",
+    "placeholder": "Nom provisoire",
+    "planThis": "Préparer ce voyage",
+    "enquireAbout": "Se renseigner sur",
+    "price": "Prix",
+    "from": "À partir de",
+    "priceOnRequest": "Tarif établi pour vos dates dans une proposition écrite",
+    "backTo": "Retour à",
+    "onThisPage": "Sur cette page",
+    "updated": "Dernière vérification"
+  },
+  "footer": {
+    "bigLinks": ["Nous écrire", "Deux côtes", "Carte des khlongs"],
+    "destinations": "Destinations",
+    "ideas": "Idées",
+    "company": "L'agence",
+    "legal": "Informations légales",
+    "contact": "Écrivez-nous",
+    "address": "Adresse",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions de réservation",
+    "cookies": "Politique relative aux cookies",
+    "credits": "Crédits photo",
+    "note": "Longtail Travel conçoit des voyages privés en Thaïlande. Nous répondons à chaque demande par e-mail, en général sous deux jours ouvrés.",
+    "rights": "Tous droits réservés."
+  },
+  "cta": {
+    "eyebrow": "Tout commence par le mois",
+    "title": "Dites-nous quand vous pouvez partir. Nous vous dirons quelle eau suivre.",
+    "text": "Envoyez-nous vos dates, qui voyage et ce que vous aimez. Nous vous répondons par e-mail avec un premier itinéraire et la côte qui convient à votre mois.",
+    "button": "Commencer une demande"
+  },
+  "notFound": {
+    "title": "Ce canal ne mène nulle part.",
+    "text": "La page que vous cherchez a été déplacée ou n'a jamais existé. Faites demi-tour et essayez plutôt l'une de celles-ci.",
+    "home": "Retour à l'accueil"
+  },
+  "meta": {
+    "defaultDescription": "Voyages privés en Thaïlande au rythme de l'eau et des saisons : les khlongs de Bangkok, le Nord à la saison fraîche et la bonne côte pour votre mois.",
+    "ogLocale": "fr_FR"
+  }
+}

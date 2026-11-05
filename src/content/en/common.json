@@ -1,0 +1,89 @@
+{
+  "langName": "English",
+  "skip": "Skip to content",
+  "menu": "Menu",
+  "close": "Close",
+  "enquire": "Enquire",
+  "languageLabel": "Language",
+  "nav": {
+    "destinations": "Destinations",
+    "journeys": "Journeys",
+    "twoCoasts": "Two coasts",
+    "khlongs": "Khlong map",
+    "responsible": "Elephants & hill tribes",
+    "stays": "Stays",
+    "about": "About",
+    "journal": "Journal",
+    "enquire": "Enquire"
+  },
+  "menuIntro": "Thailand planned along its water: the khlongs of Bangkok, the rivers of the north and the coast that is dry in your month.",
+  "menuDestinations": "Destinations",
+  "menuIdeas": "Ideas and tools",
+  "menuCompany": "Longtail Travel",
+  "regions": {
+    "central": "Central plain",
+    "north": "The north",
+    "andaman": "Andaman coast",
+    "gulf": "Gulf of Thailand",
+    "south": "The south"
+  },
+  "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "ratings": { "3": "Good", "2": "Mixed", "1": "Wet" },
+  "labels": {
+    "best": "Best",
+    "bestMonths": "Best months",
+    "nights": "nights",
+    "nightsSuggested": "Nights we suggest",
+    "gettingThere": "Getting there",
+    "region": "Region",
+    "goodFor": "Good for",
+    "route": "Route",
+    "discover": "Discover more",
+    "readMore": "Read",
+    "viewAll": "View all",
+    "allDestinations": "All destinations",
+    "next": "Next destination",
+    "minRead": "min read",
+    "schematic": "Schematic map, not to scale",
+    "placeholder": "Placeholder name",
+    "planThis": "Plan this journey",
+    "enquireAbout": "Enquire about",
+    "price": "Price",
+    "from": "From",
+    "priceOnRequest": "Priced to your dates in a written proposal",
+    "backTo": "Back to",
+    "onThisPage": "On this page",
+    "updated": "Last checked"
+  },
+  "footer": {
+    "bigLinks": ["Enquire", "Two coasts", "Khlong map"],
+    "destinations": "Destinations",
+    "ideas": "Ideas",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Write to us",
+    "address": "Address",
+    "privacy": "Privacy Policy",
+    "terms": "Booking Terms",
+    "cookies": "Cookie Policy",
+    "credits": "Photo credits",
+    "note": "Longtail Travel plans private journeys in Thailand. We reply to every enquiry by email, usually within two working days.",
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "eyebrow": "Start with the month",
+    "title": "Tell us when you can travel. We'll tell you which water to follow.",
+    "text": "Send us your dates, who is travelling and what you enjoy. We reply by email with a first route and the coast that suits your month.",
+    "button": "Start an enquiry"
+  },
+  "notFound": {
+    "title": "This canal doesn't go through.",
+    "text": "The page you were looking for has moved or never existed. Turn the boat around and try one of these.",
+    "home": "Back to the home page"
+  },
+  "meta": {
+    "defaultDescription": "Private journeys in Thailand planned along its water and its seasons: Bangkok's khlongs, the cool north and the right coast for your month.",
+    "ogLocale": "en_GB"
+  }
+}

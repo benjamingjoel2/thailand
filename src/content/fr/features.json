@@ -1,0 +1,137 @@
+{
+  "twoCoasts": {
+    "metaTitle": "Deux côtes : quel côté de la Thaïlande pour votre mois",
+    "metaDescription": "Choisissez votre mois et voyez qui, de la côte d'Andaman ou du golfe de Thaïlande, a la meilleure météo, avec nos îles conseillées de chaque côté.",
+    "eyebrow": "L'outil « Deux côtes »",
+    "title": "Choisissez votre mois.",
+    "intro": "Les deux côtes de la Thaïlande n'ont pas la même mousson. La mousson du sud-ouest arrose la côte d'Andaman de mai à octobre environ ; la mousson du nord-est apporte au golfe ses plus fortes pluies d'octobre à décembre. Choisissez un mois, nous vous indiquons de quel côté partir.",
+    "heroImg": "coast-andaman",
+    "heroAlt": "Une plage sur la côte d'Andaman, en Thaïlande",
+    "pickerLabel": "Mois du voyage",
+    "andaman": "Côte d'Andaman",
+    "andamanSub": "Krabi, Railay, Koh Yao Noi, Koh Lanta, Phuket",
+    "gulf": "Golfe de Thaïlande",
+    "gulfSub": "Koh Samui, Koh Phangan, Koh Kood",
+    "north": "Et le Nord",
+    "better": "Le meilleur choix ce mois-ci",
+    "picks": "Nos îles conseillées",
+    "sea": "Mer",
+    "verdicts": {
+      "andaman": "Cap à l'ouest, sur l'Andaman.",
+      "gulf": "Cap à l'est, sur le golfe.",
+      "both": "Les deux côtes sont belles.",
+      "split": "Un mois partagé."
+    },
+    "months": [
+      { "verdict": "andaman", "summary": "L'Andaman est en pleine saison : sec, calme et limpide. Le golfe sèche après ses pluies, mais des averses restent possibles en début de mois.", "andaman": "Sec et ensoleillé, mer calme. Haute saison : réservez tôt.", "gulf": "Plutôt sec, averses possibles les premières semaines.", "north": "Matinées fraîches et dégagées. Le meilleur mois pour le Nord.", "andamanSea": "Calme", "gulfSea": "Se calme", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "both", "summary": "Les deux côtes sont belles. L'Andaman est sec et calme ; le golfe entre dans sa longue saison sèche.", "andaman": "Sec, chaud et calme. Excellent pour le canoë de mer.", "gulf": "Début de la saison sèche. Bon pour Samui et Phangan.", "north": "Journées chaudes, nuits fraîches. La brume peut apparaître en fin de mois.", "andamanSea": "Calme", "gulfSea": "Calme", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "both", "summary": "Les deux côtes sont sèches et chaudes. Un bon mois pour l'un ou l'autre côté, ou pour les deux.", "andaman": "Chaud et sec, eau limpide.", "gulf": "Chaud et sec, mer calme.", "north": "Chaud, et souvent brumeux à cause des brûlis agricoles.", "andamanSea": "Calme", "gulfSea": "Calme", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "Le mois le plus chaud. Le golfe est sec et calme ; l'Andaman reste agréable, mais les premiers orages peuvent arriver en fin de mois.", "andaman": "Chaud. Plutôt sec, premiers orages possibles.", "gulf": "Chaud, sec et calme.", "north": "Le mois le plus chaud et le plus brumeux. Nous l'éviterions.", "andamanSea": "Plutôt calme", "gulfSea": "Calme", "picks": { "andaman": ["krabi-koh-yao-noi"], "gulf": ["koh-samui-koh-phangan", "koh-kood"] } },
+      { "verdict": "gulf", "summary": "La mousson du sud-ouest atteint la côte d'Andaman. Le golfe reste plutôt sec.", "andaman": "Les pluies commencent. Mer plus agitée sur les plages exposées à l'ouest.", "gulf": "Plutôt sec et chaud.", "north": "Les premières pluies assainissent l'air et reverdissent les collines.", "andamanSea": "Se creuse", "gulfSea": "Calme", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "L'Andaman entre dans sa saison verte, avec une mer agitée sur les plages exposées. En juin, la plage, c'est le golfe.", "andaman": "Pluvieux et venté. Certains bateaux et hôtels ferment.", "gulf": "Plutôt sec, quelques brèves averses.", "north": "Vert et pluvieux, avec des temples tranquilles.", "andamanSea": "Agitée", "gulfSea": "Calme", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Vacances d'été : direction le golfe. L'Andaman est vert, calme et souvent agité.", "andaman": "Pluvieux, mer agitée sur les côtes exposées.", "gulf": "Bon : plutôt sec, averses occasionnelles.", "north": "Saison verte. Averses brèves et fortes.", "andamanSea": "Agitée", "gulfSea": "Calme", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Toujours le golfe. Côté Andaman, fortes pluies et houle.", "andaman": "Pluvieux, houle sur les plages exposées à l'ouest.", "gulf": "Bon : plutôt sec, averses occasionnelles.", "north": "Vert, après-midi pluvieux.", "andamanSea": "Agitée", "gulfSea": "Calme", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "gulf", "summary": "Le mois le plus pluvieux côté Andaman. Le golfe reste le meilleur pari, même si ses pluies ne sont plus loin.", "andaman": "Souvent le mois le plus pluvieux de l'année.", "gulf": "Variable, avec davantage d'averses vers la fin.", "north": "Le mois le plus pluvieux dans le Nord aussi.", "andamanSea": "Agitée", "gulfSea": "Plutôt calme", "picks": { "andaman": [], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "split", "summary": "Le mois délicat. Début octobre, le golfe est encore plus sec ; fin octobre, l'Andaman sèche et les pluies du golfe ont commencé.", "andaman": "Encore pluvieux, mieux vers la fin.", "gulf": "Beau en début de mois, puis arrive la mousson du nord-est.", "north": "Les pluies faiblissent. Vert, frais et tranquille.", "andamanSea": "S'apaise", "gulfSea": "Se creuse", "picks": { "andaman": ["koh-lanta"], "gulf": ["koh-samui-koh-phangan"] } },
+      { "verdict": "andaman", "summary": "Cap à l'ouest. L'Andaman sèche et le golfe connaît ses semaines les plus pluvieuses.", "andaman": "Ça sèche ; la saison reprend.", "gulf": "Le mois le plus pluvieux à Samui et Phangan.", "north": "Début de la saison fraîche. Excellent.", "andamanSea": "Se calme", "gulfSea": "Agitée", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } },
+      { "verdict": "andaman", "summary": "L'Andaman est sec et calme. Le golfe est encore sous les pluies.", "andaman": "Sec, calme et limpide.", "gulf": "Pluie probable, surtout en début de mois.", "north": "Frais et dégagé. Excellent.", "andamanSea": "Calme", "gulfSea": "Instable", "picks": { "andaman": ["krabi-koh-yao-noi", "koh-lanta"], "gulf": ["koh-kood"] } }
+    ],
+    "koodNote": "Koh Kood, à l'extrême est du golfe, suit davantage le rythme de l'Andaman que celui de Samui : la meilleure période va de novembre à avril.",
+    "tableTitle": "L'année en un coup d'œil",
+    "tableNote": "D'après les tendances de long terme. La météo varie d'une année à l'autre ; ceci n'est pas une prévision.",
+    "planButton": "Préparer ce mois-ci",
+    "sources": "Avant chaque saison, nous confrontons ces tendances aux données climatiques du Thai Meteorological Department."
+  },
+  "khlongs": {
+    "metaTitle": "Carte des khlongs : les canaux de Thonburi en longtail",
+    "metaDescription": "Une carte vivante des canaux de Bangkok : deux itinéraires en longtail dans les khlongs de Thonburi, avec les haltes, les horaires et la marée.",
+    "eyebrow": "La carte des khlongs",
+    "title": "Bangkok depuis le khlong.",
+    "intro": "Avant les routes, les rues de Bangkok étaient d'eau. Sur la rive de Thonburi, les khlongs sont toujours habités. Voici les deux itinéraires que nous empruntons le plus souvent, dessinés comme l'eau s'écoule.",
+    "heroImg": "khlong-1",
+    "heroAlt": "Maisons de bois sur pilotis le long d'un canal de Thonburi",
+    "mapTitle": "La carte de l'eau",
+    "mapLabel": "Carte schématique de la Chao Phraya et des canaux de Thonburi, avec deux itinéraires en longtail",
+    "routeLabel": "Choisir un itinéraire",
+    "river": "Chao Phraya",
+    "westBank": "Thonburi",
+    "eastBank": "Rattanakosin",
+    "north": "N",
+    "routes": [
+      { "id": "a", "name": "Itinéraire A : la boucle du matin", "time": "Environ 2 h 30", "text": "De l'embarcadère de Tha Tien, on traverse le fleuve pour entrer dans le Khlong Bangkok Yai, on passe par le Khlong Bang Luang et on revient par le Wat Arun. Notre première matinée habituelle à Bangkok." },
+      { "id": "b", "name": "Itinéraire B : le grand tour par le nord", "time": "Environ 3 h 30", "text": "On remonte le fleuve jusqu'au Khlong Bangkok Noi et aux barges royales, à travers vergers et canaux plus calmes jusqu'à Taling Chan, avant de redescendre par le Khlong Bangkok Yai." }
+    ],
+    "stops": [
+      { "id": "tatien", "name": "Embarcadère de Tha Tien", "time": "6:10", "text": "Notre point de rendez-vous. Le Wat Pho dans votre dos, le Wat Arun de l'autre côté de l'eau.", "routes": "ab" },
+      { "id": "watarun", "name": "Wat Arun", "time": "6:20", "text": "Le temple de l'Aube, vu depuis le fleuve quand le jour se lève.", "routes": "a" },
+      { "id": "bangkokyai", "name": "Khlong Bangkok Yai", "time": "6:40", "text": "Le large canal qui pénètre dans Thonburi : maisons de bois, pontons de temples et cuisine du matin.", "routes": "ab" },
+      { "id": "bangluang", "name": "Khlong Bang Luang", "time": "7:30", "text": "Une vieille maison de bois où travaillent des artistes, et où le bateau s'arrête pour le café.", "routes": "a" },
+      { "id": "paknam", "name": "Wat Paknam Phasi Charoen", "time": "8:15", "text": "Un grand stupa blanc au-dessus du canal, visible de très loin sur l'eau.", "routes": "a" },
+      { "id": "barges", "name": "Musée des barges royales", "time": "7:00", "text": "Les longues barges sculptées des processions royales sur le fleuve.", "routes": "b" },
+      { "id": "bangkoknoi", "name": "Khlong Bangkok Noi", "time": "7:20", "text": "Une eau plus calme, des temples et des jardins à mesure que la ville s'éclaircit.", "routes": "b" },
+      { "id": "talingchan", "name": "Taling Chan", "time": "8:30", "text": "Des vergers et, le week-end, un marché flottant où les habitants font leurs courses.", "routes": "b" }
+    ],
+    "tideTitle": "Un mot sur la marée",
+    "tide": "Les khlongs montent et descendent avec le fleuve. Quand l'eau est très haute, certains ponts bas deviennent difficiles à franchir ; quand elle est très basse, les petits canaux manquent de fond. Votre batelier lit l'eau et adapte l'itinéraire le jour même.",
+    "practicalTitle": "En pratique",
+    "practical": [
+      { "title": "Quand", "text": "Tôt le matin, toute l'année. De septembre à novembre, le fleuve est haut ; nous vérifions les conditions chaque jour." },
+      { "title": "Le bateau", "text": "Un longtail privé avec un batelier agréé et des gilets de sauvetage pour tous, y compris en tailles enfant." },
+      { "title": "Le respect", "text": "Ce sont des maisons habitées. Saluez de la main, ne braquez pas l'appareil photo vers les fenêtres et parlez bas près des temples." }
+    ],
+    "button": "Préparer vos journées à Bangkok"
+  },
+  "responsible": {
+    "metaTitle": "Éléphants et peuples des collines : voyager en conscience",
+    "metaDescription": "Choisir un sanctuaire d'éléphants éthique en Thaïlande et visiter les villages des collines avec respect : ce que Longtail Travel réserve, ou non, et pourquoi.",
+    "eyebrow": "Éléphants et peuples des collines",
+    "title": "Observés, pas montés.",
+    "intro": "Les éléphants et les villages des peuples des collines font partie de nombreux voyages dans le nord de la Thaïlande, et dans les deux cas il est facile de mal faire. Voici comment nous choisissons, et ce que nous demandons à nos voyageurs.",
+    "heroImg": "elephant-2",
+    "heroAlt": "Éléphants sauvages dans un parc national thaïlandais",
+    "elephantsTitle": "Éléphants.",
+    "elephantsText": "La Thaïlande compte des milliers d'éléphants captifs, dont beaucoup travaillent dans le tourisme. Balades, baignades, spectacles et séances de peinture reposent tous sur un dressage et un contrôle qui font souffrir les animaux. Un bon sanctuaire laisse les éléphants se comporter en éléphants, et vous, vous observez.",
+    "weBook": "Ce que nous réservons",
+    "weBookList": [
+      "Des sanctuaires d'observation, où l'on regarde à distance",
+      "Des petits groupes, avec un temps limité auprès des animaux",
+      "Des lieux transparents sur le nombre d'éléphants qu'ils hébergent et leur provenance",
+      "Des éléphants sauvages dans les parcs nationaux, avec un guide du parc, depuis un véhicule ou un affût"
+    ],
+    "weDont": "Ce que nous ne réservons pas",
+    "weDontList": [
+      "Les balades à dos d'éléphant, avec ou sans selle",
+      "La baignade ou le lavage des éléphants",
+      "Les spectacles, la peinture ou les tours",
+      "Les séances de nourrissage conçues comme un divertissement",
+      "Les éléphanteaux gardés pour être manipulés par les visiteurs"
+    ],
+    "checklistTitle": "Comment choisir un sanctuaire",
+    "checklistText": "Avant d'ajouter un sanctuaire, nous posons ces questions. Vous pouvez les poser aussi.",
+    "checklist": [
+      { "title": "Les éléphants peuvent-ils se déplacer librement ?", "text": "Cherchez de l'espace, de la forêt, des pâturages, et des troupeaux qui choisissent où aller dans la journée." },
+      { "title": "Y a-t-il un contact ?", "text": "Si la visite comprend une balade, une baignade ou un nourrissage de près, ce n'est pas un sanctuaire au sens où nous l'entendons." },
+      { "title": "Utilise-t-on des crochets ou des chaînes ?", "text": "Crochets (ankus) et chaînes courtes sont des signes de contrôle, pas de soin." },
+      { "title": "Combien de visiteurs ?", "text": "Des petits groupes à horaires fixes, et des jours de repos pour le troupeau." },
+      { "title": "Y a-t-il un vétérinaire ?", "text": "Renseignez-vous sur les soins vétérinaires, l'alimentation et l'histoire de chaque éléphant." },
+      { "title": "Qu'en disent les organisations indépendantes ?", "text": "Nous suivons les recommandations des organisations de protection animale et privilégions les lieux qui acceptent d'être examinés de près." }
+    ],
+    "tribesTitle": "Villages des collines.",
+    "tribesText": "Les collines du Nord abritent de nombreux peuples, parmi lesquels les Karen, les Hmong, les Akha, les Lahu, les Lisu et les Mien. Une visite peut être un véritable échange, ou donner l'impression de traverser la maison de quelqu'un, appareil photo à la main.",
+    "tribesList": [
+      { "title": "Partir avec quelqu'un de la communauté", "text": "Nous faisons appel à des guides du village ou à des projets gérés par la communauté : la visite est souhaitée, et l'argent reste sur place." },
+      { "title": "Demander avant de photographier", "text": "Demandez toujours, et acceptez un refus. Ne photographiez jamais l'intérieur d'une maison ou une cérémonie sans autorisation." },
+      { "title": "S'habiller et se comporter en invité", "text": "Couvrez épaules et genoux, retirez vos chaussures quand les autres le font, et ne touchez ni aux portes des esprits ni aux autels." },
+      { "title": "Acheter en direct, payer le juste prix", "text": "Achetez l'artisanat aux artisans eux-mêmes. Ne distribuez ni bonbons ni argent aux enfants." },
+      { "title": "Pas de zoos humains", "text": "Nous ne réservons pas de visites de villages où des femmes kayan portant des anneaux de laiton au cou sont présentées comme une attraction." }
+    ],
+    "faqTitle": "Questions",
+    "faq": [
+      { "q": "Baigner les éléphants, ce n'est pas doux ?", "a": "C'est souvent présenté ainsi, mais cela suppose un contact rapproché avec des animaux qu'il faut contrôler pour le permettre. Nous préférons regarder les éléphants se baigner seuls." },
+      { "q": "Peut-on voir des éléphants sauvages ?", "a": "Oui, dans certains parcs nationaux comme Khao Yai et Kui Buri, avec un guide du parc. Les observations ne sont jamais garanties." },
+      { "q": "Pourra-t-on acheter de l'artisanat ?", "a": "Oui, et nous vous y encourageons, directement auprès de celles et ceux qui le fabriquent." }
+    ],
+    "sourcesTitle": "Pour aller plus loin",
+    "sources": "Pour des recommandations indépendantes sur le tourisme animalier, consultez les conseils publiés par World Animal Protection."
+  }
+}

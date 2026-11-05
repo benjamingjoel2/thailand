@@ -1,0 +1,110 @@
+{
+  "stays": {
+    "metaTitle": "Où nous logeons en Thaïlande",
+    "metaDescription": "Nos adresses en Thaïlande : maisons au bord du fleuve à Bangkok, maisons lanna à Chiang Mai, maisons flottantes sur le lac Cheow Lan et villas insulaires.",
+    "eyebrow": "Hébergements",
+    "title": "Des maisons avec véranda.",
+    "intro": "Nous préférons les petites adresses qui ont le sens du lieu : une maison de bois avec son ponton, un radeau sur un lac, une villa dans une baie tranquille. Les noms ci-dessous sont provisoires, le temps de finaliser nos partenariats ; les lieux et le style correspondent à ce que nous réservons.",
+    "heroImg": "stays-2",
+    "heroAlt": "Bungalows en bois au bord de l'eau en Thaïlande",
+    "groupNote": "Noms provisoires. Les photos montrent la destination, pas l'établissement.",
+    "principlesTitle": "Nos critères.",
+    "principles": [
+      { "title": "Petit", "text": "En général moins de quarante chambres, souvent bien moins." },
+      { "title": "Ancré dans le lieu", "text": "Matériaux locaux, cuisine locale, personnel des environs." },
+      { "title": "Au bord de l'eau", "text": "Quand c'est possible, un ponton, un lac ou une baie devant la porte." },
+      { "title": "Testé par nous", "text": "Nous y dormons avant de le réserver." }
+    ]
+  },
+  "about": {
+    "metaTitle": "À propos de Longtail Travel",
+    "metaDescription": "Longtail Travel conçoit des voyages privés en Thaïlande au rythme de l'eau et des saisons. Pourquoi un nom de bateau, et comment nous travaillons.",
+    "eyebrow": "À propos",
+    "title": "Un nom de bateau.",
+    "heroImg": "about-1",
+    "heroAlt": "La proue d'un bateau longtail ornée de rubans colorés et de guirlandes",
+    "story": [
+      "À six heures du matin sur le Khlong Bang Luang, l'eau a la couleur d'un thé de jade. Un longtail surgit au détour du canal, moteur relevé, l'arbre de l'hélice tenu hors des herbes, et le batelier gouverne en pesant sur une perche aussi longue que le bateau. À la proue, des rubans colorés et une guirlande de soucis encore fraîche, nouée là pour l'esprit qui protège l'embarcation.",
+      "Nous avons donné le nom de ce bateau à l'agence parce qu'il va là où la Thaïlande se vit vraiment : dans les canaux derrière le Wat Arun, à travers le lac Cheow Lan jusqu'à une maison flottante de Khao Sok, entre les falaises calcaires de la baie de Phang Nga, à l'heure où la marée permet d'entrer en pagayant dans un hong.",
+      "La Thaïlande a deux côtes, et elles n'ont pas la même mousson. Chaque projet commence donc par le mois. Puis nous choisissons la côte, le fleuve et le Nord qui lui correspondent. Nous réservons la maison lanna à la véranda de teck, la cuisinière qui vous emmène d'abord au marché, le sanctuaire où l'on observe les éléphants sans les monter. Et nous laissons libre la fin d'après-midi, quand la lumière dore l'eau."
+    ],
+    "howTitle": "Notre façon de travailler.",
+    "how": [
+      { "title": "Vous nous écrivez", "text": "Indiquez-nous vos dates, qui voyage et ce que vous aimez. Pas de formulaire où vous risquez de vous tromper." },
+      { "title": "Nous répondons avec un itinéraire", "text": "Sous deux jours ouvrés, par e-mail : un premier itinéraire, la côte qui convient à votre mois et un avis franc sur la saison." },
+      { "title": "Nous l'affinons ensemble", "text": "Changez ce que vous voulez. Quand tout vous convient, nous vous envoyons une proposition écrite, chiffrée pour vos dates." },
+      { "title": "Vous partez", "text": "Toutes les réservations confirmées, les documents envoyés à temps et un contact en Thaïlande pendant votre séjour." }
+    ],
+    "principlesTitle": "Ce en quoi nous croyons.",
+    "principles": [
+      { "title": "Le mois d'abord", "text": "Nous vous dirons quand un lieu ne convient pas à vos dates, et nous vous proposerons où aller à la place." },
+      { "title": "Au ras de l'eau", "text": "Petits bateaux, petites adresses, guides locaux. Moins d'étapes, plus de temps à chacune." },
+      { "title": "Clairs sur l'éthique", "text": "Pas de balade ni de baignade avec les éléphants, pas de zoos humains, et le respect des lieux que nous visitons." }
+    ],
+    "addressTitle": "Où nous trouver",
+    "addressText": "Nous travaillons depuis Bangkok. Écrivez-nous d'abord, et nous conviendrons d'un moment pour nous rencontrer."
+  },
+  "journal": {
+    "metaTitle": "Journal : l'eau et les saisons de Thaïlande",
+    "metaDescription": "Les notes de Longtail Travel sur les saisons, les canaux, les pluies et la cuisine de Thaïlande : quelle côte pour quel mois, une matinée sur les khlongs.",
+    "eyebrow": "Journal",
+    "title": "Notes au fil de l'eau.",
+    "intro": "De courts textes sur les saisons, les canaux et la cuisine, écrits au retour de nos propres voyages.",
+    "heroImg": "journal-2",
+    "heroAlt": "Nuages de pluie au-dessus de la mer en Thaïlande"
+  },
+  "enquire": {
+    "metaTitle": "Nous écrire : préparer un voyage en Thaïlande",
+    "metaDescription": "Dites à Longtail Travel quand vous pouvez partir et ce que vous aimez. Réponse par e-mail sous deux jours ouvrés, avec un premier itinéraire pour votre mois.",
+    "eyebrow": "Nous écrire",
+    "title": "Commencez par le mois.",
+    "intro": "Dites-nous quand vous pouvez partir, qui vient et ce que vous aimez. Nous vous répondons par e-mail sous deux jours ouvrés avec un premier itinéraire et la côte qui convient à votre mois.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Adresse e-mail",
+      "month": "Quand souhaitez-vous partir ?",
+      "monthPlaceholder": "Choisir un mois",
+      "flexible": "Je ne sais pas encore",
+      "year": "Année",
+      "nights": "Combien de nuits ?",
+      "nightsOptions": ["Jusqu'à 7", "8–11", "12–15", "16 ou plus", "Je ne sais pas encore"],
+      "adults": "Adultes",
+      "children": "Enfants",
+      "interests": "Qu'aimeriez-vous faire ?",
+      "interestsOptions": ["Les khlongs de Bangkok", "Le Nord à la saison fraîche", "Îles et plages", "Khao Sok et le lac", "Cuisine et marchés", "Faune, de façon éthique", "Temples et histoire", "Marche et vélo"],
+      "message": "Autre chose à nous dire ?",
+      "messageHint": "Occasion particulière, lieux déjà visités, rythme souhaité, besoins d'accessibilité.",
+      "consent": "J'accepte que Longtail Travel utilise ces informations pour répondre à ma demande, comme indiqué dans la Politique de confidentialité.",
+      "submit": "Envoyer la demande",
+      "required": "Obligatoire",
+      "errors": {
+        "name": "Merci d'indiquer votre nom.",
+        "email": "Merci de saisir une adresse e-mail valide.",
+        "consent": "Merci de confirmer que vous avez lu la Politique de confidentialité."
+      },
+      "sending": "Envoi en cours…",
+      "subject": "Nouvelle demande depuis le site Longtail Travel"
+    },
+    "asideTitle": "Ou écrivez-nous",
+    "asideText": "Si vous préférez, envoyez-nous un e-mail. Nous répondons nous-mêmes à chaque message.",
+    "addressTitle": "Adresse",
+    "thanks": {
+      "metaTitle": "Merci pour votre demande",
+      "title": "Merci. Votre demande est en route.",
+      "text": "Nous vous répondrons par e-mail sous deux jours ouvrés. Sans nouvelles de notre part, vérifiez vos courriers indésirables ou écrivez-nous directement.",
+      "button": "Retour à l'accueil"
+    }
+  },
+  "credits": {
+    "metaTitle": "Crédits photo",
+    "metaDescription": "Crédits et licences des photographies Creative Commons utilisées sur le site de Longtail Travel.",
+    "title": "Crédits photo.",
+    "intro": "Certaines photographies de ce site sont publiées sous licence Creative Commons ou appartiennent au domaine public. Nous les créditons ici, avec nos remerciements aux photographes.",
+    "photo": "Photographie",
+    "author": "Auteur",
+    "license": "Licence",
+    "source": "Source",
+    "usedOn": "Sujet",
+    "none": "Aucune photographie sous licence Creative Commons n'est utilisée."
+  }
+}

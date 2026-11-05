@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "slug": "which-coast-which-month",
+      "title": "Quelle côte pour quel mois",
+      "date": "2026-10-20",
+      "minutes": 4,
+      "img": "coast-gulf",
+      "alt": "Une plage calme sur le golfe de Thaïlande",
+      "excerpt": "La Thaïlande a deux côtes et deux moussons. Voici comment nous choisissons entre les deux, mois par mois.",
+      "metaDescription": "Comment choisir entre la côte d'Andaman et le golfe de Thaïlande selon votre mois de voyage, et pourquoi octobre est le mois délicat.",
+      "body": [
+        { "type": "p", "text": "La question qu'on nous pose le plus souvent est simple : où aller à la plage ? La réponse honnête commence toujours par une autre question. Quand ?" },
+        { "type": "h", "text": "Deux moussons" },
+        { "type": "p", "text": "La côte ouest de la Thaïlande fait face à la mer d'Andaman et à l'océan Indien. De mai à octobre environ, la mousson du sud-ouest souffle de ce côté et apporte pluie, vent et houle à Krabi, Koh Lanta et Phuket. La côte est fait face au golfe de Thaïlande. Abritée de la mousson du sud-ouest par les montagnes de la péninsule, elle reçoit ses plus fortes pluies plus tard dans l'année, d'octobre à décembre environ, avec l'arrivée de la mousson du nord-est." },
+        { "type": "p", "text": "Les côtes se relaient donc. En gros, partez à l'ouest de novembre à avril et à l'est de février à août. En février, en mars et pendant une bonne partie d'avril, les deux côtés sont agréables." },
+        { "type": "h", "text": "Les mois délicats" },
+        { "type": "p", "text": "Octobre et novembre sont les plus difficiles. Début octobre, le golfe peut encore être beau alors que l'Andaman est sous la pluie ; en novembre, l'Andaman sèche et le golfe connaît ses semaines les plus pluvieuses. Nous préparons ces mois avec soin et proposons parfois plutôt le Nord, où la saison fraîche commence en novembre." },
+        { "type": "h", "text": "Koh Kood, l'exception" },
+        { "type": "p", "text": "Koh Kood se trouve dans le golfe, mais très à l'est, et elle reçoit la mousson du sud-ouest à la manière de la côte d'Andaman. Considérez-la comme une île de novembre à avril." },
+        { "type": "p", "text": "Ce sont des tendances, pas des promesses. Chaque année est différente, et un mois pluvieux peut offrir des journées de soleil. Notre outil « Deux côtes » montre chaque mois en un coup d'œil." }
+      ]
+    },
+    {
+      "slug": "a-morning-on-the-khlongs",
+      "title": "Une matinée sur les khlongs",
+      "date": "2026-09-14",
+      "minutes": 3,
+      "img": "khlong-2",
+      "alt": "Un bateau longtail sur un canal de Bangkok",
+      "excerpt": "Pourquoi nous commençons chaque séjour à Bangkok sur l'eau, avant six heures, et ce que l'on voit pendant les deux premières heures.",
+      "metaDescription": "Pourquoi commencer Bangkok sur l'eau au petit jour : un longtail privé dans les khlongs de Thonburi, de l'embarcadère de Tha Tien au Khlong Bang Luang.",
+      "body": [
+        { "type": "p", "text": "À midi, Bangkok est chaude, bruyante et bondée. À six heures du matin, sur l'eau, c'est une autre ville." },
+        { "type": "p", "text": "Le rendez-vous est à l'embarcadère de Tha Tien, en contrebas du Wat Pho, quand le fleuve est encore gris. Le batelier a déjà abaissé le moteur et vérifié l'arbre de l'hélice. Le bateau traverse la Chao Phraya en quelques minutes, s'engage dans le Khlong Bangkok Yai, et le bruit de la ville s'éloigne derrière lui." },
+        { "type": "h", "text": "La vie sur le canal" },
+        { "type": "p", "text": "Des deux côtés, des maisons de bois sur pilotis, souvent avec un petit autel sur le ponton. Quelqu'un fait cuire du riz. Un moine passe d'une maison à l'autre dans une barque. Un chien observe depuis une marche. Ici, le longtail ralentit : son sillage vient battre contre les maisons, et les bateliers y veillent par courtoisie." },
+        { "type": "p", "text": "Sur le Khlong Bang Luang, nous faisons halte dans une vieille maison de bois où travaillent des artistes, et nous prenons un café sur le ponton. Puis on repart, sous des ponts bas, devant des temples dont les marches descendent jusque dans l'eau." },
+        { "type": "h", "text": "De retour avant la chaleur" },
+        { "type": "p", "text": "À neuf heures, nous sommes de retour sur le fleuve, et la journée est encore fraîche. Tout est là. Le reste de la journée est pour l'ombre, un long déjeuner et le repos ; le soir, pour la table." }
+      ]
+    },
+    {
+      "slug": "the-green-season",
+      "title": "La saison verte, en toute franchise",
+      "date": "2026-08-02",
+      "minutes": 3,
+      "img": "journal-2",
+      "alt": "Nuages de mousson s'amoncelant au-dessus de la mer",
+      "excerpt": "À quoi ressemblent vraiment les pluies en Thaïlande, là où elles comptent et là où elles ne changent pas grand-chose.",
+      "metaDescription": "La saison des pluies en Thaïlande telle qu'elle est : orages d'après-midi, collines vertes, temples calmes, et là où la mer agitée compte pour les îles.",
+      "body": [
+        { "type": "p", "text": "Les professionnels du voyage en Thaïlande appellent les mois de pluie la « saison verte ». Le nom est aimable, et le plus souvent juste." },
+        { "type": "h", "text": "À l'intérieur des terres, c'est souvent très beau" },
+        { "type": "p", "text": "À Bangkok et dans le Nord, une journée type de saison des pluies est chaude et lumineuse le matin, avec un violent orage l'après-midi qui assainit l'air. Les rizières sont d'un vert éclatant, les collines gorgées d'eau et les temples tranquilles. Septembre est généralement le mois le plus pluvieux, et les rues les plus basses de Bangkok peuvent être inondées après de fortes averses." },
+        { "type": "h", "text": "Sur la côte exposée, ça compte" },
+        { "type": "p", "text": "En mer, c'est une autre histoire. Côté Andaman, de mai à octobre, la houle et le vent peuvent rendre la baignade dangereuse sur les plages exposées à l'ouest pendant des semaines ; les sorties en bateau sont annulées et certaines îles ferment presque. Côté golfe, il en va de même d'octobre à décembre environ." },
+        { "type": "p", "text": "En septembre, Koh Lanta est verte, calme et souvent agitée. Nous vous enverrions à Samui, ou vous conseillerions de revenir en janvier." },
+        { "type": "h", "text": "Comment nous nous organisons" },
+        { "type": "p", "text": "Nous prévoyons les journées en bateau tôt le matin, gardons les après-midi souples et choisissons la côte la plus sèche pour votre mois. Et nous vous disons clairement quand un lieu n'en vaut pas la peine." }
+      ]
+    }
+  ]
+}
