@@ -146,5 +146,26 @@
     "alt": "Islas de caliza en el mar de Andamán a la hora dorada",
     "left": "Escríbenos",
     "right": "Respondemos por correo en dos días laborables"
+  },
+  "stats": {
+    "title": "Dos costas, once lugares, un barco cada vez.",
+    "items": [
+      [
+        "11",
+        "lugares que organizamos, de los khlongs de Bangkok a Koh Kood"
+      ],
+      [
+        "2",
+        "costas con monzones distintos: siempre hay un lado seco"
+      ],
+      [
+        "5",
+        "viajes de ejemplo, cada uno pensado para su estación"
+      ],
+      [
+        "0",
+        "paseos, baños o espectáculos con elefantes. Miramos, no tocamos."
+      ]
+    ]
   }
 }

@@ -307,12 +307,13 @@ add('', (lang) => {
     <div style="display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;margin-top:28px"><a class="btn" href="${href(lang, 'two-coasts/')}">${esc(h.coasts.button)}</a><p class="muted" style="max-width:52ch;font-size:.9375rem">${esc(C[lang].features.twoCoasts.tableNote)}</p></div>
   </div>
 </section>
-${h.morning.steps.map((s, i) => `<section class="seq${i === 0 ? ' seq--first' : ''}">
-  <div class="seq__img">${pic(s.img, s.alt)}</div>
+${h.morning.steps.map((s, i, all) => { const bare = i === 0 || i === all.length - 1; return `<section class="seq${bare ? ' seq--bare' : ''}${i === all.length - 1 ? ' seq--accent' : ''}">
+  ${bare ? '' : `<div class="seq__img">${pic(s.img, s.alt)}</div>`}
   <div class="seq__top mono"><span>${esc(s.label)}</span><span>${i === 0 ? esc(h.morning.eyebrow) : esc(h.morning.right)}</span></div>
   <p class="seq__time" aria-hidden="true">${esc(s.time)}</p>
   <div class="seq__cap" data-reveal><h3><span class="sr-only">${esc(s.time)} — </span>${esc(s.title)}</h3><p>${esc(s.text)}</p>${i === h.morning.steps.length - 1 ? `<a class="btn" href="${href(lang, 'khlong-map/')}">${esc(h.morning.button)}</a>` : ''}</div>
-</section>`).join('')}
+</section>`; }).join('')}
+<section class="dark sec"><div class="wrap"><div class="stats-head" data-reveal><p class="eyebrow">${esc(C[lang].common.menuCompany)}</p><h2>${esc(h.stats.title)}</h2></div><div class="stats">${h.stats.items.map(([n, t], i) => `<div data-reveal style="--d:${i * 0.1}s"><b>${esc(n)}</b><p>${esc(t)}</p></div>`).join('')}</div></div></section>
 <section class="light sec">
   <div class="wrap ed">${h.editorial.map((e, i) => card(lang, { img: e.img, alt: e.alt, eyebrow: e.eyebrow, title: e.title, text: e.text, link: e.link, to: href(lang, e.href + '/'), sizes: i ? '(min-width:900px) 32vw, 92vw' : '(min-width:900px) 64vw, 92vw' })).join('')}</div>
 </section>

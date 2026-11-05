@@ -146,5 +146,26 @@
     "alt": "Kalksteininseln in der Andamanensee im Abendlicht",
     "left": "Schreiben Sie uns",
     "right": "Wir antworten per E-Mail innerhalb von zwei Werktagen"
+  },
+  "stats": {
+    "title": "Zwei Küsten, elf Orte, immer ein Boot.",
+    "items": [
+      [
+        "11",
+        "Orte, die wir planen – von den Khlongs Bangkoks bis Koh Kood"
+      ],
+      [
+        "2",
+        "Küsten mit unterschiedlichen Monsunen: Eine Seite ist immer trocken"
+      ],
+      [
+        "5",
+        "Beispielreisen, jede um ihre Jahreszeit gebaut"
+      ],
+      [
+        "0",
+        "Elefantenritte, -bäder oder -shows. Wir schauen zu, wir fassen nicht an."
+      ]
+    ]
   }
 }

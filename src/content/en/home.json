@@ -146,5 +146,26 @@
     "alt": "Limestone islands in the Andaman Sea at golden hour",
     "left": "Write to us",
     "right": "We reply by email within two working days"
+  },
+  "stats": {
+    "title": "Two coasts, eleven places, one boat at a time.",
+    "items": [
+      [
+        "11",
+        "places we plan, from the khlongs of Bangkok to Koh Kood"
+      ],
+      [
+        "2",
+        "coasts with different monsoons, so there is always a dry side"
+      ],
+      [
+        "5",
+        "sample journeys, each built around its season"
+      ],
+      [
+        "0",
+        "elephant rides, baths or shows. We watch, we don't touch."
+      ]
+    ]
   }
 }

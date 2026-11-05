@@ -146,5 +146,26 @@
     "alt": "Îles calcaires de la mer d'Andaman dans la lumière dorée du soir",
     "left": "Écrivez-nous",
     "right": "Nous répondons par e-mail sous deux jours ouvrés"
+  },
+  "stats": {
+    "title": "Deux côtes, onze lieux, un bateau à la fois.",
+    "items": [
+      [
+        "11",
+        "lieux que nous organisons, des khlongs de Bangkok à Koh Kood"
+      ],
+      [
+        "2",
+        "côtes aux moussons différentes : il y a toujours un côté sec"
+      ],
+      [
+        "5",
+        "exemples de voyages, chacun construit autour de sa saison"
+      ],
+      [
+        "0",
+        "balade, bain ou spectacle d'éléphants. Nous observons, sans toucher."
+      ]
+    ]
   }
 }
