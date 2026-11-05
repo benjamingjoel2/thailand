@@ -174,9 +174,25 @@
       c.setAttribute('aria-invalid', String(!c.checked));
       if (!c.checked && !first) first = c;
       if (first) { e.preventDefault(); first.focus(); return; }
+      e.preventDefault();
       const btn = $('button[type=submit]', form);
+      const label = btn.textContent;
       btn.textContent = btn.dataset.sending;
       btn.disabled = true;
+      const fd = new FormData(form);
+      const lines = [];
+      for (const [k, v] of fd) if (v && !k.startsWith('_')) lines.push(`${k}: ${v}`);
+      const mailto = () => {
+        const to = form.action.split('/').pop();
+        location.href = `mailto:${to}?subject=${encodeURIComponent(fd.get('_subject'))}&body=${encodeURIComponent(lines.join('\n'))}`;
+        btn.textContent = label; btn.disabled = false;
+      };
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 15000);
+      fetch(form.action.replace('formsubmit.co/', 'formsubmit.co/ajax/'), { method: 'POST', body: fd, headers: { Accept: 'application/json' }, signal: ctrl.signal })
+        .then((r) => r.ok ? r.json() : Promise.reject(r.status))
+        .then((j) => { clearTimeout(timer); if (j && (j.success === true || j.success === 'true')) location.href = form.dataset.thanks; else mailto(); })
+        .catch(() => { clearTimeout(timer); mailto(); });
     });
   }
 })();

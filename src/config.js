@@ -24,7 +24,7 @@ export default {
   },
   // Canonical domain (format: <brand>.tourground.com). The Vercel URL is kept for reference.
   siteUrl: 'https://longtailtravel.tourground.com',
-  liveUrl: 'https://longtailtravel.vercel.app',
+  liveUrl: 'https://thailand-beryl.vercel.app',
   // Enquiry form endpoint. FormSubmit forwards submissions to the email above.
   formEndpoint: 'https://formsubmit.co/longtailtravel@tourground.com',
   locales: ['en', 'fr', 'de', 'es'],

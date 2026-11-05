@@ -2,7 +2,7 @@
 
 A fast, static, four-language travel website (English, French, German, Spanish) for **Longtail Travel**, a tailor-made Thailand specialist built around the country's water and its two monsoons.
 
-- **Live site:** https://longtailtravel.vercel.app (Vercel project `longtailtravel`, team "Benjamin - Sevo")
+- **Live site:** https://thailand-beryl.vercel.app (Vercel project `thailand`, team "Benjamin - Sevo")
 - **Canonical domain (planned):** https://longtailtravel.tourground.com — point this domain at the Vercel project to make it live.
 - **Repository:** https://github.com/benjamingjoel2/thailand
 
