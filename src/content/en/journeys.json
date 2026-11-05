@@ -32,19 +32,53 @@
       "name": "River to reef",
       "nights": 15,
       "months": "November to April",
-      "route": ["bangkok", "ayutthaya", "chiang-mai", "khao-sok", "krabi-koh-yao-noi"],
+      "route": [
+        "bangkok",
+        "ayutthaya",
+        "chiang-mai",
+        "khao-sok",
+        "krabi-koh-yao-noi"
+      ],
       "summary": "From the khlongs of Bangkok up the river to the old capital, north to Chiang Mai in the cool season, across Cheow Lan Lake and down to the Andaman.",
       "metaDescription": "A 15-night journey in Thailand from Bangkok's canals to Ayutthaya, Chiang Mai, Khao Sok and Koh Yao Noi, for November to April.",
       "img": "krabi-3",
       "alt": "Limestone islands in Phang Nga Bay",
-      "gallery": ["khlong-1", "chiangmai-1", "khaosok-1"],
-      "galleryAlt": ["A Thonburi canal", "A temple in Chiang Mai", "Karsts on Cheow Lan Lake"],
+      "gallery": [
+        "khlong-1",
+        "chiangmai-1",
+        "khaosok-1"
+      ],
+      "galleryAlt": [
+        "A Thonburi canal",
+        "A temple in Chiang Mai",
+        "Karsts on Cheow Lan Lake"
+      ],
       "days": [
-        { "days": "1–3", "place": "Bangkok", "text": "The khlongs by longtail at first light, a market morning with a chef-guide and an evening on the river." },
-        { "days": "4", "place": "Ayutthaya", "text": "North by road, ruins by bicycle, and the island by boat at sunset." },
-        { "days": "5–8", "place": "Chiang Mai", "text": "A Lanna house, makers' workshops, Doi Suthep and an observation-only elephant sanctuary." },
-        { "days": "9–10", "place": "Khao Sok", "text": "Fly south, then a longtail across Cheow Lan Lake to a raft house." },
-        { "days": "11–15", "place": "Koh Yao Noi", "text": "Sea canoe into the hongs on the right tide, then long days on a quiet island." }
+        {
+          "days": "1–3",
+          "place": "Bangkok",
+          "text": "The khlongs by longtail at first light, a market morning with a chef-guide and an evening on the river."
+        },
+        {
+          "days": "4",
+          "place": "Ayutthaya",
+          "text": "North by road, ruins by bicycle, and the island by boat at sunset."
+        },
+        {
+          "days": "5–8",
+          "place": "Chiang Mai",
+          "text": "A Lanna house, makers' workshops, Doi Suthep and an observation-only elephant sanctuary."
+        },
+        {
+          "days": "9–10",
+          "place": "Khao Sok",
+          "text": "Fly south, then a longtail across Cheow Lan Lake to a raft house."
+        },
+        {
+          "days": "11–15",
+          "place": "Koh Yao Noi",
+          "text": "Sea canoe into the hongs on the right tide, then long days on a quiet island."
+        }
       ]
     },
     {
@@ -52,19 +86,53 @@
       "name": "The cool north",
       "nights": 12,
       "months": "November to February",
-      "route": ["bangkok", "sukhothai", "chiang-mai", "mae-hong-son", "chiang-rai"],
+      "route": [
+        "bangkok",
+        "sukhothai",
+        "chiang-mai",
+        "mae-hong-son",
+        "chiang-rai"
+      ],
       "summary": "Old capitals and mountain provinces in the cool, clear months: Sukhothai by bicycle, Chiang Mai's makers, the mists of Mae Hong Son and the Mekong.",
       "metaDescription": "A 12-night journey through northern Thailand: Bangkok, Sukhothai, Chiang Mai, Mae Hong Son and Chiang Rai, for November to February.",
       "img": "maehongson-1",
-      "alt": "Mist over hills and water in Mae Hong Son",
-      "gallery": ["sukhothai-1", "chiangrai-1", "chiangmai-2"],
-      "galleryAlt": ["Wat Mahathat at Sukhothai", "The white temple of Chiang Rai", "Hills near Chiang Mai"],
+      "alt": "Wat Chong Kham and Wat Chong Klang reflected in Chong Kham Lake at dusk, Mae Hong Son",
+      "gallery": [
+        "sukhothai-1",
+        "chiangrai-1",
+        "chiangmai-2"
+      ],
+      "galleryAlt": [
+        "Wat Mahathat at Sukhothai",
+        "The white temple of Chiang Rai",
+        "Hills near Chiang Mai"
+      ],
       "days": [
-        { "days": "1–2", "place": "Bangkok", "text": "Arrive, rest, and a first morning on the khlongs." },
-        { "days": "3–4", "place": "Sukhothai", "text": "Fly north. The historical park by bicycle and a day at Si Satchanalai." },
-        { "days": "5–7", "place": "Chiang Mai", "text": "The old city, the crafts and Doi Inthanon." },
-        { "days": "8–10", "place": "Mae Hong Son", "text": "The mountain road, Pang Ung at dawn and the bamboo bridge." },
-        { "days": "11–12", "place": "Chiang Rai", "text": "The white temple and a longtail on the Mekong at the Golden Triangle." }
+        {
+          "days": "1–2",
+          "place": "Bangkok",
+          "text": "Arrive, rest, and a first morning on the khlongs."
+        },
+        {
+          "days": "3–4",
+          "place": "Sukhothai",
+          "text": "Fly north. The historical park by bicycle and a day at Si Satchanalai."
+        },
+        {
+          "days": "5–7",
+          "place": "Chiang Mai",
+          "text": "The old city, the crafts and Doi Inthanon."
+        },
+        {
+          "days": "8–10",
+          "place": "Mae Hong Son",
+          "text": "The mountain road, Pang Ung at dawn and the bamboo bridge."
+        },
+        {
+          "days": "11–12",
+          "place": "Chiang Rai",
+          "text": "The white temple and a longtail on the Mekong at the Golden Triangle."
+        }
       ]
     },
     {
@@ -72,17 +140,41 @@
       "name": "Andaman, slowly",
       "nights": 10,
       "months": "December to March",
-      "route": ["krabi-koh-yao-noi", "khao-sok", "koh-lanta"],
+      "route": [
+        "krabi-koh-yao-noi",
+        "khao-sok",
+        "koh-lanta"
+      ],
       "summary": "The Andaman in its dry season, by sea canoe and longtail: Phang Nga Bay, a night on Cheow Lan Lake and the long beaches of Koh Lanta.",
       "metaDescription": "A 10-night Andaman journey: Koh Yao Noi and Phang Nga Bay, Khao Sok's Cheow Lan Lake and Koh Lanta, for December to March.",
       "img": "krabi-1",
       "alt": "Longtail boats below the cliffs of Railay",
-      "gallery": ["krabi-2", "khaosok-2", "lanta-1"],
-      "galleryAlt": ["Koh Yao Noi and the bay", "Rainforest in Khao Sok", "A Koh Lanta beach"],
+      "gallery": [
+        "krabi-2",
+        "khaosok-2",
+        "lanta-1"
+      ],
+      "galleryAlt": [
+        "Koh Yao Noi and the bay",
+        "Rainforest in Khao Sok",
+        "A Koh Lanta beach"
+      ],
       "days": [
-        { "days": "1–4", "place": "Koh Yao Noi", "text": "Arrive by speedboat. Hongs by sea canoe, bicycles and village lunches." },
-        { "days": "5–6", "place": "Khao Sok", "text": "Inland to the lake and a night on a raft house." },
-        { "days": "7–10", "place": "Koh Lanta", "text": "Long beaches, the old town and a boat day to Koh Rok." }
+        {
+          "days": "1–4",
+          "place": "Koh Yao Noi",
+          "text": "Arrive by speedboat. Hongs by sea canoe, bicycles and village lunches."
+        },
+        {
+          "days": "5–6",
+          "place": "Khao Sok",
+          "text": "Inland to the lake and a night on a raft house."
+        },
+        {
+          "days": "7–10",
+          "place": "Koh Lanta",
+          "text": "Long beaches, the old town and a boat day to Koh Rok."
+        }
       ]
     },
     {
@@ -90,18 +182,46 @@
       "name": "The Gulf in summer",
       "nights": 10,
       "months": "June to August",
-      "route": ["bangkok", "ayutthaya", "koh-samui-koh-phangan"],
+      "route": [
+        "bangkok",
+        "ayutthaya",
+        "koh-samui-koh-phangan"
+      ],
       "summary": "For school holidays, when the Andaman is wet: Bangkok's canals and the old capital, then the drier islands of the Gulf.",
       "metaDescription": "A 10-night summer journey in Thailand: Bangkok's khlongs, Ayutthaya, Koh Samui and Koh Phangan, for June to August.",
       "img": "samui-2",
       "alt": "The islands of Ang Thong Marine Park",
-      "gallery": ["khlong-2", "ayutthaya-1", "phangan-1"],
-      "galleryAlt": ["A longtail in Bangkok", "Wat Chaiwatthanaram", "A bay on Koh Phangan"],
+      "gallery": [
+        "khlong-2",
+        "ayutthaya-1",
+        "phangan-1"
+      ],
+      "galleryAlt": [
+        "A longtail in Bangkok",
+        "Wat Chaiwatthanaram",
+        "A bay on Koh Phangan"
+      ],
       "days": [
-        { "days": "1–3", "place": "Bangkok", "text": "Khlongs, markets and a cooking class for the whole family." },
-        { "days": "4", "place": "Ayutthaya", "text": "A day trip to the ruins by bicycle, back by boat." },
-        { "days": "5–7", "place": "Koh Samui", "text": "A quiet bay and a day in Ang Thong Marine Park." },
-        { "days": "8–10", "place": "Koh Phangan", "text": "A northern bay reached by longtail." }
+        {
+          "days": "1–3",
+          "place": "Bangkok",
+          "text": "Khlongs, markets and a cooking class for the whole family."
+        },
+        {
+          "days": "4",
+          "place": "Ayutthaya",
+          "text": "A day trip to the ruins by bicycle, back by boat."
+        },
+        {
+          "days": "5–7",
+          "place": "Koh Samui",
+          "text": "A quiet bay and a day in Ang Thong Marine Park."
+        },
+        {
+          "days": "8–10",
+          "place": "Koh Phangan",
+          "text": "A northern bay reached by longtail."
+        }
       ]
     },
     {
@@ -109,16 +229,35 @@
       "name": "East to Koh Kood",
       "nights": 8,
       "months": "November to April",
-      "route": ["bangkok", "koh-kood"],
+      "route": [
+        "bangkok",
+        "koh-kood"
+      ],
       "summary": "A short, quiet journey: three days on Bangkok's water, then east to the forested island at the end of the Gulf.",
       "metaDescription": "An 8-night journey in Thailand: Bangkok's khlongs and the quiet island of Koh Kood, for November to April.",
       "img": "kood-1",
       "alt": "Clear water on Koh Kood",
-      "gallery": ["bangkok-1", "kood-2", "coast-gulf"],
-      "galleryAlt": ["Wat Arun from the river", "Forest and water on Koh Kood", "A Gulf beach"],
+      "gallery": [
+        "bangkok-1",
+        "kood-2",
+        "khlong-1"
+      ],
+      "galleryAlt": [
+        "Wat Arun from the river",
+        "Forest and water on Koh Kood",
+        "A Thonburi canal lined with wooden houses"
+      ],
       "days": [
-        { "days": "1–3", "place": "Bangkok", "text": "The khlongs by longtail, the river and the markets." },
-        { "days": "4–8", "place": "Koh Kood", "text": "Fly or drive to Trat, then by speedboat. Mangroves by kayak and the stilt villages." }
+        {
+          "days": "1–3",
+          "place": "Bangkok",
+          "text": "The khlongs by longtail, the river and the markets."
+        },
+        {
+          "days": "4–8",
+          "place": "Koh Kood",
+          "text": "Fly or drive to Trat, then by speedboat. Mangroves by kayak and the stilt villages."
+        }
       ]
     }
   ]

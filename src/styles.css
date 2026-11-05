@@ -581,3 +581,5 @@ fieldset.field{border:0;margin:0;padding:0;min-width:0}
 .dcard:hover .dcard__img img{transform:scale(1.05)}
 .dcard h2{font-size:clamp(1.5rem,2.2vw,2rem);letter-spacing:-.03em;margin-top:6px}
 .dcard p{color:var(--muted-d);font-size:var(--fs-sm);margin:0}
+.gallery--2 figure:not(:first-child){aspect-ratio:16/9;grid-column:1/-1}
+@media (min-width:900px){.gallery--2{grid-template-rows:1fr}.gallery--2 figure:first-child{grid-row:1}.gallery--2 figure:not(:first-child){grid-column:2;aspect-ratio:auto}}

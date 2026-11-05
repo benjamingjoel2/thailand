@@ -2,12 +2,16 @@
   "metaTitle": "Longtail Travel: Thailand by water and by season",
   "metaDescription": "Private journeys in Thailand planned along its water and its seasons: Bangkok's khlongs, the cool north and the right coast for your month.",
   "hero": {
-    "figLeft": "Fig. 01 — Railay, Krabi, at 7:10",
+    "figLeft": "Fig. 01 — Long Beach, Ko Phi Phi Don",
     "figRight": "Andaman coast: dry season, November to April",
     "title": "Thailand, by water.",
-    "meta": ["Eleven places", "Two coasts, two monsoons", "One boat at a time"],
+    "meta": [
+      "Eleven places",
+      "Two coasts, two monsoons",
+      "One boat at a time"
+    ],
     "button": "Plan a journey",
-    "alt": "A longtail boat on clear water below limestone cliffs on Thailand's Andaman coast"
+    "alt": "Longtail boats moored on a white-sand beach on Ko Phi Phi Don, on Thailand's Andaman coast"
   },
   "intro": {
     "eyebrow": "Longtail Travel",
@@ -26,23 +30,75 @@
     "metaRight": "Long-term patterns, not a forecast",
     "text": "The Andaman coast is dry from about November to April. The Gulf is driest from February to August. Choose your month and we'll show you which way to go.",
     "button": "Choose your month",
-    "rows": { "andaman": "Andaman coast", "gulf": "Gulf coast", "north": "The north" },
-    "rowsSub": { "andaman": "Krabi, Koh Yao Noi, Koh Lanta", "gulf": "Samui, Phangan", "north": "Chiang Mai, Chiang Rai" }
+    "rows": {
+      "andaman": "Andaman coast",
+      "gulf": "Gulf coast",
+      "north": "The north"
+    },
+    "rowsSub": {
+      "andaman": "Krabi, Koh Yao Noi, Koh Lanta",
+      "gulf": "Samui, Phangan",
+      "north": "Chiang Mai, Chiang Rai"
+    }
   },
   "morning": {
     "eyebrow": "A morning on the khlong",
     "right": "Thonburi, by private longtail",
     "steps": [
-      { "time": "6:10", "label": "01 / 04  At the pier", "title": "The boat is already waiting.", "text": "Your boatman has lifted the propeller clear of the water. There is a marigold garland on the bow, still fresh.", "img": "khlong-2", "alt": "A longtail boat on a canal in Bangkok" },
-      { "time": "6:40", "label": "02 / 04  Into the canals", "title": "The city goes quiet.", "text": "Off the river and into Khlong Bangkok Yai. Wooden houses on stilts, a temple bell across the water, rice being cooked on a landing.", "img": "khlong-1", "alt": "Houses on stilts along a canal in Thonburi" },
-      { "time": "7:30", "label": "03 / 04  Khlong Bang Luang", "title": "Coffee on the landing.", "text": "A stop at an old wooden house where artists work and the coffee comes with Thai doughnuts.", "img": "stays-3", "alt": "Old shophouses beside the river in Bangkok" },
-      { "time": "9:00", "label": "04 / 04  Back at the river", "title": "Before the heat.", "text": "Back at the pier as the city warms up. The rest of the day is yours.", "img": "bangkok-1", "alt": "Wat Arun from the Chao Phraya river" }
+      {
+        "time": "6:10",
+        "label": "01 / 04  At the pier",
+        "title": "The boat is already waiting.",
+        "text": "Your boatman has lifted the propeller clear of the water. There is a marigold garland on the bow, still fresh.",
+        "img": "about-1",
+        "alt": "A longtail with marigold garlands on its bow, on a Thonburi canal"
+      },
+      {
+        "time": "6:40",
+        "label": "02 / 04  Into the canals",
+        "title": "The city goes quiet.",
+        "text": "Off the river and into Khlong Bangkok Yai. Wooden houses on stilts, a temple bell across the water, rice being cooked on a landing.",
+        "img": "khlong-2",
+        "alt": "A longtail boat on a canal in Bangkok"
+      },
+      {
+        "time": "7:30",
+        "label": "03 / 04  Khlong Bang Luang",
+        "title": "Coffee on the landing.",
+        "text": "A stop at an old wooden house where artists work and the coffee comes with Thai doughnuts.",
+        "img": "khlong-1",
+        "alt": "A Thonburi canal lined with wooden houses"
+      },
+      {
+        "time": "9:00",
+        "label": "04 / 04  Back at the river",
+        "title": "Before the heat.",
+        "text": "Back at the pier as the city warms up. The rest of the day is yours.",
+        "img": "bangkok-1",
+        "alt": "Wat Arun from the Chao Phraya river"
+      }
     ],
     "button": "See the khlong map"
   },
   "editorial": [
-    { "eyebrow": "Elephants and hill tribes", "title": "Watched, not ridden.", "text": "We don't book elephant riding or bathing. We book places where you watch from a distance, and we visit villages as guests, with a guide from the community.", "link": "How we choose", "img": "elephant-1", "alt": "Elephants walking freely through grassland in Thailand", "href": "responsible-travel" },
-    { "eyebrow": "Stays", "title": "Houses with a verandah.", "text": "A Lanna house in Chiang Mai, a raft house with no road, a wooden villa on a quiet bay.", "link": "Where we stay", "img": "stays-1", "alt": "A traditional wooden Thai house", "href": "stays" }
+    {
+      "eyebrow": "Elephants and hill tribes",
+      "title": "Watched, not ridden.",
+      "text": "We don't book elephant riding or bathing. We book places where you watch from a distance, and we visit villages as guests, with a guide from the community.",
+      "link": "How we choose",
+      "img": "elephant-1",
+      "alt": "Elephants walking freely through grassland in Thailand",
+      "href": "responsible-travel"
+    },
+    {
+      "eyebrow": "Stays",
+      "title": "Houses with a verandah.",
+      "text": "A Lanna house in Chiang Mai, a raft house with no road, a wooden villa on a quiet bay.",
+      "link": "Where we stay",
+      "img": "stays-1",
+      "alt": "A traditional teak house in Bangkok",
+      "href": "stays"
+    }
   ],
   "journeys": {
     "title": "Journeys.",
@@ -59,12 +115,30 @@
     "text": "Still unsure? Write to us and a real person will answer, usually within two working days.",
     "link": "Send a question",
     "items": [
-      { "q": "Which coast should I choose for my month?", "a": "Broadly, the Andaman coast (Krabi, Koh Yao Noi, Koh Lanta) is best from November to April, and the Gulf (Samui, Phangan) from February to August. October and November are the most awkward months. Our two-coasts picker shows each month." },
-      { "q": "Do I need a visa?", "a": "Many nationalities can enter Thailand for tourism without a visa for a limited stay, and the length has changed recently. Check the official guidance for your passport before you book, and complete the Thailand Digital Arrival Card online before you land." },
-      { "q": "How much can we fit into two weeks?", "a": "Three places, perhaps four. Bangkok, one region of the north or Khao Sok, and one coast. More than that and you spend the holiday in transit." },
-      { "q": "Do you book elephant experiences?", "a": "Only at observation-based sanctuaries we have checked, where you watch the elephants from a distance. We do not book riding, bathing, shows or painting." },
-      { "q": "What does the rainy season really mean?", "a": "Usually a heavy shower in the afternoon and green, quiet landscapes. On the exposed coast, though, the sea can be rough for weeks and some boats and hotels close. We plan around it." },
-      { "q": "How do we book?", "a": "Send an enquiry. We reply with a first route by email, then a written proposal with prices for your dates. Nothing is booked until you confirm and pay the deposit stated in the proposal." }
+      {
+        "q": "Which coast should I choose for my month?",
+        "a": "Broadly, the Andaman coast (Krabi, Koh Yao Noi, Koh Lanta) is best from November to April, and the Gulf (Samui, Phangan) from February to August. October and November are the most awkward months. Our two-coasts picker shows each month."
+      },
+      {
+        "q": "Do I need a visa?",
+        "a": "Many nationalities can enter Thailand for tourism without a visa for a limited stay, and the length has changed recently. Check the official guidance for your passport before you book, and complete the Thailand Digital Arrival Card online before you land."
+      },
+      {
+        "q": "How much can we fit into two weeks?",
+        "a": "Three places, perhaps four. Bangkok, one region of the north or Khao Sok, and one coast. More than that and you spend the holiday in transit."
+      },
+      {
+        "q": "Do you book elephant experiences?",
+        "a": "Only at observation-based sanctuaries we have checked, where you watch the elephants from a distance. We do not book riding, bathing, shows or painting."
+      },
+      {
+        "q": "What does the rainy season really mean?",
+        "a": "Usually a heavy shower in the afternoon and green, quiet landscapes. On the exposed coast, though, the sea can be rough for weeks and some boats and hotels close. We plan around it."
+      },
+      {
+        "q": "How do we book?",
+        "a": "Send an enquiry. We reply with a first route by email, then a written proposal with prices for your dates. Nothing is booked until you confirm and pay the deposit stated in the proposal."
+      }
     ]
   },
   "closing": {

@@ -381,11 +381,11 @@ for (const slug of C.en.destinations.items.map((d) => d.slug)) {
       <div class="prose-cols" style="margin-top:32px" data-reveal>${d.overview.map((t) => `<p>${esc(t)}</p>`).join('')}</div>
       ${d.note ? `<p class="note" role="note">${esc(d.note)}</p>` : ''}
     </section>
-    <section class="dsec"><div class="gallery">${[{ img: d.heroImage, alt: d.heroAlt }, ...d.gallery].map((g, i) => `<figure data-reveal="img">${pic(g.img, g.alt, { sizes: i ? '(min-width:900px) 22vw, 46vw' : '(min-width:900px) 44vw, 92vw' })}</figure>`).join('')}</div></section>
+    <section class="dsec"><div class="gallery${d.gallery.length === 1 ? ' gallery--2' : ''}">${[{ img: d.heroImage, alt: d.heroAlt }, ...d.gallery].map((g, i) => `<figure data-reveal="img">${pic(g.img, g.alt, { sizes: i ? '(min-width:900px) 22vw, 46vw' : '(min-width:900px) 44vw, 92vw' })}</figure>`).join('')}</div></section>
     <section class="dsec" id="when"><h2>${esc(c.labels.bestMonths)}: ${esc(d.bestText)}</h2><div class="monthbar">${monthCells(lang, d.ratings)}</div>${legend(lang)}<p style="margin-top:20px"><a class="tlink" href="${href(lang, 'two-coasts/')}">${esc(c.nav.twoCoasts)} →</a></p></section>
     <section class="dsec" id="water"><h2>${esc(d.byWaterTitle)}</h2><p class="lead" style="max-width:62ch">${esc(d.byWater)}</p></section>
     <section class="dsec" id="book"><h2>${esc(C[lang].journeys.includedTitle)}</h2><ol class="numlist">${d.experiences.map((e, i) => `<li data-reveal><span class="n">0${i + 1}</span><h3>${esc(e.title)}</h3><p>${esc(e.text)}</p></li>`).join('')}</ol></section>
-    <section class="dsec" id="stays"><h2>${esc(c.nav.stays)}</h2><div class="stays">${d.stays.map((s) => card(lang, { img: s.img, alt: d.heroAlt, eyebrow: s.kind, title: s.name, text: s.text, to: href(lang, 'stays/'), sizes: '(min-width:1024px) 30vw, (min-width:700px) 46vw, 92vw', tag: `<span class="tag">${esc(c.labels.placeholder)}</span>` })).join('')}</div></section>
+    <section class="dsec" id="stays"><h2>${esc(c.nav.stays)}</h2><div class="stays">${d.stays.map((s) => card(lang, { img: s.img, alt: d.name, eyebrow: s.kind, title: s.name, text: s.text, to: href(lang, 'stays/'), sizes: '(min-width:1024px) 30vw, (min-width:700px) 46vw, 92vw', tag: `<span class="tag">${esc(c.labels.placeholder)}</span>` })).join('')}</div></section>
     <section class="dsec" id="getting"><h2>${esc(c.labels.gettingThere)}</h2><dl class="facts"><div><dt>${esc(c.labels.gettingThere)}</dt><dd>${esc(d.gettingThere)}</dd></div><div><dt>${esc(c.labels.nightsSuggested)}</dt><dd>${esc(d.nights)}</dd></div><div><dt>${esc(c.labels.goodFor)}</dt><dd>${d.goodFor.map(esc).join(' · ')}</dd></div></dl></section>
   </div>
   <aside class="aside" aria-label="${esc(c.labels.enquireAbout)} ${esc(d.name)}">
@@ -546,7 +546,7 @@ add('responsible-travel/', (lang) => {
   <div class="wrap">
     <div class="lab"><p class="eyebrow">${esc(C[lang].common.nav.responsible)}</p><div><h2 class="h-xl" data-reveal>${esc(r.tribesTitle)}</h2><p class="lead muted" style="max-width:60ch;margin-top:28px" data-reveal>${esc(r.tribesText)}</p></div></div>
     <div class="ed ed--rev" style="margin-top:clamp(48px,6vw,88px);align-items:start">
-      <figure style="margin:0" data-reveal="img">${pic('north-hilltribe', C[lang].destinations.items[3].gallery[1].alt, { sizes: '(min-width:900px) 32vw, 92vw' })}</figure>
+      <figure style="margin:0" data-reveal="img">${pic('north-hilltribe', C[lang].destinations.items[2].gallery[1].alt, { sizes: '(min-width:900px) 32vw, 92vw' })}</figure>
       <ol class="numlist">${r.tribesList.map((x, i) => `<li data-reveal><span class="n">0${i + 1}</span><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></li>`).join('')}</ol>
     </div>
   </div>
@@ -601,7 +601,7 @@ add('stays/', (lang) => {
 <section class="dark sec--s"><div class="wrap"><div class="shead shead--l"><h2>${esc(s.principlesTitle)}</h2><div class="shead__text"><p>${esc(s.groupNote)}</p></div></div><div class="cgrid" style="border-color:var(--line-d)">${s.principles.map((p, i) => `<div style="border-color:var(--line-d)" data-reveal><b style="color:var(--c-marigold)">0${i + 1}</b><h3>${esc(p.title)}</h3><p class="muted">${esc(p.text)}</p></div>`).join('')}</div></div></section>
 <div class="light">${D.map((d, i) => `<section class="wrap sec--s"${i ? ' style="padding-top:0"' : ''}>
   <div class="shead shead--l" style="margin-bottom:28px;border-top:1px solid var(--line-l);padding-top:28px"><div><p class="eyebrow">${esc(c.regions[d.region])} / ${esc(d.code)}</p><h2 style="font-size:var(--fs-m)">${esc(d.name)}</h2></div><div class="shead__text"><a class="tlink" href="${href(lang, 'destinations/' + d.slug + '/')}">${esc(c.labels.discover)}</a></div></div>
-  <div class="stays">${d.stays.map((x) => card(lang, { img: x.img, alt: d.heroAlt, eyebrow: x.kind, title: x.name, text: x.text, to: href(lang, 'enquire/') + '?d=' + d.slug, sizes: '(min-width:700px) 46vw, 92vw', tag: `<span class="tag">${esc(c.labels.placeholder)}</span>` })).join('')}</div>
+  <div class="stays">${d.stays.map((x) => card(lang, { img: x.img, alt: d.name, eyebrow: x.kind, title: x.name, text: x.text, to: href(lang, 'enquire/') + '?d=' + d.slug, sizes: '(min-width:700px) 46vw, 92vw', tag: `<span class="tag">${esc(c.labels.placeholder)}</span>` })).join('')}</div>
 </section>`).join('')}</div>
 ${ctaBand(lang, 'stays-1')}`;
   return { title: s.metaTitle, description: s.metaDescription, body, heroImg: s.heroImg };

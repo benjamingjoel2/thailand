@@ -2,12 +2,16 @@
   "metaTitle": "Longtail Travel: Tailandia por agua y por estaciones",
   "metaDescription": "Viajes privados por Tailandia siguiendo su agua y sus estaciones: los khlongs de Bangkok, el norte fresco y la costa adecuada para tu mes.",
   "hero": {
-    "figLeft": "Fig. 01 — Railay, Krabi, a las 7:10",
+    "figLeft": "Fig. 01 — Long Beach, Ko Phi Phi Don",
     "figRight": "Costa de Andamán: estación seca, de noviembre a abril",
     "title": "Tailandia, por agua.",
-    "meta": ["Once lugares", "Dos costas, dos monzones", "Una barca cada vez"],
+    "meta": [
+      "Once lugares",
+      "Dos costas, dos monzones",
+      "Una barca cada vez"
+    ],
     "button": "Planifica un viaje",
-    "alt": "Una barca longtail en aguas transparentes bajo acantilados de caliza en la costa de Andamán, en Tailandia"
+    "alt": "Barcas longtail amarradas en una playa de arena blanca de Ko Phi Phi Don, en la costa de Andamán de Tailandia"
   },
   "intro": {
     "eyebrow": "Longtail Travel",
@@ -26,23 +30,75 @@
     "metaRight": "Patrones a largo plazo, no una previsión",
     "text": "La costa de Andamán está seca más o menos de noviembre a abril. El golfo es más seco de febrero a agosto. Elige tu mes y te diremos hacia dónde ir.",
     "button": "Elige tu mes",
-    "rows": { "andaman": "Costa de Andamán", "gulf": "Costa del golfo", "north": "El norte" },
-    "rowsSub": { "andaman": "Krabi, Koh Yao Noi, Koh Lanta", "gulf": "Samui, Phangan", "north": "Chiang Mai, Chiang Rai" }
+    "rows": {
+      "andaman": "Costa de Andamán",
+      "gulf": "Costa del golfo",
+      "north": "El norte"
+    },
+    "rowsSub": {
+      "andaman": "Krabi, Koh Yao Noi, Koh Lanta",
+      "gulf": "Samui, Phangan",
+      "north": "Chiang Mai, Chiang Rai"
+    }
   },
   "morning": {
     "eyebrow": "Una mañana en el khlong",
     "right": "Thonburi, en longtail privada",
     "steps": [
-      { "time": "6:10", "label": "01 / 04  En el embarcadero", "title": "La barca ya te espera.", "text": "Tu barquero ha sacado la hélice del agua. En la proa hay una guirnalda de caléndulas, todavía fresca.", "img": "khlong-2", "alt": "Una barca longtail en un canal de Bangkok" },
-      { "time": "6:40", "label": "02 / 04  Hacia los canales", "title": "La ciudad se calla.", "text": "Dejamos el río y entramos en el Khlong Bangkok Yai. Casas de madera sobre pilotes, la campana de un templo al otro lado del agua, arroz cociéndose en un embarcadero.", "img": "khlong-1", "alt": "Casas sobre pilotes junto a un canal en Thonburi" },
-      { "time": "7:30", "label": "03 / 04  Khlong Bang Luang", "title": "Café en el embarcadero.", "text": "Una parada en una vieja casa de madera donde trabajan artistas y el café llega con rosquillas tailandesas.", "img": "stays-3", "alt": "Antiguas casas-tienda junto al río en Bangkok" },
-      { "time": "9:00", "label": "04 / 04  De vuelta al río", "title": "Antes del calor.", "text": "De vuelta en el embarcadero cuando la ciudad empieza a calentarse. El resto del día es tuyo.", "img": "bangkok-1", "alt": "Wat Arun desde el río Chao Phraya" }
+      {
+        "time": "6:10",
+        "label": "01 / 04  En el embarcadero",
+        "title": "La barca ya te espera.",
+        "text": "Tu barquero ha sacado la hélice del agua. En la proa hay una guirnalda de caléndulas, todavía fresca.",
+        "img": "about-1",
+        "alt": "Una longtail con guirnaldas de caléndulas en la proa, en un canal de Thonburi"
+      },
+      {
+        "time": "6:40",
+        "label": "02 / 04  Hacia los canales",
+        "title": "La ciudad se calla.",
+        "text": "Dejamos el río y entramos en el Khlong Bangkok Yai. Casas de madera sobre pilotes, la campana de un templo al otro lado del agua, arroz cociéndose en un embarcadero.",
+        "img": "khlong-2",
+        "alt": "Una barca longtail en un canal de Bangkok"
+      },
+      {
+        "time": "7:30",
+        "label": "03 / 04  Khlong Bang Luang",
+        "title": "Café en el embarcadero.",
+        "text": "Una parada en una vieja casa de madera donde trabajan artistas y el café llega con rosquillas tailandesas.",
+        "img": "khlong-1",
+        "alt": "Un canal de Thonburi flanqueado de casas de madera"
+      },
+      {
+        "time": "9:00",
+        "label": "04 / 04  De vuelta al río",
+        "title": "Antes del calor.",
+        "text": "De vuelta en el embarcadero cuando la ciudad empieza a calentarse. El resto del día es tuyo.",
+        "img": "bangkok-1",
+        "alt": "Wat Arun desde el río Chao Phraya"
+      }
     ],
     "button": "Ver el mapa de los khlongs"
   },
   "editorial": [
-    { "eyebrow": "Elefantes y tribus de montaña", "title": "Para mirarlos, no para montarlos.", "text": "No reservamos paseos a lomos de elefante ni baños con ellos. Reservamos lugares donde se observan a distancia, y visitamos las aldeas como invitados, con un guía de la propia comunidad.", "link": "Cómo elegimos", "img": "elephant-1", "alt": "Elefantes caminando en libertad por una pradera en Tailandia", "href": "responsible-travel" },
-    { "eyebrow": "Alojamientos", "title": "Casas con veranda.", "text": "Una casa lanna en Chiang Mai, una casa flotante sin carretera, una villa de madera en una bahía tranquila.", "link": "Dónde nos alojamos", "img": "stays-1", "alt": "Una casa tradicional tailandesa de madera", "href": "stays" }
+    {
+      "eyebrow": "Elefantes y tribus de montaña",
+      "title": "Para mirarlos, no para montarlos.",
+      "text": "No reservamos paseos a lomos de elefante ni baños con ellos. Reservamos lugares donde se observan a distancia, y visitamos las aldeas como invitados, con un guía de la propia comunidad.",
+      "link": "Cómo elegimos",
+      "img": "elephant-1",
+      "alt": "Elefantes caminando en libertad por una pradera en Tailandia",
+      "href": "responsible-travel"
+    },
+    {
+      "eyebrow": "Alojamientos",
+      "title": "Casas con veranda.",
+      "text": "Una casa lanna en Chiang Mai, una casa flotante sin carretera, una villa de madera en una bahía tranquila.",
+      "link": "Dónde nos alojamos",
+      "img": "stays-1",
+      "alt": "Una casa tradicional de teca en Bangkok",
+      "href": "stays"
+    }
   ],
   "journeys": {
     "title": "Viajes.",
@@ -59,12 +115,30 @@
     "text": "¿Aún tienes dudas? Escríbenos y te responderá una persona de verdad, normalmente en dos días laborables.",
     "link": "Enviar una pregunta",
     "items": [
-      { "q": "¿Qué costa elijo para mi mes?", "a": "En líneas generales, la costa de Andamán (Krabi, Koh Yao Noi, Koh Lanta) está en su mejor momento de noviembre a abril, y el golfo (Samui, Phangan), de febrero a agosto. Octubre y noviembre son los meses más complicados. Nuestro selector de las dos costas lo muestra mes a mes." },
-      { "q": "¿Necesito visado?", "a": "Muchas nacionalidades pueden entrar en Tailandia como turistas sin visado para una estancia limitada, y la duración ha cambiado hace poco. Consulta la información oficial para tu pasaporte antes de reservar y rellena en línea la Thailand Digital Arrival Card antes de aterrizar." },
-      { "q": "¿Cuánto da de sí un viaje de dos semanas?", "a": "Tres lugares, quizá cuatro. Bangkok, una zona del norte o Khao Sok, y una costa. Si añades más, pasarás las vacaciones en tránsito." },
-      { "q": "¿Reserváis experiencias con elefantes?", "a": "Solo en santuarios de observación que hemos comprobado, donde se ve a los elefantes a distancia. No reservamos paseos, baños, espectáculos ni sesiones de pintura." },
-      { "q": "¿Qué significa de verdad la estación de lluvias?", "a": "Normalmente, un buen chaparrón por la tarde y paisajes verdes y tranquilos. En la costa expuesta, en cambio, el mar puede estar revuelto durante semanas y algunos barcos y hoteles cierran. Lo tenemos en cuenta al planificar." },
-      { "q": "¿Cómo se reserva?", "a": "Envíanos una consulta. Te respondemos por correo con una primera ruta y, después, con una propuesta por escrito con precios para tus fechas. No se reserva nada hasta que confirmas y pagas el depósito indicado en la propuesta." }
+      {
+        "q": "¿Qué costa elijo para mi mes?",
+        "a": "En líneas generales, la costa de Andamán (Krabi, Koh Yao Noi, Koh Lanta) está en su mejor momento de noviembre a abril, y el golfo (Samui, Phangan), de febrero a agosto. Octubre y noviembre son los meses más complicados. Nuestro selector de las dos costas lo muestra mes a mes."
+      },
+      {
+        "q": "¿Necesito visado?",
+        "a": "Muchas nacionalidades pueden entrar en Tailandia como turistas sin visado para una estancia limitada, y la duración ha cambiado hace poco. Consulta la información oficial para tu pasaporte antes de reservar y rellena en línea la Thailand Digital Arrival Card antes de aterrizar."
+      },
+      {
+        "q": "¿Cuánto da de sí un viaje de dos semanas?",
+        "a": "Tres lugares, quizá cuatro. Bangkok, una zona del norte o Khao Sok, y una costa. Si añades más, pasarás las vacaciones en tránsito."
+      },
+      {
+        "q": "¿Reserváis experiencias con elefantes?",
+        "a": "Solo en santuarios de observación que hemos comprobado, donde se ve a los elefantes a distancia. No reservamos paseos, baños, espectáculos ni sesiones de pintura."
+      },
+      {
+        "q": "¿Qué significa de verdad la estación de lluvias?",
+        "a": "Normalmente, un buen chaparrón por la tarde y paisajes verdes y tranquilos. En la costa expuesta, en cambio, el mar puede estar revuelto durante semanas y algunos barcos y hoteles cierran. Lo tenemos en cuenta al planificar."
+      },
+      {
+        "q": "¿Cómo se reserva?",
+        "a": "Envíanos una consulta. Te respondemos por correo con una primera ruta y, después, con una propuesta por escrito con precios para tus fechas. No se reserva nada hasta que confirmas y pagas el depósito indicado en la propuesta."
+      }
     ]
   },
   "closing": {
