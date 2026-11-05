@@ -1,0 +1,83 @@
+{
+ "hero-home": {
+  "width": 2400,
+  "height": 1600,
+  "widths": [
+   480,
+   800,
+   1200,
+   1800,
+   2400
+  ],
+  "color": "rgb(248,248,248)",
+  "stamp": "736476-1793911512602",
+  "jpg": 1200,
+  "source": "wikimedia",
+  "pageUrl": "https://commons.wikimedia.org/wiki/File:Long_Tail_boat_Phi_Phi_Don_02.jpg",
+  "author": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Zelenov in the immediate vicinity of the image.\nIf you use on",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "title": "File:Long Tail boat Phi Phi Don 02.jpg",
+  "location": "Long-tail boats moored on Long Beach, Ko Phi Phi Don, Krabi (Andaman coast)"
+ },
+ "khlong-1": {
+  "width": 2400,
+  "height": 1600,
+  "widths": [
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "color": "rgb(248,248,248)",
+  "stamp": "1105134-1793911512778",
+  "jpg": 1200,
+  "source": "wikimedia",
+  "pageUrl": "https://commons.wikimedia.org/wiki/File:House_on_the_khlongs_of_Thonburi.jpg",
+  "author": "Gzzz",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "title": "File:House on the khlongs of Thonburi.jpg",
+  "location": "Wooden stilt house on a Thonburi khlong, Bangkok"
+ },
+ "khlong-2": {
+  "width": 2400,
+  "height": 1857,
+  "widths": [
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "color": "rgb(88,88,56)",
+  "stamp": "1798177-1793911513022",
+  "jpg": 1200,
+  "source": "wikimedia",
+  "pageUrl": "https://commons.wikimedia.org/wiki/File:Long_tail_boat_on_Bangkok%27s_khlong.jpg",
+  "author": "Gozitano",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "title": "File:Long tail boat on Bangkok's khlong.jpg",
+  "location": "Garlanded long-tail boat on Khlong Chak Phra, Thonburi, Bangkok"
+ },
+ "bangkok-1": {
+  "width": 2400,
+  "height": 1801,
+  "widths": [
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "color": "rgb(200,200,216)",
+  "stamp": "806228-1793911512374",
+  "jpg": 1200,
+  "source": "wikimedia",
+  "pageUrl": "https://commons.wikimedia.org/wiki/File:Wat_Arun_03-2012-01.JPG",
+  "author": "Rolf Heinrich, Köln",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "title": "File:Wat Arun 03-2012-01.JPG",
+  "location": "Wat Arun seen across the Chao Phraya River, Bangkok"
+ }
+}
