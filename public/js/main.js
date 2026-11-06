@@ -43,55 +43,13 @@
   const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
   $$('[data-reveal]').forEach((el) => io.observe(el));
 
-  // Scroll-linked progress: ribbons draw themselves; the home river boat sails.
-  const prog = $$('[data-progress]');
-  const boat = $('#riverboat');
-  const line = $('#riverline');
-  const len = line ? line.getTotalLength() : 0;
-  const bp = $('#boatpath');
-  let bpBoat, bpPath, bpLen;
-  if (bp && !reduce) {
-    bpPath = $('#bp', bp);
-    bpLen = bpPath.getTotalLength();
-    bpBoat = d.createElement('div');
-    bpBoat.style.cssText = 'position:absolute;left:50%;top:0;width:44px;height:22px;margin:-11px 0 0 -22px;will-change:transform';
-    bpBoat.innerHTML = '<svg viewBox="-100 -30 160 60" width="44" height="22" style="overflow:visible;transform:rotate(90deg)">' + ($('#riverboat') ? $('#riverboat').innerHTML : '') + '</svg>';
-    bp.appendChild(bpBoat);
-  }
-  const clamp = (v) => Math.max(0, Math.min(1, v));
-  const onProgress = () => {
-    const vh = innerHeight;
-    for (const el of prog) {
-      const r = el.getBoundingClientRect();
-      if (r.bottom < -200 || r.top > vh + 200) continue;
-      const p = clamp((vh - r.top) / (vh * 0.9 + r.height * 0.6));
-      el.style.setProperty('--p', reduce ? 1 : p.toFixed(3));
-      if (el.id === 'river' && boat && len) {
-        const t = clamp((vh - r.top) / (vh + r.height));
-        const at = len * (0.03 + t * 0.94);
-        const a = line.getPointAtLength(at), b = line.getPointAtLength(Math.min(len, at + 2));
-        const ang = Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI;
-        boat.setAttribute('transform', `translate(${a.x.toFixed(1)} ${a.y.toFixed(1)}) rotate(${ang.toFixed(1)})`);
-        line.style.setProperty('--p', (0.03 + t * 0.94).toFixed(3));
-      }
-    }
-    if (bpBoat) {
-      const max = d.documentElement.scrollHeight - innerHeight;
-      const t = clamp(scrollY / max);
-      bp.classList.toggle('is-on', scrollY > innerHeight * 0.6);
-      const h = bp.clientHeight;
-      const pt = bpPath.getPointAtLength(bpLen * t);
-      bpBoat.style.transform = `translate(${((pt.x - 17) / 34) * 34}px, ${(pt.y / 1000) * h}px)`;
-    }
-  };
   let ticking = false;
   addEventListener('scroll', () => {
     if (ticking) return;
     ticking = true;
-    requestAnimationFrame(() => { onHeader(); onProgress(); ticking = false; });
+    requestAnimationFrame(() => { onHeader(); ticking = false; });
   }, { passive: true });
-  addEventListener('resize', onProgress, { passive: true });
-  onHeader(); onProgress();
+  onHeader();
   if (reduce) $$('svg').forEach((s) => s.pauseAnimations && s.pauseAnimations());
 
   // Two-coasts picker: default to the current month or ?m=
@@ -115,28 +73,17 @@
     });
   }
 
-  // Khlong map
-  const kmap = $('#kmap');
-  if (kmap) {
-    const btns = $$('.routes button');
-    const items = $$('.stops li');
+  // Khlong routes: pick a route to highlight its stops
+  const kr = $('#kroutes');
+  if (kr) {
+    const btns = $$('.routes button', kr);
+    const items = $$('.stops li', kr);
     btns.forEach((b) => b.addEventListener('click', () => {
       const on = b.getAttribute('aria-pressed') !== 'true';
       btns.forEach((x) => x.setAttribute('aria-pressed', String(on && x === b)));
       const r = on ? b.dataset.route : 'all';
-      kmap.dataset.route = r;
       items.forEach((li) => li.classList.toggle('is-dim', r !== 'all' && !li.dataset.r.includes(r)));
     }));
-    const activate = (id) => {
-      $$('.stop', kmap).forEach((s) => s.classList.toggle('is-active', s.dataset.stop === id));
-      items.forEach((li) => li.classList.toggle('is-active', li.dataset.stop === id));
-    };
-    items.forEach((li) => {
-      const b = $('button', li);
-      b.addEventListener('click', () => activate(li.dataset.stop));
-      b.addEventListener('mouseenter', () => activate(li.dataset.stop));
-      b.addEventListener('focus', () => activate(li.dataset.stop));
-    });
   }
 
   // Sub-navigation: highlight the section in view

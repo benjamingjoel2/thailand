@@ -43,20 +43,15 @@
     "sources": "Antes de cada temporada contrastamos estos patrones con los datos climáticos del Departamento Meteorológico de Tailandia."
   },
   "khlongs": {
-    "metaTitle": "Mapa de los khlongs de Bangkok: Thonburi en longtail",
-    "metaDescription": "Un mapa vivo de los canales de Bangkok: dos rutas en longtail por los khlongs de Thonburi, con sus paradas, sus horarios y la marea.",
-    "eyebrow": "El mapa de los khlongs",
+    "metaTitle": "Rutas por los khlongs de Bangkok: Thonburi en longtail",
+    "metaDescription": "Los canales de Bangkok en longtail: dos rutas por los khlongs de Thonburi, con sus paradas, sus horarios y la marea.",
+    "eyebrow": "Las rutas por los khlongs",
     "title": "Bangkok desde el khlong.",
-    "intro": "Antes de que hubiera carreteras, las calles de Bangkok eran de agua. En la orilla de Thonburi todavía se vive en los khlongs. Estas son las dos rutas que más usamos, dibujadas tal y como corre el agua.",
+    "intro": "Antes de que hubiera carreteras, las calles de Bangkok eran de agua. En la orilla de Thonburi todavía se vive en los khlongs. Estas son las dos rutas que más usamos, parada a parada.",
     "heroImg": "khlong-1",
     "heroAlt": "Casas de madera sobre pilotes a lo largo de un canal de Thonburi",
-    "mapTitle": "El mapa del agua",
-    "mapLabel": "Mapa esquemático del río Chao Phraya y los canales de Thonburi, con dos rutas en longtail",
+    "mapTitle": "Dos rutas por el agua",
     "routeLabel": "Elige una ruta",
-    "river": "Chao Phraya",
-    "westBank": "Thonburi",
-    "eastBank": "Rattanakosin",
-    "north": "N",
     "routes": [
       { "id": "a", "name": "Ruta A: el circuito de la mañana", "time": "Unas 2 h y media", "text": "Desde el embarcadero de Tha Tien, cruzando el río hasta el Khlong Bangkok Yai, por el Khlong Bang Luang y de vuelta pasando por Wat Arun. Nuestra primera mañana habitual en Bangkok." },
       { "id": "b", "name": "Ruta B: el camino largo hacia el norte", "time": "Unas 3 h y media", "text": "Río arriba hasta el Khlong Bangkok Noi y las barcazas reales, entre huertos y canales más tranquilos hasta Taling Chan, y de regreso por el Khlong Bangkok Yai." }

@@ -43,20 +43,15 @@
     "sources": "Vor jeder Saison gleichen wir diese Muster mit den Klimadaten des Thailändischen Meteorologischen Dienstes ab."
   },
   "khlongs": {
-    "metaTitle": "Khlong-Karte Bangkok: Thonburis Kanäle im Longtail-Boot",
-    "metaDescription": "Eine lebendige Karte der Kanäle Bangkoks: zwei Longtail-Routen durch die Khlongs von Thonburi, mit Stopps, Uhrzeiten und Gezeiten.",
-    "eyebrow": "Die Khlong-Karte",
+    "metaTitle": "Khlong-Routen Bangkok: Thonburis Kanäle im Longtail-Boot",
+    "metaDescription": "Bangkoks Kanäle im Longtail-Boot: zwei Routen durch die Khlongs von Thonburi, mit Stopps, Uhrzeiten und Gezeiten.",
+    "eyebrow": "Die Khlong-Routen",
     "title": "Bangkok vom Khlong aus.",
-    "intro": "Bevor es Straßen gab, waren Bangkoks Straßen aus Wasser. Am Ufer von Thonburi wird an den Khlongs bis heute gelebt. Das sind die zwei Routen, die wir am häufigsten fahren, gezeichnet so, wie das Wasser fließt.",
+    "intro": "Bevor es Straßen gab, waren Bangkoks Straßen aus Wasser. Am Ufer von Thonburi wird an den Khlongs bis heute gelebt. Das sind die zwei Routen, die wir am häufigsten fahren, Stopp für Stopp.",
     "heroImg": "khlong-1",
     "heroAlt": "Holzhäuser auf Stelzen an einem Kanal in Thonburi",
-    "mapTitle": "Die Wasserkarte",
-    "mapLabel": "Schematische Karte des Chao Phraya und der Kanäle von Thonburi mit zwei Longtail-Routen",
+    "mapTitle": "Zwei Routen auf dem Wasser",
     "routeLabel": "Route wählen",
-    "river": "Chao Phraya",
-    "westBank": "Thonburi",
-    "eastBank": "Rattanakosin",
-    "north": "N",
     "routes": [
       { "id": "a", "name": "Route A: Die Morgenrunde", "time": "Etwa 2½ Stunden", "text": "Vom Anleger Tha Tien über den Fluss in den Khlong Bangkok Yai, durch den Khlong Bang Luang und am Wat Arun vorbei zurück. Unser üblicher erster Morgen in Bangkok." },
       { "id": "b", "name": "Route B: Der lange Weg nach Norden", "time": "Etwa 3½ Stunden", "text": "Den Fluss hinauf zum Khlong Bangkok Noi und zu den Königlichen Barken, durch Obstgärten und ruhigere Kanäle nach Taling Chan und über den Khlong Bangkok Yai zurück." }

@@ -43,20 +43,15 @@
     "sources": "We check these patterns against the Thai Meteorological Department's climate data before each season."
   },
   "khlongs": {
-    "metaTitle": "Bangkok khlong map: the canals of Thonburi by longtail",
-    "metaDescription": "A living map of Bangkok's canals: two longtail routes through the khlongs of Thonburi, with the stops, the times and the tide.",
-    "eyebrow": "The khlong map",
+    "metaTitle": "Bangkok khlong routes: the canals of Thonburi by longtail",
+    "metaDescription": "Bangkok's canals by longtail: two routes through the khlongs of Thonburi, with the stops, the times and the tide.",
+    "eyebrow": "The khlong routes",
     "title": "Bangkok from the khlong.",
-    "intro": "Before roads, Bangkok's streets were water. On the Thonburi bank the khlongs are still lived on. These are the two routes we use most, drawn as the water runs.",
+    "intro": "Before roads, Bangkok's streets were water. On the Thonburi bank the khlongs are still lived on. These are the two routes we use most, stop by stop.",
     "heroImg": "khlong-1",
     "heroAlt": "Wooden houses on stilts along a Thonburi canal",
-    "mapTitle": "The water map",
-    "mapLabel": "Schematic map of the Chao Phraya river and the Thonburi canals, with two longtail routes",
+    "mapTitle": "Two routes on the water",
     "routeLabel": "Choose a route",
-    "river": "Chao Phraya",
-    "westBank": "Thonburi",
-    "eastBank": "Rattanakosin",
-    "north": "N",
     "routes": [
       { "id": "a", "name": "Route A: The morning loop", "time": "About 2½ hours", "text": "From Tha Tien pier across the river into Khlong Bangkok Yai, through Khlong Bang Luang and back by Wat Arun. Our usual first morning in Bangkok." },
       { "id": "b", "name": "Route B: The long way north", "time": "About 3½ hours", "text": "Up the river to Khlong Bangkok Noi and the Royal Barges, through orchards and quieter canals to Taling Chan, and back down Khlong Bangkok Yai." }
