@@ -24,7 +24,7 @@ npm run dev
 
 `npm run build` writes the whole site to `dist/` (34 pages × 4 languages, plus `sitemap.xml`, `robots.txt` and `404.html`). `npm run dev` builds and serves `dist/` at http://localhost:4321.
 
-There is no framework and no client-side translation library: `build.mjs` pre-renders every page in every language from JSON content, and one small deferred script (`public/js/main.js`, ~8 KB) adds the progressive enhancements (menu, scroll reveals, the river boat, ribbons, the two-coasts default month, the khlong map and form validation). Everything works without JavaScript.
+There is no framework and no client-side translation library: `build.mjs` pre-renders every page in every language from JSON content, and one small deferred script (`public/js/main.js`, ~8 KB) adds the progressive enhancements (menu, scroll reveals, the two-coasts default month, the khlong route filter and form validation). Everything works without JavaScript.
 
 ## Where things live
 
@@ -47,7 +47,7 @@ There is no framework and no client-side translation library: `build.mjs` pre-re
 - **Tokens:** in any string, `{brand}`, `{email}` and `{address}` are replaced with the values in `src/config.js`. The legal pages use them, so they follow a re-brand automatically.
 - **Destinations:** `destinations.json` → `items`. Each one has its hero image, gallery, monthly `ratings` (3 = good, 2 = mixed, 1 = wet), suggested nights, experiences and placeholder stays. Add a new item in every language, and the page, menu, footer and sitemap update themselves.
 - **Two-coasts picker:** month text is in `features.json` → `twoCoasts.months`. The Good/Mixed/Wet ratings for the Andaman coast, the Gulf and the north are the `COAST` arrays near the top of `build.mjs`.
-- **Khlong map:** routes and stops are in `features.json` → `khlongs`. Stop positions (`STOPS`), label offsets (`LBL`) and route paths are in the `khlong-map/` block of `build.mjs`. The map is a schematic SVG, labelled "not to scale".
+- **Khlong routes:** the two routes and their stops are in `features.json` → `khlongs`, rendered as a route list and a timed stop list on `/khlong-map/` (no map illustration, by owner rule).
 - **Prices:** none are published. A journey can take an optional `"price"` field in `journeys.json`; it then renders as **"From (amount)"** on cards and the journey page. Never add a price that isn't real.
 - **Stays:** the stay names are placeholders, labelled as such on the site. Photos show the destination, not the property.
 
@@ -80,4 +80,4 @@ The Vercel project is linked to this GitHub repository, so every push to `main` 
 
 ## Design references
 
-The layout follows the primary references: the full-bleed hero with giant grotesque headline, meta row and button, the edge-to-edge destination panels and the time-sequence sections (affable-wealth-322227.framer.app); the 2/3 + 1/3 editorial rows, underlined text links, horizontal card rail and full-width menu (aman.com); and the hairline column grid, label column, journey cards and detail page with sticky sidebar (vita-travel.webflow.io). The "Ribbon and River" theme supplies the palette (river jade, marigold, rice-paper cream, temple red, teak), the ribbon dividers that draw themselves as you scroll, and the longtail boat that sails down the jade river on the home page.
+The layout follows the primary references: the split-screen hero (jade field with the headline, tall photo beside it), the edge-to-edge destination panels and the time-sequence sections (affable-wealth-322227.framer.app); the 2/3 + 1/3 editorial rows, underlined text links, horizontal card rail and full-width menu (aman.com); and the hairline column grid, label column, journey cards and detail page with sticky sidebar (vita-travel.webflow.io). The "Ribbon and River" theme supplies the palette (river jade, marigold, rice-paper cream, temple red, teak). The ribbon dividers, river drawing and scroll boat were removed in November 2026 (no gauges, dividers or map illustrations).

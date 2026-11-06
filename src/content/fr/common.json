@@ -9,7 +9,7 @@
     "destinations": "Destinations",
     "journeys": "Voyages",
     "twoCoasts": "Deux côtes",
-    "khlongs": "Carte des khlongs",
+    "khlongs": "Itinéraires des khlongs",
     "responsible": "Éléphants et peuples des collines",
     "stays": "Hébergements",
     "about": "À propos",
@@ -45,7 +45,6 @@
     "allDestinations": "Toutes les destinations",
     "next": "Destination suivante",
     "minRead": "min de lecture",
-    "schematic": "Carte schématique, pas à l'échelle",
     "placeholder": "Nom provisoire",
     "planThis": "Préparer ce voyage",
     "enquireAbout": "Se renseigner sur",
@@ -57,7 +56,7 @@
     "updated": "Dernière vérification"
   },
   "footer": {
-    "bigLinks": ["Nous écrire", "Deux côtes", "Carte des khlongs"],
+    "signoff": "— L'équipe Longtail Travel, Bangkok",
     "destinations": "Destinations",
     "ideas": "Idées",
     "company": "L'agence",

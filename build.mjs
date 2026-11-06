@@ -46,36 +46,12 @@ function pic(id, alt, { sizes = '100vw', eager = false, cls = '', reveal = false
   const fw = im.jpg;
   return `<picture${reveal ? ' data-reveal="img"' : ''}${cls ? ` class="${cls}"` : ''}><source type="image/avif" srcset="${set('avif')}" sizes="${sizes}"><source type="image/webp" srcset="${set('webp')}" sizes="${sizes}"><img src="/img/${id}-${fw}.jpg" alt="${esc(alt)}" width="${fw}" height="${Math.round(fw * ratio)}" ${eager ? 'fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'} style="background:${im.color}"></picture>`;
 }
-const preload = (id) => {
+const preload = (id, sizes = '100vw') => {
   const im = IMG[id];
   if (!im) return '';
-  return `<link rel="preload" as="image" type="image/avif" imagesrcset="${im.widths.map((w) => `/img/${id}-${w}.avif ${w}w`).join(', ')}" imagesizes="100vw" fetchpriority="high">`;
+  return `<link rel="preload" as="image" type="image/avif" imagesrcset="${im.widths.map((w) => `/img/${id}-${w}.avif ${w}w`).join(', ')}" imagesizes="${sizes}" fetchpriority="high">`;
 };
 const ogImage = (id) => (IMG[id] ? `${config.siteUrl}/img/${id}-${IMG[id].jpg}.jpg` : '');
-
-// Ribbon divider: three thin strands (marigold, temple red, jade) drawn on scroll.
-let ribbonN = 0;
-function ribbon(variant = 0) {
-  ribbonN++;
-  const v = [
-    ['M-10 30 C 280 10, 470 150, 780 120 S 1230 20, 1450 96', 'M-10 42 C 300 26, 450 158, 790 132 S 1220 36, 1450 110', 'M-10 54 C 320 44, 440 162, 800 144 S 1210 52, 1450 124'],
-    ['M-10 120 C 260 140, 520 20, 820 40 S 1250 150, 1450 60', 'M-10 132 C 280 150, 530 34, 830 54 S 1240 160, 1450 74', 'M-10 144 C 300 160, 540 48, 840 68 S 1230 168, 1450 88'],
-  ][variant % 2];
-  return `<svg class="ribbon" data-progress viewBox="0 0 1440 170" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="r1" pathLength="1" d="${v[0]}"/><path class="r2" pathLength="1" d="${v[1]}"/><path class="r3" pathLength="1" d="${v[2]}"/></svg>`;
-}
-
-const boatGlyph = (scale = 1) => `<g class="boat-g" transform="scale(${scale})">
-  <path d="M-92 0 L-62 0" stroke="#F6F1E5" stroke-width="1.6" stroke-linecap="round"/>
-  <rect x="-64" y="-5" width="12" height="10" rx="2" fill="#13241F"/>
-  <path d="M-54 0 C-46 -10 24 -12 48 -1 C50 0 50 0 48 1 C24 12 -46 10 -54 0 Z" fill="#5E3A22" stroke="#F6F1E5" stroke-width="1.2"/>
-  <path d="M-40 0 L36 0" stroke="#3E2616" stroke-width="1"/>
-  <g class="ribbons" fill="none" stroke-linecap="round" stroke-width="2.4">
-    <path stroke="#EBA43A" d="M44 -2 C30 -16 14 -4 0 -18 S-26 -8 -44 -22"><animate attributeName="d" dur="1.6s" repeatCount="indefinite" values="M44 -2 C30 -16 14 -4 0 -18 S-26 -8 -44 -22;M44 -2 C30 -8 14 -20 0 -12 S-26 -24 -44 -14;M44 -2 C30 -16 14 -4 0 -18 S-26 -8 -44 -22"/></path>
-    <path stroke="#E8735F" d="M44 1 C32 14 16 4 2 16 S-22 8 -40 20"><animate attributeName="d" dur="1.3s" repeatCount="indefinite" values="M44 1 C32 14 16 4 2 16 S-22 8 -40 20;M44 1 C32 6 16 18 2 10 S-22 22 -40 12;M44 1 C32 14 16 4 2 16 S-22 8 -40 20"/></path>
-    <path stroke="#F6F1E5" stroke-width="1.6" d="M44 0 C34 -6 20 6 6 -2 S-14 6 -30 -4"><animate attributeName="d" dur="1.1s" repeatCount="indefinite" values="M44 0 C34 -6 20 6 6 -2 S-14 6 -30 -4;M44 0 C34 6 20 -6 6 4 S-14 -6 -30 4;M44 0 C34 -6 20 6 6 -2 S-14 6 -30 -4"/></path>
-  </g>
-  <g fill="#EBA43A"><circle cx="40" cy="-4" r="2.6"/><circle cx="43" cy="0" r="2.6"/><circle cx="40" cy="4" r="2.6"/></g>
-</g>`;
 
 // ---------- layout ----------
 const CSS = (() => {
@@ -118,18 +94,22 @@ function footer(lang, p) {
   const c = C[lang].common;
   const f = c.footer;
   const D = C[lang].destinations.items;
-  const big = [['enquire/', f.bigLinks[0]], ['two-coasts/', f.bigLinks[1]], ['khlong-map/', f.bigLinks[2]]];
+  const li = (x, l) => `<li><a href="${href(lang, x)}">${esc(l)}</a></li>`;
   return `<footer class="ftr">
-  <nav class="ftr__big" aria-label="${esc(c.nav.enquire)}">${big.map(([x, l]) => `<a href="${href(lang, x)}">${esc(l)}</a>`).join('')}</nav>
-  <div class="ftr__cols">
-    <div><h2>${esc(f.destinations)}</h2><ul>${D.slice(0, 6).map((d) => `<li><a href="${href(lang, 'destinations/' + d.slug + '/')}">${esc(d.name)}</a></li>`).join('')}</ul></div>
-    <div><h2>&nbsp;</h2><ul>${D.slice(6).map((d) => `<li><a href="${href(lang, 'destinations/' + d.slug + '/')}">${esc(d.name)}</a></li>`).join('')}</ul></div>
-    <div><h2>${esc(f.ideas)}</h2><ul><li><a href="${href(lang, 'journeys/')}">${esc(c.nav.journeys)}</a></li><li><a href="${href(lang, 'two-coasts/')}">${esc(c.nav.twoCoasts)}</a></li><li><a href="${href(lang, 'khlong-map/')}">${esc(c.nav.khlongs)}</a></li><li><a href="${href(lang, 'responsible-travel/')}">${esc(c.nav.responsible)}</a></li><li><a href="${href(lang, 'stays/')}">${esc(c.nav.stays)}</a></li><li><a href="${href(lang, 'journal/')}">${esc(c.nav.journal)}</a></li></ul></div>
-    <div><h2>${esc(f.company)}</h2><ul><li><a href="${href(lang, 'about/')}">${esc(c.nav.about)}</a></li><li><a href="${href(lang, 'privacy/')}">${esc(f.privacy)}</a></li><li><a href="${href(lang, 'booking-terms/')}">${esc(f.terms)}</a></li><li><a href="${href(lang, 'cookies/')}">${esc(f.cookies)}</a></li><li><a href="${href(lang, 'credits/')}">${esc(f.credits)}</a></li></ul></div>
-    <div><h2>${esc(f.contact)}</h2><address><a href="mailto:${config.contact.email}">${config.contact.email}</a><br><br>${esc(config.brand.name)}<br>${esc(addr.venue)}<br>${esc(addr.line1)}<br>${esc(addr.street)}<br>${esc(addr.locality)}<br>${esc(addr.city)} ${esc(addr.postcode)}<br>${esc(addr.country)}</address></div>
-    <p class="ftr__note">${esc(f.note)}</p>
+  <div class="ftr__grid">
+    <div class="ftr__letter">
+      <h2 class="ftr__hello">${esc(f.contact)}</h2>
+      <p>${esc(f.note)}</p>
+      <p><a class="ftr__mail" href="mailto:${config.contact.email}">${config.contact.email}</a></p>
+      <p class="ftr__sign">${esc(f.signoff)}</p>
+      <address>${esc(addr.venue)}, ${esc(addr.line1)}<br>${esc(addr.street)}, ${esc(addr.locality)}, ${esc(addr.city)} ${esc(addr.postcode)}</address>
+    </div>
+    <nav class="ftr__cols" aria-label="${esc(c.menu)}">
+      <div><h2>${esc(f.destinations)}</h2><ul>${D.map((d) => li('destinations/' + d.slug + '/', d.name)).join('')}</ul></div>
+      <div><h2>${esc(f.ideas)}</h2><ul>${li('journeys/', c.nav.journeys)}${li('two-coasts/', c.nav.twoCoasts)}${li('khlong-map/', c.nav.khlongs)}${li('responsible-travel/', c.nav.responsible)}${li('stays/', c.nav.stays)}${li('journal/', c.nav.journal)}</ul></div>
+      <div><h2>${esc(f.company)}</h2><ul>${li('about/', c.nav.about)}${li('enquire/', c.nav.enquire)}${li('privacy/', f.privacy)}${li('booking-terms/', f.terms)}${li('cookies/', f.cookies)}${li('credits/', f.credits)}</ul></div>
+    </nav>
   </div>
-  <div class="ftr__word" aria-hidden="true">${esc(config.brand.wordmark)}<span>.</span></div>
   <div class="ftr__bot"><span>© ${new Date().getFullYear()} ${esc(config.brand.name)}. ${esc(f.rights)}</span>${langSwitch(lang, p)}</div>
 </footer>`;
 }
@@ -144,7 +124,7 @@ function jsonld(lang, extra = []) {
   return [org, ...extra].map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`).join('');
 }
 
-function layout(lang, p, { title, description, body, heroImg, ogImg, ld = [], bodyClass = '' }) {
+function layout(lang, p, { title, description, body, heroImg, heroSizes, ogImg, ld = [], bodyClass = '' }) {
   const c = C[lang].common;
   const fullTitle = title.includes(config.brand.name) ? title : `${title} | ${config.brand.name}`;
   const alt = L.map((l) => `<link rel="alternate" hreflang="${l}" href="${abs(l, p)}">`).join('') + `<link rel="alternate" hreflang="x-default" href="${abs('en', p)}">`;
@@ -163,7 +143,7 @@ ${alt}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-${heroImg ? preload(heroImg) : ''}
+${heroImg ? preload(heroImg, heroSizes) : ''}
 <style>${CSS}</style>
 <script>document.documentElement.classList.add('js')</script>
 <script src="/js/main.js" defer></script>
@@ -265,26 +245,17 @@ add('', (lang) => {
   const featured = ['bangkok', 'chiang-mai', 'khao-sok', 'krabi-koh-yao-noi', 'koh-samui-koh-phangan'].map((s) => destBy(lang, s));
   const J = C[lang].journeys.items;
   const A = C[lang].journal.items;
-  const river = `<svg class="river-svg" viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-    <path class="bank" d="M-60 60 C 300 0, 520 200, 760 240 S 1180 200, 1330 360 S 1210 700, 870 740 S 300 700, 110 820 S -70 940, -90 960"/>
-    <path class="bank" d="M-60 180 C 300 120, 520 320, 760 360 S 1100 330, 1210 450 S 1120 640, 860 670 S 290 640, 130 740 S -60 900, -90 940"/>
-    <path class="water" stroke-width="110" d="M-50 120 C 300 60, 520 260, 760 300 S 1140 266, 1270 405 S 1166 670, 865 705 S 296 670, 120 780 S -66 920, -90 950"/>
-    <path class="ripple" d="M-50 105 C 300 45, 520 245, 760 285 S 1140 251, 1255 405 S 1150 655, 865 690 S 296 655, 110 768"/>
-    <path class="ripple" d="M-50 140 C 300 80, 520 280, 760 320 S 1140 286, 1285 405 S 1180 688, 865 722 S 296 690, 130 795"/>
-    <path id="riverline" class="wake" pathLength="1" d="M-50 120 C 300 60, 520 260, 760 300 S 1140 266, 1270 405 S 1166 670, 865 705 S 296 670, 120 780 S -66 920, -90 950"/>
-    <g id="riverboat" transform="translate(-50 120)">${boatGlyph(1.25)}</g>
-  </svg>`;
   const body = `
-<section class="hero">
-  <div class="hero__media">${pic('hero-home', h.hero.alt, { eager: true })}</div>
-  <div class="hero__fig mono"><span>${esc(h.hero.figLeft)}</span><span><i class="dot"></i>${esc(h.hero.figRight)}</span></div>
-  <div class="hero__body">
+<section class="hero hero--split">
+  <div class="hero__field">
+    <p class="hero__eyebrow mono"><i class="dot"></i>${esc(h.hero.figRight)}</p>
     <h1 class="hero__title h-hero">${words(h.hero.title)}</h1>
-    <div class="hero__bar"><ul class="hero__meta mono">${h.hero.meta.map((m) => `<li>${esc(m)}</li>`).join('')}</ul><a class="btn" href="${href(lang, 'enquire/')}">${esc(h.hero.button)}</a></div>
+    <ul class="hero__meta mono">${h.hero.meta.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
+    <a class="btn" href="${href(lang, 'enquire/')}">${esc(h.hero.button)}</a>
   </div>
+  <figure class="hero__photo">${pic('hero-home', h.hero.alt, { eager: true, sizes: '(min-width:900px) 50vw, 100vw' })}<figcaption class="mono">${esc(h.hero.figLeft)}</figcaption></figure>
 </section>
-<section class="river-sec sec" id="river" data-progress>
-  ${river}
+<section class="river-sec sec" id="river">
   <div class="wrap lab">
     <p class="eyebrow" data-reveal>${esc(h.intro.eyebrow)}</p>
     <div>
@@ -292,13 +263,11 @@ add('', (lang) => {
       <div class="intro-cols"><span></span><div data-reveal><p class="lead">${esc(h.intro.text)}</p><a class="tlink" href="${href(lang, 'about/')}">${esc(h.intro.link)}</a></div></div>
     </div>
   </div>
-  <div style="height:clamp(120px,22vw,320px)"></div>
 </section>
 <section class="dark sec--s" style="padding-bottom:0">
   <div class="wrap shead"><h2 data-reveal>${esc(h.regions.title)}</h2><div class="shead__text" data-reveal><p>${esc(h.regions.text)}</p><a class="tlink" href="${href(lang, 'destinations/')}">${esc(h.regions.link)}</a></div></div>
   <div class="panels">${featured.map((d, i) => destPanel(lang, d, i)).join('')}</div>
 </section>
-<div class="dark ribbon-wrap">${ribbon(0)}</div>
 <section class="dark sec--s" style="padding-top:0">
   <div class="wrap">
     <div class="shead shead--l"><h2 data-reveal>${esc(h.coasts.title)}</h2><div class="shead__text" data-reveal><p>${esc(h.coasts.text)}</p></div></div>
@@ -323,7 +292,6 @@ ${h.morning.steps.map((s, i, all) => { const bare = i === 0 || i === all.length 
     <div class="jgrid">${J.slice(0, 4).map((j) => journeyCard(lang, j)).join('')}</div>
   </div>
 </section>
-<div class="light ribbon-wrap">${ribbon(1)}</div>
 <section class="light sec" style="padding-top:clamp(24px,3vw,48px)">
   <div class="wrap rail">
     <div class="rail__intro" data-reveal><h2>${esc(h.journal.title)}</h2><p>${esc(h.journal.text)}</p><a class="tlink" href="${href(lang, 'journal/')}" style="margin-top:16px">${esc(h.journal.link)}</a></div>
@@ -333,9 +301,8 @@ ${h.morning.steps.map((s, i, all) => { const bare = i === 0 || i === all.length 
 <section class="dark sec">
   <div class="wrap">${faqBlock(h.faq.title, h.faq.text, h.faq.items, `<a class="tlink" href="${href(lang, 'enquire/')}" style="margin-top:20px">${esc(h.faq.link)}</a>`)}</div>
 </section>
-${ctaBand(lang, h.closing.img, h.closing.alt)}
-<div class="boatpath" id="boatpath" aria-hidden="true"><svg viewBox="0 0 34 1000" preserveAspectRatio="none"><path id="bp" d="M17 0 C 4 120, 30 220, 17 340 S 4 560, 17 680 S 30 880, 17 1000" stroke="rgba(127,196,176,.45)" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg></div>`;
-  return { title: h.metaTitle, description: h.metaDescription, body, heroImg: 'hero-home', bodyClass: 'home' };
+${ctaBand(lang, h.closing.img, h.closing.alt)}`;
+  return { title: h.metaTitle, description: h.metaDescription, body, heroImg: 'hero-home', heroSizes: '(min-width:900px) 50vw, 100vw', bodyClass: 'home' };
 });
 
 // Destinations index
@@ -440,7 +407,6 @@ add('two-coasts/', (lang) => {
     <p class="muted" style="margin-top:28px;max-width:70ch;font-size:.9375rem">${esc(t.koodNote)}</p>
   </div>
 </section>
-<div class="dark ribbon-wrap">${ribbon(0)}</div>
 <section class="light sec--s">
   <div class="wrap">
     <div class="shead shead--l"><h2>${esc(t.tableTitle)}</h2><div class="shead__text"><p>${esc(t.tableNote)} ${esc(t.sources)}</p></div></div>
@@ -452,64 +418,24 @@ ${ctaBand(lang, 'coast-gulf')}`;
   return { title: t.metaTitle, description: t.metaDescription, body, heroImg: t.heroImg };
 });
 
-// Khlong map
-function smooth(pts) {
-  let d = `M${pts[0][0]} ${pts[0][1]}`;
-  for (let i = 0; i < pts.length - 1; i++) {
-    const p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
-    const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
-    const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
-    d += ` C${c1[0].toFixed(1)} ${c1[1].toFixed(1)} ${c2[0].toFixed(1)} ${c2[1].toFixed(1)} ${p2[0]} ${p2[1]}`;
-  }
-  return d;
-}
-const STOPS = { tatien: [585, 470], watarun: [497, 478], bangkokyai: [420, 628], bangluang: [300, 754], paknam: [168, 697], barges: [470, 244], bangkoknoi: [372, 226], talingchan: [252, 316] };
-const LBL = { tatien: [14, -12, 'start'], watarun: [-12, -12, 'end'], bangkokyai: [10, 26, 'start'], bangluang: [14, 22, 'start'], paknam: [0, 28, 'middle'], barges: [12, -12, 'start'], bangkoknoi: [0, -16, 'middle'], talingchan: [-12, 4, 'end'] };
+// Khlongs (routes and stops; no map)
 add('khlong-map/', (lang) => {
   const k = C[lang].features.khlongs;
   const c = C[lang].common;
-  const river = 'M560 -20 C520 120 600 200 545 300 S470 470 518 560 S600 760 520 920';
-  const kh = {
-    noi: 'M548 250 C470 240 400 220 330 230 S200 250 120 222 S40 200 -10 206',
-    yai: 'M515 600 C450 612 390 640 330 660 S200 702 120 692 S30 672 -10 682',
-    chak: 'M252 234 C242 330 262 420 242 520 S232 620 246 690',
-    luang: 'M330 660 C330 730 300 762 262 762 S205 738 200 700',
-  };
-  const rA = smooth([[585, 470], [540, 474], [497, 478], [503, 540], [515, 600], [450, 612], [395, 636], [330, 660], [326, 712], [300, 754], [262, 762], [214, 738], [200, 700], [168, 697], [200, 700], [270, 684], [330, 660], [420, 628], [515, 600], [548, 540], [585, 470]]);
-  const rB = smooth([[585, 470], [560, 400], [556, 320], [548, 250], [470, 244], [372, 226], [300, 230], [252, 236], [252, 316], [244, 420], [244, 520], [240, 610], [246, 690], [330, 660], [420, 628], [515, 600], [550, 540], [585, 470]]);
   const S = k.stops;
-  const map = `<svg viewBox="0 0 800 900" role="img" aria-labelledby="kmap-t"><title id="kmap-t">${esc(k.mapLabel)}</title>
-    <rect class="land" width="800" height="900"/>
-    <g opacity=".5" stroke="rgba(246,241,229,.06)" stroke-width="1">${Array.from({ length: 9 }, (_, i) => `<path d="M0 ${i * 100 + 50} H800"/>`).join('')}${Array.from({ length: 8 }, (_, i) => `<path d="M${i * 100 + 50} 0 V900"/>`).join('')}</g>
-    <path class="river" stroke-width="54" d="${river}"/>
-    ${Object.values(kh).map((d) => `<path class="khlong" d="${d}"/>`).join('')}
-    <path class="flow" d="${river}" stroke-width="1.4"/><path class="flow flow--slow" d="${river}" transform="translate(14 0)"/><path class="flow flow--slow" d="${river}" transform="translate(-14 0)"/>
-    ${Object.values(kh).map((d) => `<path class="flow flow--slow" d="${d}"/>`).join('')}
-    <text class="lbl--river" transform="translate(600 150) rotate(78)">${esc(k.river)}</text>
-    <text class="lbl--bank" x="40" y="120">${esc(k.westBank)}</text>
-    <text class="lbl--bank" x="610" y="400">${esc(k.eastBank)}</text>
-    <g transform="translate(740 60)"><circle r="18" fill="none" stroke="rgba(246,241,229,.4)"/><path d="M0 -12 L5 4 L0 0 L-5 4 Z" fill="#EBA43A"/><text class="lbl" y="34" text-anchor="middle">${esc(k.north)}</text></g>
-    <path id="routeA" class="route route--a" d="${rA}"/>
-    <path id="routeB" class="route route--b" d="${rB}"/>
-    <g class="boat boat--a"><g transform="scale(.32)">${boatGlyph(1)}</g><animateMotion dur="26s" repeatCount="indefinite" rotate="auto"><mpath href="#routeA"/></animateMotion></g>
-    <g class="boat boat--b"><g transform="scale(.32)">${boatGlyph(1)}</g><animateMotion dur="32s" repeatCount="indefinite" rotate="auto"><mpath href="#routeB"/></animateMotion></g>
-    ${S.map((s) => { const [x, y] = STOPS[s.id]; const [dx, dy, an] = LBL[s.id]; return `<g class="stop" data-stop="${s.id}" data-r="${s.routes}"><circle cx="${x}" cy="${y}" r="7"/><text x="${x + dx}" y="${y + dy}" text-anchor="${an}">${esc(s.name)}</text></g>`; }).join('')}
-  </svg>`;
-  const body = `${pageHero(lang, { img: k.heroImg, alt: k.heroAlt, title: k.title, sub: k.intro, figL: k.eyebrow, figR: c.labels.schematic, cls: 'hero--short' })}
+  const body = `${pageHero(lang, { img: k.heroImg, alt: k.heroAlt, title: k.title, sub: k.intro, figL: k.eyebrow, cls: 'hero--short' })}
 <section class="dark sec--s">
   <div class="wrap">
     <div class="shead shead--l"><h2 data-reveal>${esc(k.mapTitle)}</h2><div class="shead__text" data-reveal><p class="eyebrow" style="margin-bottom:8px">${esc(k.tideTitle)}</p><p>${esc(k.tide)}</p></div></div>
-    <div class="kmap-wrap">
-      <div class="kmap" id="kmap" data-route="all">${map}<span class="kmap__note">${esc(c.labels.schematic)}</span></div>
+    <div class="kroutes" id="kroutes">
       <div>
         <p class="eyebrow">${esc(k.routeLabel)}</p>
         <div class="routes" role="group" aria-label="${esc(k.routeLabel)}">${k.routes.map((r) => `<button type="button" data-route="${r.id}" aria-pressed="false"><b>${esc(r.name)}</b><span>${esc(r.time)}. ${esc(r.text)}</span></button>`).join('')}</div>
-        <ol class="stops">${S.map((s) => `<li data-r="${s.routes}" data-stop="${s.id}"><button type="button"><time>${esc(s.time)}</time><b>${esc(s.name)}</b><span>${esc(s.text)}</span></button></li>`).join('')}</ol>
       </div>
+      <ol class="stops">${S.map((s) => `<li data-r="${s.routes}"><div><time>${esc(s.time)}</time><b>${esc(s.name)}</b><span>${esc(s.text)}</span></div></li>`).join('')}</ol>
     </div>
   </div>
 </section>
-<div class="dark ribbon-wrap">${ribbon(1)}</div>
 <section class="light sec--s">
   <div class="wrap">
     <div class="shead shead--l"><h2>${esc(k.practicalTitle)}</h2></div>
@@ -612,11 +538,10 @@ ${ctaBand(lang, 'stays-1')}`;
 add('about/', (lang) => {
   const a = C[lang].pages.about;
   const body = `${pageHero(lang, { img: a.heroImg, alt: a.heroAlt, title: a.title, figL: a.eyebrow })}
-<section class="river-sec sec" data-progress>
+<section class="river-sec sec">
   <div class="wrap lab"><p class="eyebrow">${esc(config.brand.name)}</p><div><p class="statement statement--m" data-reveal>${esc(a.story[0])}</p><div class="intro-cols">${a.story.slice(1).map((s) => `<p class="lead" data-reveal>${esc(s)}</p>`).join('')}</div></div></div>
 </section>
 <section class="light sec--s"><div class="wrap"><div class="shead shead--l"><h2>${esc(a.howTitle)}</h2></div><div class="cgrid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">${a.how.map((x, i) => `<div data-reveal style="--d:${i * 0.08}s"><b>0${i + 1}</b><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></div>`).join('')}</div></div></section>
-<div class="light ribbon-wrap">${ribbon(0)}</div>
 <section class="light sec--s" style="padding-top:0"><div class="wrap"><div class="shead shead--l"><h2>${esc(a.principlesTitle)}</h2></div><ol class="numlist">${a.principles.map((x, i) => `<li data-reveal><span class="n">0${i + 1}</span><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></li>`).join('')}</ol></div></section>
 <section class="dark sec--s"><div class="wrap lab"><p class="eyebrow">${esc(a.addressTitle)}</p><div><p class="lead muted" style="max-width:52ch">${esc(a.addressText)}</p><address style="font-style:normal;margin-top:24px;font-size:1.25rem;line-height:1.5">${esc(config.brand.name)}<br>${esc(addr.venue)}, ${esc(addr.line1)}<br>${esc(addr.street)}, ${esc(addr.locality)}<br>${esc(addr.city)} ${esc(addr.postcode)}, ${esc(addr.country)}<br><br><a class="tlink" href="mailto:${config.contact.email}">${config.contact.email}</a></address></div></div></section>
 ${ctaBand(lang, 'khlong-2')}`;

@@ -9,7 +9,7 @@
     "destinations": "Reiseziele",
     "journeys": "Reisen",
     "twoCoasts": "Zwei Küsten",
-    "khlongs": "Khlong-Karte",
+    "khlongs": "Khlong-Routen",
     "responsible": "Elefanten & Bergvölker",
     "stays": "Unterkünfte",
     "about": "Über uns",
@@ -45,7 +45,6 @@
     "allDestinations": "Alle Reiseziele",
     "next": "Nächstes Reiseziel",
     "minRead": "Min. Lesezeit",
-    "schematic": "Schematische Karte, nicht maßstabsgetreu",
     "placeholder": "Platzhaltername",
     "planThis": "Diese Reise planen",
     "enquireAbout": "Anfrage zu",
@@ -57,7 +56,7 @@
     "updated": "Zuletzt geprüft"
   },
   "footer": {
-    "bigLinks": ["Anfragen", "Zwei Küsten", "Khlong-Karte"],
+    "signoff": "— Das Team von Longtail Travel, Bangkok",
     "destinations": "Reiseziele",
     "ideas": "Ideen",
     "company": "Unternehmen",

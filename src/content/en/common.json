@@ -9,7 +9,7 @@
     "destinations": "Destinations",
     "journeys": "Journeys",
     "twoCoasts": "Two coasts",
-    "khlongs": "Khlong map",
+    "khlongs": "Khlong routes",
     "responsible": "Elephants & hill tribes",
     "stays": "Stays",
     "about": "About",
@@ -45,7 +45,6 @@
     "allDestinations": "All destinations",
     "next": "Next destination",
     "minRead": "min read",
-    "schematic": "Schematic map, not to scale",
     "placeholder": "Placeholder name",
     "planThis": "Plan this journey",
     "enquireAbout": "Enquire about",
@@ -57,7 +56,7 @@
     "updated": "Last checked"
   },
   "footer": {
-    "bigLinks": ["Enquire", "Two coasts", "Khlong map"],
+    "signoff": "— The Longtail Travel team, Bangkok",
     "destinations": "Destinations",
     "ideas": "Ideas",
     "company": "Company",

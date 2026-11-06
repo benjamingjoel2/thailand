@@ -43,20 +43,15 @@
     "sources": "Avant chaque saison, nous confrontons ces tendances aux données climatiques du Thai Meteorological Department."
   },
   "khlongs": {
-    "metaTitle": "Carte des khlongs : les canaux de Thonburi en longtail",
-    "metaDescription": "Une carte vivante des canaux de Bangkok : deux itinéraires en longtail dans les khlongs de Thonburi, avec les haltes, les horaires et la marée.",
-    "eyebrow": "La carte des khlongs",
+    "metaTitle": "Itinéraires des khlongs : les canaux de Thonburi en longtail",
+    "metaDescription": "Les canaux de Bangkok en longtail : deux itinéraires dans les khlongs de Thonburi, avec les haltes, les horaires et la marée.",
+    "eyebrow": "Les itinéraires des khlongs",
     "title": "Bangkok depuis le khlong.",
-    "intro": "Avant les routes, les rues de Bangkok étaient d'eau. Sur la rive de Thonburi, les khlongs sont toujours habités. Voici les deux itinéraires que nous empruntons le plus souvent, dessinés comme l'eau s'écoule.",
+    "intro": "Avant les routes, les rues de Bangkok étaient d'eau. Sur la rive de Thonburi, les khlongs sont toujours habités. Voici les deux itinéraires que nous empruntons le plus souvent, halte par halte.",
     "heroImg": "khlong-1",
     "heroAlt": "Maisons de bois sur pilotis le long d'un canal de Thonburi",
-    "mapTitle": "La carte de l'eau",
-    "mapLabel": "Carte schématique de la Chao Phraya et des canaux de Thonburi, avec deux itinéraires en longtail",
+    "mapTitle": "Deux itinéraires sur l'eau",
     "routeLabel": "Choisir un itinéraire",
-    "river": "Chao Phraya",
-    "westBank": "Thonburi",
-    "eastBank": "Rattanakosin",
-    "north": "N",
     "routes": [
       { "id": "a", "name": "Itinéraire A : la boucle du matin", "time": "Environ 2 h 30", "text": "De l'embarcadère de Tha Tien, on traverse le fleuve pour entrer dans le Khlong Bangkok Yai, on passe par le Khlong Bang Luang et on revient par le Wat Arun. Notre première matinée habituelle à Bangkok." },
       { "id": "b", "name": "Itinéraire B : le grand tour par le nord", "time": "Environ 3 h 30", "text": "On remonte le fleuve jusqu'au Khlong Bangkok Noi et aux barges royales, à travers vergers et canaux plus calmes jusqu'à Taling Chan, avant de redescendre par le Khlong Bangkok Yai." }
