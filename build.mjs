@@ -246,14 +246,13 @@ add('', (lang) => {
   const J = C[lang].journeys.items;
   const A = C[lang].journal.items;
   const body = `
-<section class="hero hero--split">
-  <div class="hero__field">
-    <p class="hero__eyebrow mono"><i class="dot"></i>${esc(h.hero.figRight)}</p>
+<section class="hero">
+  <div class="hero__media">${pic('hero-home', h.hero.alt, { eager: true })}</div>
+  <div class="hero__fig mono"><span>${esc(h.hero.figLeft)}</span><span><i class="dot"></i>${esc(h.hero.figRight)}</span></div>
+  <div class="hero__body">
     <h1 class="hero__title h-hero">${words(h.hero.title)}</h1>
-    <ul class="hero__meta mono">${h.hero.meta.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
-    <a class="btn" href="${href(lang, 'enquire/')}">${esc(h.hero.button)}</a>
+    <div class="hero__bar"><ul class="hero__meta mono">${h.hero.meta.map((m) => `<li>${esc(m)}</li>`).join('')}</ul><a class="btn" href="${href(lang, 'enquire/')}">${esc(h.hero.button)}</a></div>
   </div>
-  <figure class="hero__photo">${pic('hero-home', h.hero.alt, { eager: true, sizes: '(min-width:900px) 50vw, 100vw' })}<figcaption class="mono">${esc(h.hero.figLeft)}</figcaption></figure>
 </section>
 <section class="river-sec sec" id="river">
   <div class="wrap lab">
@@ -302,7 +301,7 @@ ${h.morning.steps.map((s, i, all) => { const bare = i === 0 || i === all.length 
   <div class="wrap">${faqBlock(h.faq.title, h.faq.text, h.faq.items, `<a class="tlink" href="${href(lang, 'enquire/')}" style="margin-top:20px">${esc(h.faq.link)}</a>`)}</div>
 </section>
 ${ctaBand(lang, h.closing.img, h.closing.alt)}`;
-  return { title: h.metaTitle, description: h.metaDescription, body, heroImg: 'hero-home', heroSizes: '(min-width:900px) 50vw, 100vw', bodyClass: 'home' };
+  return { title: h.metaTitle, description: h.metaDescription, body, heroImg: 'hero-home', bodyClass: 'home' };
 });
 
 // Destinations index
